@@ -1,0 +1,2 @@
+scripts/ 下的 .py 和 .github/workflows/ 来自共用代码 kit，各清单一样，别在这里单独改。
+kit 指纹：c9375873efc0

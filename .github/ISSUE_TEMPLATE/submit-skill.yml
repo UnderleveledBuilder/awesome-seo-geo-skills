@@ -1,0 +1,52 @@
+name: 推荐项目 / Suggest a project
+description: 推荐一个 SEO 或 GEO 的 skill、MCP 工具或开源平台 / Suggest an SEO or GEO skill, MCP server or platform
+title: "[推荐] owner/repo"
+labels: ["submission"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库地址 / Repo
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: group
+    attributes:
+      label: 类型 / Type
+      options:
+        - 全套 / All-in-one
+        - GEO：让 AI 回答引用你 / GEO: get cited in AI answers
+        - 中文 AI 搜索 / Chinese AI search
+        - 关键词、竞品和排名数据 / Keywords, competitors and ranking data
+        - 内容写作和优化 / Content writing and optimization
+        - 技术 SEO 和站点审计 / Technical SEO and site audits
+        - 本地、电商和应用商店 / Local, e-commerce and app stores
+        - 外链、PR 和站外提及 / Backlinks, PR and off-site mentions
+        - MCP 和命令行工具 / MCP servers and CLI tools
+        - 相关开源平台（完整应用）/ Open-source platform (full app)
+    validations:
+      required: true
+  - type: input
+    id: engines
+    attributes:
+      label: 针对的搜索引擎或 AI 平台 / Engines
+      placeholder: 例如 Google、百度、ChatGPT、Perplexity、豆包（仓库里写了才填）
+  - type: textarea
+    id: desc
+    attributes:
+      label: 它做什么 / What it does
+      description: 一两句话，写具体能力 / One or two sentences on what it actually does
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 推荐理由 / Why
+      description: 用过的话说说效果；和已收录的同类项目比有什么不同 / If you've used it, how did it go? How is it different from what's listed?
+  - type: checkboxes
+    id: relation
+    attributes:
+      label: 关系 / Relation
+      options:
+        - label: 我是这个项目的作者或维护者 / I am the author or a maintainer

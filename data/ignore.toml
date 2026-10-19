@@ -1,0 +1,148 @@
+# 看过但不收的项目，写明原因。discover.py 不会再把它们列为候选。
+
+# ───────── 搬家和指路 ─────────
+
+[[ignored]]
+repo = "aaron-he-zhu/seo-geo-claude-skills"
+reason = "已改为指路仓库，skill 搬到已收录的 aaron-he-zhu/aaron-marketing-skills"
+
+[[ignored]]
+repo = "TimBroddin/app-store-aso-skill"
+reason = "已搬到 TimBroddin/skills，按新位置收录"
+
+# ───────── 通用营销合集 ─────────
+
+[[ignored]]
+repo = "rampstackco/claude-skills"
+reason = "建站全流程合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "LeoYeAI/openclaw-marketing-skills"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "indranilbanerjee/digital-marketing-pro"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "ericosiu/ai-marketing-skills"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "zubair-trabzada/ai-marketing-claude"
+reason = "通用营销合集，SEO 部分不突出；同作者的 geo-seo-claude 和 dataforseo-claude 已收录"
+
+[[ignored]]
+repo = "irinabuht12-oss/marketing-skills"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "BrianRWagner/ai-marketing-claude-code-skills"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "gooseworks-ai/goose-skills"
+reason = "通用增长和获客合集，SEO 部分不突出"
+
+# ───────── 只服务一个站点 ─────────
+
+[[ignored]]
+repo = "serpgames/skills"
+reason = "为作者自己的游戏落地页生成的 skill，只服务这一个站"
+
+# ───────── 资源清单，不是 skill ─────────
+
+[[ignored]]
+repo = "amplifying-ai/awesome-generative-engine-optimization"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
+repo = "luka2chat/awesome-geo"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
+repo = "tentenco/awesome-geo"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
+repo = "LLM-X-Factorer/awesome-geo-cn"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
+repo = "RankSpotAI/awesome-seo-agent-skills"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
+repo = "RankSpotAI/awesome-seo-mcp"
+reason = "资源清单，不是 skill"
+
+# ───────── 批量生成的模板仓库 ─────────
+# 2026-04-28 同一天出现 17 个，账号名随机，仓库名和说明套用与 SEO 无关的热门仓库，内容是同一套模板。
+
+[[ignored]]
+repo = "AgentTestingClamp/r02-alirezarezvani-claude-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "ColonyShopkeeper/r08-composiohq-awesome-claude-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "Dimensionparail/r13-danielrosehill-claude-slash-commands-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "FabledPackerRedeem/r05-jqueryscript-awesome-claude-code-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "Gravityaespot/r16-voltagent-awesome-agent-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "JaguarPillage/r04-alirezarezvani-claude-code-skill-factory-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "LairLightningDerrick/r06-alirezarezvani-claude-code-tresor-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "MagicStarfishBoost/r15-shanraisshan-claude-code-best-practice-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "OctagonWoodpecker/r07-getbindu-awesome-claude-code-and-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "OhmWhaleIncrease/r20-glebis-claude-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "Plateeocondense/r10-wshobson-commands-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "PrefectFlourish22/r18-anthropics-claude-code-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "SheenEmpress/r14-borghei-claude-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "Splitflucover93/r12-vincenthopf-my-claude-code-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "bansheegiraffecode/r17-behisecc-awesome-claude-skills-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "macrohelpclippers/r19-iannuttall-claude-agents-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+[[ignored]]
+repo = "retrocenterspark24/r11-qdhenry-claude-command-suite-seo"
+reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"

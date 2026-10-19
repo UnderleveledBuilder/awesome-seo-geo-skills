@@ -1,0 +1,142 @@
+# 分类、维度和搜索词。字段含义见 scripts/build.py 开头和 CONTRIBUTING.md。
+
+[list]
+repo = "UnderleveledBuilder/awesome-seo-geo-skills"
+
+# ───────── 分组：按要干的活分，README 按这个顺序分节 ─────────
+
+[groups.pipeline]
+label = "全套：审计 → 关键词 → 内容 → 技术 → 监测"
+label_en = "All-in-one: audit → keywords → content → technical → tracking"
+intro = "一套 skill 覆盖 SEO 的大部分环节，有的连 GEO 也包了。"
+intro_en = "One set of skills covering most of SEO, some with GEO as well."
+
+[groups.geo]
+label = "GEO：让 AI 回答引用你"
+label_en = "GEO: get cited in AI answers"
+intro = "GEO（生成式引擎优化）是让 ChatGPT、Perplexity、Google AI 概览这类 AI 回答提到和引用你的网站：查 AI 可见度、改内容结构、写 llms.txt。"
+intro_en = "GEO (generative engine optimization) is about getting AI answers such as ChatGPT, Perplexity and Google AI Overviews to mention and cite your site: AI visibility checks, content structure, llms.txt."
+
+[groups.cn-ai]
+label = "中文 AI 搜索：豆包、元宝、Kimi、DeepSeek、千问"
+label_en = "Chinese AI search: Doubao, Yuanbao, Kimi, DeepSeek, Qwen"
+intro = "针对中文 AI 助手和百度的优化。这几家抓取规则和英文 AI 搜索不一样，比如 GitHub 禁止字节的爬虫抓取，豆包很难直接读到 GitHub 页面，要靠站外内容。"
+intro_en = "Optimization for Chinese AI assistants and Baidu. Their crawling differs from English AI search: GitHub blocks ByteDance's crawler, for example, so Doubao can hardly read GitHub pages directly and off-site content matters."
+
+[groups.research]
+label = "关键词、竞品和排名数据"
+label_en = "Keywords, competitors and ranking data"
+intro = "接真实数据做研究：关键词搜索量、SERP、外链、竞品排名，读 Search Console 和 GA4，追排名、出报告。多数要接第三方数据服务。"
+intro_en = "Research on real data: keyword volumes, SERPs, backlinks and competitors' rankings; reading Search Console and GA4, tracking rankings and building reports. Most need a third-party data service."
+
+[groups.content]
+label = "内容写作和优化"
+label_en = "Content writing and optimization"
+intro = "写和改 SEO 文章、标题和描述、内容简报，按 E-E-A-T 补证据。"
+intro_en = "Write and improve SEO articles, titles and meta descriptions, and content briefs; add evidence for E-E-A-T."
+
+[groups.technical]
+label = "技术 SEO 和站点审计"
+label_en = "Technical SEO and site audits"
+intro = "爬站审计、结构化数据、站点地图、速度、索引问题。"
+intro_en = "Crawl audits, structured data, sitemaps, page speed and indexing issues."
+
+[groups.local]
+label = "本地、电商和应用商店"
+label_en = "Local, e-commerce and app stores"
+intro = "地图和本地商家、商品页、应用商店优化（ASO）。"
+intro_en = "Maps and local businesses, product pages, and app store optimization (ASO)."
+
+[groups.offsite]
+label = "外链、PR 和站外提及"
+label_en = "Backlinks, PR and off-site mentions"
+intro = "AI 回答常引用第三方页面：新闻稿、目录站、论坛和测评。这里是做外链、发新闻稿、争取站外提及的 skill。"
+intro_en = "AI answers often cite third-party pages such as news coverage, directories, forums and reviews. These skills build backlinks, pitch the press and earn off-site mentions."
+
+[groups.mcp]
+label = "MCP 和命令行工具（不是 skill）"
+label_en = "MCP servers and CLI tools (not skills)"
+intro = "让 agent 能查 SEO 数据的工具，常和上面的 skill 搭配用。不计入 skill 数。"
+intro_en = "Tools that give an agent SEO data; often paired with the skills above. Not counted as skills."
+indexed = false
+
+[groups.apps]
+label = "相关开源平台（完整应用，不是 skill）"
+label_en = "Related open-source platforms (full apps, not skills)"
+intro = "能自己部署的 SEO 和 GEO 平台。不计入 skill 数。"
+intro_en = "Self-hostable SEO and GEO platforms. Not counted as skills."
+indexed = false
+
+# ───────── 格式和语言 ─────────
+
+[formats.skill]
+label = "标准 SKILL.md，可用 npx skills 安装"
+[formats.prompts]
+label = "提示词文件，不是标准 skill，要手动用"
+[formats.mcp]
+label = "MCP 服务或命令行工具"
+badge = "🔌 MCP"
+badge_en = "🔌 MCP"
+[formats.app]
+label = "完整应用"
+
+[langs]
+zh = "中文"
+en = "英文"
+ja = "日文"
+ko = "韩文"
+multi = "多语言"
+
+[agents]
+claude-code = "Claude Code"
+codex = "Codex"
+cursor = "Cursor"
+opencode = "OpenCode"
+openclaw = "OpenClaw"
+gemini-cli = "Gemini CLI"
+workbuddy = "WorkBuddy"
+
+# ───────── 维度：搜索引擎和 AI 平台 ─────────
+
+[facets.engines]
+title = "按搜索引擎和 AI 平台查找"
+title_en = "By search engine and AI platform"
+intro = "仓库说明里明确写了针对哪家（按星数排序）。「通用」是不挑引擎的。"
+intro_en = "Engines and AI platforms each repo's README explicitly targets (sorted by stars). \"Any engine\" means not tied to one."
+prefix = "针对："
+prefix_en = "Targets: "
+required = true
+index = true
+include_all = true          # MCP 工具和应用也进索引
+order_en = ["google", "bing", "chatgpt", "perplexity", "gemini", "claude", "ai-overviews", "baidu", "doubao", "yuanbao",
+            "kimi", "deepseek", "qwen", "app-stores", "marketplaces", "general"]
+
+[facets.engines.values]
+google = { label = "Google" }
+ai-overviews = { label = "Google AI 概览", label_en = "Google AI Overviews" }
+bing = { label = "Bing" }
+baidu = { label = "百度", label_en = "Baidu" }
+chatgpt = { label = "ChatGPT" }
+perplexity = { label = "Perplexity" }
+gemini = { label = "Gemini" }
+claude = { label = "Claude" }
+doubao = { label = "豆包", label_en = "Doubao" }
+yuanbao = { label = "腾讯元宝", short = "元宝", label_en = "Yuanbao" }
+kimi = { label = "Kimi" }
+deepseek = { label = "DeepSeek" }
+qwen = { label = "千问", label_en = "Qwen" }
+app-stores = { label = "应用商店", label_en = "App stores" }
+marketplaces = { label = "电商站内搜索（亚马逊等）", short = "电商站内搜索", label_en = "Marketplaces (Amazon etc.)", short_en = "Marketplaces" }
+general = { label = "通用", label_en = "Any engine" }
+
+# ───────── 找新项目 ─────────
+
+[discover]
+queries = [
+  "seo skill", "seo agent skill", "seo claude", "geo skill", "geo 优化",
+  "generative engine optimization", "ai search optimization", "answer engine optimization",
+  "llms.txt", "keyword research skill", "AI 搜索 优化", "百度 seo", "seo audit agent", "ai visibility",
+  "seo mcp", "schema markup skill",
+]
+topics = ["seo", "generative-engine-optimization", "geo", "llms-txt", "aeo", "ai-seo"]
+lists = ["awesome seo skills", "awesome geo", "awesome generative engine optimization", "awesome ai seo"]

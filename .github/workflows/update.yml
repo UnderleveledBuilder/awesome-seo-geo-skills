@@ -1,0 +1,55 @@
+name: Update
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"   # 每周一 09:00（北京时间）
+  push:
+    branches: [main]
+    paths: ["data/**", "templates/**", "scripts/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 刷新元数据
+        run: python scripts/refresh.py --fix-renames
+
+      - name: 生成 README 和 catalog.json
+        run: python scripts/build.py
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data README.md README.en.md catalog.json
+          if git diff --cached --quiet; then
+            echo "没有变化"
+          else
+            git commit -m "chore: 刷新元数据与 README"
+            git push
+          fi
+
+      - name: 搜索候选项目
+        if: github.event_name != 'push'
+        run: |
+          python scripts/discover.py --days 7 --out candidates.md
+          if grep -q '^| \[' candidates.md; then
+            gh issue create --title "候选项目 $(date +%F)" --body-file candidates.md
+          fi
