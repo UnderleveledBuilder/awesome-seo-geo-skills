@@ -21,7 +21,7 @@
 
 ## 目录
 
-- [本周新增](#new)（0）
+- [本周新增](#new)（81）
 - [按类型](#by-group)
   - [全套：审计 → 关键词 → 内容 → 技术 → 监测](#group-pipeline)（15）
   - [GEO：让 AI 回答引用你](#group-geo)（20）
@@ -40,7 +40,89 @@
 <a id="new"></a>
 ## 本周新增
 
-本周暂无新增。发现好项目欢迎[推荐](../../issues/new?template=submit-skill.yml)。
+近 7 天新收录 81 个：
+
+- [marketingskills](https://github.com/coreyhaines31/marketingskills) ★55.5k：Corey Haines 的营销 skill 合集：转化优化、文案、SEO 和 AI 搜索优化、数据分析、增长，SEO 部分有审计、程序化页面和结构化数据
+- [open-seo](https://github.com/every-app/open-seo) ★24.2k：开源版 Semrush/Ahrefs：关键词研究和聚类、竞品分析、外链挖掘、本地 SEO、站点审计和 AI 可见度，自带给 agent 用的 skill
+- [claude-seo](https://github.com/AgriciDaniel/claude-seo) ★19.3k：Claude Code 的 SEO 全家桶：26 个子 skill、19 个专家 agent 并行查技术 SEO、E-E-A-T、结构化数据和 GEO
+- [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) ★11.1k：GEO 优先的 SEO skill：可引用度打分、AI 爬虫访问分析、品牌权威、结构化数据，按 ChatGPT、Perplexity 等平台分别优化
+- [seomachine](https://github.com/TheCraigHewitt/seomachine) ★7.5k：写 SEO 长文的 Claude Code 工作区：调研、写稿、改写、分析和优化，带竞品对比页、内容策略等 25 个 skill
+- [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) ★6.2k：免费 SEO MCP 加开源 SEO/GEO skill：用你真实的 Search Console、GA4 和广告数据做关键词、排名、审计、外链和 AI 可见度
+- [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) ★4k：NotFair 的 SEO、GEO 和营销 skill：审计网站、查流量下滑、分析 GA4 和 Search Console、找各平台广告的浪费
+- [aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) ★3k：Aaron 的 120 个营销 skill，其中 16 个管 SEO 和 GEO，另有叙事、社媒、邮件、投放、达人和发布，可装成插件或 8 个 bot 的团队
+- [web-quality-skills](https://github.com/addyosmani/web-quality-skills) ★3k：Addy Osmani 的网页质量 skill：按 Lighthouse 和 Core Web Vitals 优化性能、无障碍、最佳实践和 SEO，先测量再改
+- [claude-blog](https://github.com/AgriciDaniel/claude-blog) ★2.4k：博客写作全套：30 个子 skill、5 个 agent 写、改、审、本地化和更新文章，同时照顾 Google 排名和 AI 引用，交付前过 5 道关
+- [aso-skills](https://github.com/appeeky/aso-skills) ★2.2k：应用商店优化（ASO）和 App 推广的 40 个 skill：关键词研究、元数据优化、竞品分析和市场情报
+- [mcp-gsc](https://github.com/AminForou/mcp-gsc) ★2k：Google Search Console 的 MCP：用自然语言分析你的 SEO 数据，附关键词蚕食、内容机会、收录审计、周报等 skill
+- [opc-skills](https://github.com/ReScienceLab/opc-skills) ★1.9k：一人公司 skill 合集：seo-geo 做 SEO 和 GEO，另有找域名、做 banner 和 logo、Reddit 和 X 调研
+- [newsjack](https://github.com/elvisun/newsjack) ★1.6k：让 agent 当 PR 团队：监测行业新闻找借势机会、核实新闻是否还新、想切入角度、核查事实，按 AI 可见度来写
+- [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) ★1.3k：GTM 工程师 skill：网站 AEO/GEO 体检、内容审计、做外链和资源页、品牌 DNA、关键词和提示词聚类，每个 skill 交付一份具体产出
+- [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) ★1.1k：开源 AEO/GEO 工具：一条命令给网站打 0–100 分，看 ChatGPT、Perplexity 等 AI 能否抓取、读懂并引用你，再列出要改的地方
+- [marketing-skills](https://github.com/kostja94/marketing-skills) ★1.1k：160 多个营销和 SEO skill：技术和页面 SEO、调研、内容、40 多种页面类型、投放和渠道，按你给的产品资料产出
+- [amazon-sorftime-research-MCP-skill](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill) ★998：亚马逊选品和竞品分析：单个 Listing 全维度拆解、全品类分析、关键词、差评和市场调研，接 Sorftime、西柚、卖家精灵等 MCP
+- [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) ★975：LLM 主导的 SEO 分析 skill：16 个子 skill、10 个专家 agent，89 个脚本只负责收集证据
+- [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) ★889：Yao GEO Skills：24 个 GEO skill，管战略诊断、页面技术、内容生产、知识资产、监测归因和拓词，能抓豆包、DeepSeek 的回答
+- [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) ★847：替你干 SEO/GEO 代运营的活：按公开标准和清单自己审计、优化 SEO、AEO、GEO，也管韩国 Naver 搜索
+- [seo-ops](https://github.com/tigerless-labs/seo-ops) ★809：SEO 基础检查：给一个网址，像爬虫一样抓取，跑 26 项结构检查，出带证据的通过/不通过报告，不调模型
+- [backlink_skills](https://github.com/flaqai/backlink_skills) ★788：外链提交工作流：外链渠道清单、产品目录提交 skill，先查渠道再按授权提交，遇到验证码交给你，提交后留证据
+- [Amazon-Skills](https://github.com/nexscope-ai/Amazon-Skills) ★783：给亚马逊卖家的 53 个免费 skill：关键词研究、竞品分析、Listing 审计和优化、FBA 计算、PPC 广告
+- [geolook](https://github.com/aigclink/geolook) ★777：开源 GEO 实施平台：针对一个项目做现状分析、诊断、策略、拆工单、执行和验证，可自己部署，附 skill
+- [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) ★766：单页 SEO 审计：给网址出 HTML 报告，脚本做确定性检查、模型判断关键词意图和内容质量，分入门和进阶两档
+- [seo-skills/seo-audit-skill](https://github.com/seo-skills/seo-audit-skill) ★632：SEOmator 审计：按 20 类 373 条规则扫网站，含技术 SEO、Core Web Vitals、结构化数据、安全头和 AI 搜索就绪度
+- [seo](https://github.com/iannuttall/seo) ★585：SEO 命令行和 MCP：让 agent 读你的 Search Console、GA4 和 Bing 数据，标出 Google 更新日期，带 70 多个审计工具
+- [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) ★563：把 Google SEO 官方文档做成审计 skill：列出项目的全部公开路由，逐页对照 Google、Bing 和 AI 爬虫的规则检查并修复
+- [seo-monster](https://github.com/avansaber/seo-monster) ★556：本地运行的 SEO 分析 MCP：用你自己的 Search Console、GA4、PageSpeed 和 Cloudflare 数据回答 SEO 问题
+- [seo-skills](https://github.com/Illyism/seo-skills) ★542：SEO skill 合集：每日自动检查、改标题标签、更新掉排名的文章、外链、梳理搜索意图、写能排名的文案
+- [mcp-google-map](https://github.com/cablate/mcp-google-map) ★473：Google 地图给 agent 用：18 个只读工具查地点和路线，走 MCP 或命令行，附本地 SEO skill 查商家在地图搜索里的可见度
+- [elmo](https://github.com/elmohq/elmo) ★470：开源 AI 可见度平台：追踪 ChatGPT、Claude、Perplexity、AI 概览等怎么提到和引用你的品牌，附 aeo skill
+- [recomby-geo](https://github.com/ViryaZheng/recomby-geo) ★459：GEO 的 AI 员工方案：GEO skill 包（内容写作、质量审核、GEO 流程）加上一份 agent 和办公 CLI 清单，零 API Key
+- [vibe-aso](https://github.com/Kronop/vibe-aso) ★457：从 Claude Code 做完 iOS 应用的 ASO：关键词研究、最多 50 个语种的商店元数据、本地化截图、全球定价和应用内本地化
+- [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) ★455：乔木的 SEO skill：按真实搜索链路排查收录、渲染、canonical、内链和搜索表现，做关键词页面策略、流量诊断、改版迁移和效果验证
+- [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) ★385：开源 GEO 命令行：研究你的品牌和竞品，向 ChatGPT、Claude、Gemini、Perplexity、DeepSeek 等提问，统计谁被提到和推荐
+- [superseo-skills](https://github.com/inhouseseo/superseo-skills) ★361：11 个 SEO skill：页面审计、内容简报、写文章、E-E-A-T 审计、语义缺口、外链计划和专家访谈，不要 API Key
+- [open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) ★350：繁体中文 SEO 顾问 skill：蒸馏权威方法论，给任何行业做 SEO 健检、修复和内容产出，不绑定厂商
+- [7deer_skills](https://github.com/kennyzir/7deer_skills) ★326：做 Roblox 游戏攻略站的 33 个 skill：判断游戏值不值得做、关键词研究、建站规划、SEO 质检、持续更新和找外链
+- [geo-score](https://github.com/jianruntech/geo-score) ★318：开源 GEO 打分：按公开评分标准给网站打 0–100 分，再用你自己的 OpenAI、Perplexity、Gemini 等 Key 每周追踪 AI 引用
+- [geo-first-principles](https://github.com/ALLENLION35/geo-first-principles) ★305：给企业负责人的 GEO 判断：从行业竞争、客户需求和成交逻辑出发，判断该不该做 GEO、价值在哪、怎么投入，附五题实测指引
+- [geoptimize](https://github.com/cucuwang/geoptimize) ★299：内容质量检查（原 aeoptimize）：在 CI 里做确定性的 GEO 就绪度扫描，发布前拦下退步，另有生成、改写和 SEO 实验记录 skill
+- [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) ★258：一条命令写出能排名的页面：拉当前 SERP、分析排名靠前的内容、找缺口，写成完整页面，兼顾 Google 和 AI 引用
+- [mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript) ★255：DataForSEO 官方 MCP 和命令行：让 agent 查 API 文档并调用关键词、SERP、外链等数据接口
+- [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) ★248：一个 skill 审三样：传统 SEO（Google、Bing）、GEO（Perplexity、ChatGPT 搜索、AI 概览）和 AEO 答案引擎优化
+- [geo-content-writer](https://github.com/dageno-agents/geo-content-writer) ★216：按选题清单逐行生产内容：每一行从调研、写稿到复查，适合团队持续做 GEO 和 SEO 内容，而不是一次性生成
+- [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) ★212：GEO 工具箱：三个从轻到重的 skill，给单篇文章或整站做 AI 引用优化，让 ChatGPT、豆包、Perplexity 回答时提到你
+- [distribb-skill](https://github.com/Bomx/distribb-skill) ★200：Distribb 的 SEO skill：用你自己的 AI 写内容，通过 Distribb 的外链网络发布，另有关键词数据和 Search Console 审计
+- [beyondseo](https://github.com/beyondtahir/beyondseo) ★188：自带爬虫的 SEO 全套：SEO/AEO/GEO、内容、竞品和口碑，附 206 个带 DR 的发稿渠道和外链计划，本体不要 API Key
+- [seo-skills](https://github.com/seranking/seo-skills) ★177：SE Ranking 官方的 32 个 SEO skill：内容简报、AI 搜索声量、审计、外链缺口、关键词聚类、结构化数据，接它的 MCP
+- [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) ★176：给品牌、SaaS 团队和代理商的 SEO 加 GEO 审计流程，同时看传统搜索和 AI 搜索
+- [seo-landing](https://github.com/aleksandr-alhoff/seo-landing) ★171：让 agent 像资深技术 SEO 一样做落地页：PageSpeed 冲 100 分、Core Web Vitals、完整结构化数据、AVIF 图片
+- [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) ★168：接 DataForSEO 的 13 个 skill 和 5 个子 agent：关键词、排名追踪、外链审计、技术爬取、竞品分析，出 PDF 报告
+- [GEOHub](https://github.com/yaojingang/GEOHub) ★164：GEO SEO Hub：以 GEO 为主的 skill 集，做发现、诊断、内容、监测和 SEO 规划，结论都标明证据边界，实验版
+- [qwoted-seo-backlinks-skill](https://github.com/Bomx/qwoted-seo-backlinks-skill) ★148：在 Qwoted 上找记者的求助、做带出处的统计数据页当外链素材，再替你回复记者
+- [claude-rank](https://github.com/Houseofmvps/claude-rank) ★147：查网站为什么不被 AI 引用并自动修：10 个扫描器 170 多条规则，自动生成 robots.txt、sitemap、llms.txt 和 JSON-LD
+- [aeo.js](https://github.com/rubenmarcus/aeo.js) ★144：AEO 开发库：生成 llms.txt、robots.txt、sitemap 和 JSON-LD，检查网站对 23 种 AI 爬虫的开放情况，附 skill
+- [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) ★141：品牌官网 AI 可见度初检：查 AI 爬虫访问、llms.txt、结构化数据和引用信号，找竞品差距，生成买家会问 AI 的问题
+- [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) ★139：按 Google 官方指南优化 AI 概览和 AI 模式：可抓取、可收录、有独到价值的内容，做 SEO 审计和改进计划（非官方）
+- [localseoskills](https://github.com/garrettjsmith/localseoskills) ★128：本地 SEO 的 38 个 skill：Google 商家资料、Bing Places、Apple 商家、评价管理、本地排名和 AI 本地搜索
+- [seo-god](https://github.com/AKCodez/seo-god) ★116：让 Claude Code 每天给自己的网站做 SEO：本地爬站、在你的仓库里修问题、读 Search Console 和前一天对比，定时跑
+- [claude-code-seo](https://github.com/huifer/claude-code-seo) ★111：Next.js 项目的 SEO 助手插件：6 个维度 100 分制审计，管元数据、结构化数据、E-E-A-T、内容策略、本地 SEO 和外链
+- [jdevalk/skills](https://github.com/jdevalk/skills) ★107：Yoast 创始人 Joost de Valk 的 skill：审计和改进 GitHub 主页、WordPress 插件页、Astro 站 SEO 和文章可读性
+- [squirrelscan/skills](https://github.com/squirrelscan/skills) ★101：squirrelscan 网站审计的 skill：爬全站，按 SEO、性能、安全、无障碍、内容等 300 多条规则打分，列出能修的问题
+- [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) ★92：SEO 加 GEO 的全站审计：打分的问题清单、可直接部署的修复、结构化数据、E-E-A-T 评估，导出 HTML、Excel 或 PDF
+- [Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) ★90：Flaq AI 的 SEO 写作 skill：两年 SEO 写作、核查、配图和发布经验，另有 LinkedIn、Medium 和公众号版本
+- [dispatchseo](https://github.com/NeoZi12/dispatchseo) ★86：开源版 SEObot/Outrank：让 agent 当 SEO 经理，做关键词研究、写文章并发布，可以整夜无人值守地批量产出
+- [geo-doctor](https://github.com/Fangx-AI/geo-doctor) ★78：GEO 医生：查豆包、DeepSeek、ChatGPT、Claude 推荐了哪些竞品、为什么不是你、读了哪些网站，再批量写内容并复查推荐率
+- [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) ★77：SEO 和 AI 可见度分开打两个分：审计任意网站的传统搜索表现和 GEO/AEO，你同意后自动做安全的修复
+- [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) ★76：Akii 的免费 SEO/AEO/GEO 插件：审计、改内容、生成结构化数据，追踪在 ChatGPT、Claude 等 AI 里的可见度
+- [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) ★76：中国市场优先的 GEO 加 SEO：让内容被豆包、千问、DeepSeek、文心、元宝和 ChatGPT、Perplexity 抓取引用，零依赖
+- [seo-audit](https://github.com/houtini-ai/seo-audit) ★71：技术 SEO 审计 MCP：合并 Search Console、自有爬虫、DataForSEO 和 Majestic 的数据，在 Claude 里对话式做审计
+- [pseo-skills](https://github.com/lisbeth718/pseo-skills) ★54：程序化 SEO（pSEO）全套：批量页面的数据、发现和审计，另有多语言站、改版迁移、日志分析和内容修剪
+- [GEOVisibilityTool](https://github.com/MasashiToda1/GEOVisibilityTool) ★46：测品牌在 AI 搜索里的可见度：生成 30 个测试问题，到 Kimi、豆包、DeepSeek、文心等网页端真问，算可见度分，出报告和投放建议
+- [geo-automation-skill-pack](https://github.com/noahneancy-byte/geo-automation-skill-pack) ★38：豆包 GEO 自动化：客户诊断、关键词挖掘、写稿，改成头条、搜狐、知乎、36 氪等平台版本，再监测豆包引用并复盘
+- [mcp-geo](https://github.com/AKzar1el/mcp-geo) ★38：DigestSEO：追踪品牌在 7 个 AI 搜索平台的引用，本地运行，用你自己的各家 API Key
+- [geoskills](https://github.com/Cognitic-Labs/geoskills) ★31：6 个 GEO skill：诊断、修复和监测网站在 AI 搜索里的可见度，含 Bing AI 数据分析和竞品对比
+- [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) ★29：SEOmator 的确定性 GEO 审计：Python 命令行算分、skill 解读，看 AI 爬虫能不能进、段落能不能被直接引用
+- [seojuice-skills](https://github.com/calm-north/seojuice-skills) ★21：SEOJuice 出的 14 个 SEO skill：全面审计、速度、关键词策略、内链、内容找回、超越竞品和 AI 可见度
+- [app-store-aso](https://github.com/TimBroddin/skills) ★6：苹果 App Store 的 ASO：按 Apple 规范和字数限制写应用名、副标题、描述和关键词，用脚本校验字数，附截图顺序建议
 
 <a id="by-group"></a>
 ## 按类型
@@ -254,7 +336,7 @@ npx skills add noahneancy-byte/geo-automation-skill-pack
 
 - 🌟 **[open-seo](https://github.com/every-app/open-seo)** · ★ 24.2k<br>开源版 Semrush/Ahrefs：关键词研究和聚类、竞品分析、外链挖掘、本地 SEO、站点审计和 AI 可见度，自带给 agent 用的 skill<br><sub>针对：通用</sub><br><sub>更新于 2026-10-19 · 英文 · 27 个 skill · MIT</sub><br><sub>💡 skill 接 OpenSEO：自己部署要 DataForSEO 的 Key（按用量付费），也有托管版</sub>
 
-- **[open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** · ★ 6.1k<br>免费 SEO MCP 加开源 SEO/GEO skill：用你真实的 Search Console、GA4 和广告数据做关键词、排名、审计、外链和 AI 可见度<br><sub>针对：Google · ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>更新于 2026-10-13 · 英文 · 8 个 skill · MIT</sub><br><sub>💡 数据经 Ryze 托管的 MCP，用 Google 账号授权</sub>
+- **[open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** · ★ 6.2k<br>免费 SEO MCP 加开源 SEO/GEO skill：用你真实的 Search Console、GA4 和广告数据做关键词、排名、审计、外链和 AI 可见度<br><sub>针对：Google · ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>更新于 2026-10-13 · 英文 · 8 个 skill · MIT</sub><br><sub>💡 数据经 Ryze 托管的 MCP，用 Google 账号授权</sub>
 
 - **[seo](https://github.com/iannuttall/seo)** · ★ 585<br>SEO 命令行和 MCP：让 agent 读你的 Search Console、GA4 和 Bing 数据，标出 Google 更新日期，带 70 多个审计工具<br><sub>针对：Google · Bing</sub><br><sub>更新于 2026-10-18 · 英文 · Apache-2.0</sub>
 
