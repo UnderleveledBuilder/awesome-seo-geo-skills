@@ -286,7 +286,7 @@ Write and improve SEO articles, titles and meta descriptions, and content briefs
 
 - 🌟 **[seomachine](https://github.com/TheCraigHewitt/seomachine)** · ★ 7.5k<br>A Claude Code workspace for long-form SEO blog content: research, write, rewrite, analyze and optimize, with 25 skills including competitor-alternative pages and content strategy.<br><sub>Targets: Google</sub><br><sub>updated 2026-10-23 · English · 26 skills · MIT</sub>
 
-- **[claude-blog](https://github.com/AgriciDaniel/claude-blog)** · ★ 2.5k<br>Blog skill suite for Claude Code: 30 sub-skills and 5 agents that write, optimize, audit, localize and refresh posts for both Google rankings and AI citations, with a five-gate delivery contract.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-10-14 · English · 33 skills · MIT</sub>
+- **[claude-blog](https://github.com/AgriciDaniel/claude-blog)** · ★ 2.6k<br>Blog skill suite for Claude Code: 31 sub-skills and 5 agents that write, optimize, audit, localize and refresh posts for both Google rankings and AI citations, with a five-gate delivery contract.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-10-14 · English · 33 skills · MIT</sub>
 
 - **[seo-skills](https://github.com/Illyism/seo-skills)** · ★ 606<br>SEO skills for Claude Code, Cursor and Codex: a daily SEO autopilot, title-tag fixes, refreshing posts that slipped, backlinks, search-intent mapping and copy that ranks.<br><sub>Targets: Google</sub><br><sub>updated 2026-10-15 · English · 11 skills</sub>
 

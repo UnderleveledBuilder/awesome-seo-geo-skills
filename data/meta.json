@@ -48,13 +48,13 @@
       "default_branch": "main",
       "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
       "first_seen": "2026-10-19",
-      "forks": 427,
+      "forks": 431,
       "full_name": "AgriciDaniel/claude-blog",
       "license": "MIT",
       "pushed_at": "2026-10-14",
       "skill_count": 33,
       "skill_count_truncated": false,
-      "stars": 2528,
+      "stars": 2560,
       "status": "ok"
     },
     "AgriciDaniel/claude-seo": {

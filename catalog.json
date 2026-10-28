@@ -1348,16 +1348,16 @@
    "lang": "en",
    "agents": [],
    "featured": false,
-   "desc": "博客写作全套：30 个子 skill、5 个 agent 写、改、审、本地化和更新文章，同时照顾 Google 排名和 AI 引用，交付前过 5 道关",
-   "desc_en": "Blog skill suite for Claude Code: 30 sub-skills and 5 agents that write, optimize, audit, localize and refresh posts for both Google rankings and AI citations, with a five-gate delivery contract.",
+   "desc": "博客写作全套：31 个子 skill、5 个 agent 写、改、审、本地化和更新文章，同时照顾 Google 排名和 AI 引用，交付前过 5 道关",
+   "desc_en": "Blog skill suite for Claude Code: 31 sub-skills and 5 agents that write, optimize, audit, localize and refresh posts for both Google rankings and AI citations, with a five-gate delivery contract.",
    "note": "",
    "note_en": "",
-   "stars": 2528,
+   "stars": 2560,
    "pushed_at": "2026-10-14",
    "license": "MIT",
    "skills": 33,
    "install": "npx skills add AgriciDaniel/claude-blog",
-   "checked": "2026-10-19"
+   "checked": "2026-10-28"
   },
   {
    "repo": "Illyism/seo-skills",
