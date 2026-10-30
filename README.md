@@ -286,7 +286,7 @@ npx skills add zubair-trabzada/dataforseo-claude
 
 写和改 SEO 文章、标题和描述、内容简报，按 E-E-A-T 补证据。
 
-- 🌟 **[seomachine](https://github.com/TheCraigHewitt/seomachine)** · ★ 7.5k<br>写 SEO 长文的 Claude Code 工作区：调研、写稿、改写、分析和优化，带竞品对比页、内容策略等 25 个 skill<br><sub>针对：Google</sub><br><sub>更新于 2026-10-23 · 英文 · 26 个 skill · MIT</sub>
+- 🌟 **[seomachine](https://github.com/TheCraigHewitt/seomachine)** · ★ 7.5k<br>写 SEO 长文的 Claude Code 工作区：调研、写稿、改写、分析和优化，带竞品对比页、内容策略等 26 个 skill<br><sub>针对：Google</sub><br><sub>更新于 2026-10-23 · 英文 · 26 个 skill · MIT</sub>
 
 - **[claude-blog](https://github.com/AgriciDaniel/claude-blog)** · ★ 2.6k<br>博客写作全套：31 个子 skill、5 个 agent 写、改、审、本地化和更新文章，同时照顾 Google 排名和 AI 引用，交付前过 5 道关<br><sub>针对：Google · Google AI 概览 · ChatGPT · Perplexity · Gemini</sub><br><sub>更新于 2026-10-14 · 英文 · 33 个 skill · MIT</sub>
 

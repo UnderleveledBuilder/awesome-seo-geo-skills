@@ -480,14 +480,14 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "TheCraigHewitt/seomachine"
-desc = "写 SEO 长文的 Claude Code 工作区：调研、写稿、改写、分析和优化，带竞品对比页、内容策略等 25 个 skill"
-desc_en = "A Claude Code workspace for long-form SEO blog content: research, write, rewrite, analyze and optimize, with 25 skills including competitor-alternative pages and content strategy."
+desc = "写 SEO 长文的 Claude Code 工作区：调研、写稿、改写、分析和优化，带竞品对比页、内容策略等 26 个 skill"
+desc_en = "A Claude Code workspace for long-form SEO blog content: research, write, rewrite, analyze and optimize, with 26 skills including competitor-alternative pages and content strategy."
 group = "content"
 engines = ["google"]
 format = "skill"
 lang = "en"
 tier = "featured"
-checked = 2026-10-19
+checked = 2026-10-30
 
 [[skills]]
 repo = "AgriciDaniel/claude-blog"
