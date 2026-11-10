@@ -146,3 +146,9 @@ reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓�
 [[ignored]]
 repo = "retrocenterspark24/r11-qdhenry-claude-command-suite-seo"
 reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓库"
+
+# ───────── 完整应用 ─────────
+
+[[ignored]]
+repo = "BeatAPI/BeatGEO"
+reason = "要自己部署的 GEO 监测工作台（网页加数据库加浏览器插件），不是 skill；未到平台收录门槛（≥1k★）"

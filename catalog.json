@@ -1260,6 +1260,29 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "Pluviobyte/saas-growth-agents",
+   "url": "https://github.com/Pluviobyte/saas-growth-agents",
+   "name": "saas-growth-agents",
+   "group": "research",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [],
+   "featured": false,
+   "desc": "出海站增长 Bot：每天早中晚扫新搜索词，按词找竞品站、查它们的外链和 DR，自动提交免费导航站",
+   "desc_en": "Growth bots for overseas SaaS sites: scan new search terms three times a day, find every site ranking for a term, pull their backlinks and DR, and submit to free directories.",
+   "note": "数据都走 AIsa（按次付费，README 里是作者的邀请链接）；按 Grok Bot 这类常驻 agent 写的，Claude Code、Codex 要自己配定时任务",
+   "note_en": "All data goes through AIsa (pay per call; the README links are the author's referral links). Written for always-on agents like Grok Bot; Claude Code or Codex need your own scheduler.",
+   "stars": 490,
+   "pushed_at": "2026-11-10",
+   "license": "MIT",
+   "skills": 5,
+   "install": "npx skills add Pluviobyte/saas-growth-agents",
+   "checked": "2026-11-10"
+  },
+  {
    "repo": "seranking/seo-skills",
    "url": "https://github.com/seranking/seo-skills",
    "name": "seo-skills",

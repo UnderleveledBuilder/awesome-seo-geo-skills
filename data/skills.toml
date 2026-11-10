@@ -431,6 +431,18 @@ note_en = "Skills connect to OpenSEO: self-host with your own DataForSEO key (pa
 checked = 2026-10-19
 
 [[skills]]
+repo = "Pluviobyte/saas-growth-agents"
+desc = "出海站增长 Bot：每天早中晚扫新搜索词，按词找竞品站、查它们的外链和 DR，自动提交免费导航站"
+desc_en = "Growth bots for overseas SaaS sites: scan new search terms three times a day, find every site ranking for a term, pull their backlinks and DR, and submit to free directories."
+group = "research"
+engines = ["google"]
+format = "skill"
+lang = "zh"
+note = "数据都走 AIsa（按次付费，README 里是作者的邀请链接）；按 Grok Bot 这类常驻 agent 写的，Claude Code、Codex 要自己配定时任务"
+note_en = "All data goes through AIsa (pay per call; the README links are the author's referral links). Written for always-on agents like Grok Bot; Claude Code or Codex need your own scheduler."
+checked = 2026-11-10
+
+[[skills]]
 repo = "Ryze-AI-Adgent/open-seo-mcp-skills"
 desc = "免费 SEO MCP 加开源 SEO/GEO skill：用你真实的 Search Console、GA4 和广告数据做关键词、排名、审计、外链和 AI 可见度"
 desc_en = "A free SEO MCP server plus open-source SEO and GEO skills: keyword research, rank tracking, audits, backlinks, competitor gaps and AI visibility on your real Search Console, GA4 and ads data."

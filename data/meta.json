@@ -295,6 +295,20 @@
       "stars": 143,
       "status": "ok"
     },
+    "Pluviobyte/saas-growth-agents": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Hand your SaaS growth chores to an agent: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions, plus a social analysis pack with a Douyin comments skill. Works with Grok Bot, Muse, Dot, Hermes, OpenClaw, Claude Code and Codex.",
+      "first_seen": "2026-11-10",
+      "forks": 120,
+      "full_name": "Pluviobyte/saas-growth-agents",
+      "license": "MIT",
+      "pushed_at": "2026-11-10",
+      "skill_count": 5,
+      "skill_count_truncated": false,
+      "stars": 490,
+      "status": "ok"
+    },
     "ReScienceLab/opc-skills": {
       "archived": false,
       "default_branch": "main",

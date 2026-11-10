@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的 SEO 和 GEO skill。SEO 是让搜索引擎把你排在前面；GEO 是让 AI 回答提到和引用你。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和针对的搜索引擎、AI 平台整理。中文 AI 搜索（豆包、元宝、Kimi、DeepSeek、千问）单独成一节。
 
-收录 76 个 skill 项目 + 5 个 MCP 和命令行工具 · 元数据更新于 2026-11-02
+收录 77 个 skill 项目 + 5 个 MCP 和命令行工具 · 元数据更新于 2026-11-02
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -26,7 +26,7 @@
   - [全套：审计 → 关键词 → 内容 → 技术 → 监测](#group-pipeline)（15）
   - [GEO：让 AI 回答引用你](#group-geo)（20）
   - [中文 AI 搜索：豆包、元宝、Kimi、DeepSeek、千问](#group-cn-ai)（5）
-  - [关键词、竞品和排名数据](#group-research)（5）
+  - [关键词、竞品和排名数据](#group-research)（6）
   - [内容写作和优化](#group-content)（9）
   - [技术 SEO 和站点审计](#group-technical)（11）
   - [本地、电商和应用商店](#group-local)（7）
@@ -258,6 +258,8 @@ npx skills add noahneancy-byte/geo-automation-skill-pack
 
 - **[seo](https://github.com/iannuttall/seo)** · ★ 603<br>SEO 命令行和 MCP：让 agent 读你的 Search Console、GA4 和 Bing 数据，标出 Google 更新日期，带 70 多个审计工具<br><sub>针对：Google · Bing</sub><br><sub>更新于 2026-11-01 · 英文 · Apache-2.0</sub>
 
+- **[saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents)** · ★ 490<br>出海站增长 Bot：每天早中晚扫新搜索词，按词找竞品站、查它们的外链和 DR，自动提交免费导航站<br><sub>针对：Google</sub><br><sub>更新于 2026-11-10 · 中文 · 5 个 skill · MIT</sub><br><sub>💡 数据都走 AIsa（按次付费，README 里是作者的邀请链接）；按 Grok Bot 这类常驻 agent 写的，Claude Code、Codex 要自己配定时任务</sub>
+
 - **[seo-skills](https://github.com/seranking/seo-skills)** · ★ 192<br>SE Ranking 官方的 32 个 SEO skill：内容简报、AI 搜索声量、审计、外链缺口、关键词聚类、结构化数据，接它的 MCP<br><sub>针对：Google · Google AI 概览 · ChatGPT · Perplexity · Gemini</sub><br><sub>更新于 2026-06-25 · 英文 · 32 个 skill · MIT</sub><br><sub>💡 要 SE Ranking 的付费账号</sub>
 
 - **[dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude)** · ★ 174<br>接 DataForSEO 的 13 个 skill 和 5 个子 agent：关键词、排名追踪、外链审计、技术爬取、竞品分析，出 PDF 报告<br><sub>针对：Google</sub><br><sub>更新于 2026-05-20 · 英文 · 16 个 skill · MIT</sub><br><sub>💡 要 DataForSEO 账号，按量付费</sub>
@@ -273,6 +275,8 @@ npx skills add every-app/open-seo
 npx skills add Ryze-AI-Adgent/open-seo-mcp-skills
 # seo
 npx skills add iannuttall/seo
+# saas-growth-agents
+npx skills add Pluviobyte/saas-growth-agents
 # seo-skills
 npx skills add seranking/seo-skills
 # dataforseo-claude
@@ -482,7 +486,7 @@ npx skills add Bomx/qwoted-seo-backlinks-skill
 
 仓库说明里明确写了针对哪家（按星数排序）。「通用」是不挑引擎的。
 
-**Google**（49）：[marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [seomachine](https://github.com/TheCraigHewitt/seomachine) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [web-quality-skills](https://github.com/addyosmani/web-quality-skills) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [mcp-gsc](https://github.com/AminForou/mcp-gsc) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [marketing-skills](https://github.com/kostja94/marketing-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [backlink_skills](https://github.com/flaqai/backlink_skills) · [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [seo](https://github.com/iannuttall/seo) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [seo-monster](https://github.com/avansaber/seo-monster) · [mcp-google-map](https://github.com/cablate/mcp-google-map) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [superseo-skills](https://github.com/inhouseseo/superseo-skills) · [open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) · [7deer_skills](https://github.com/kennyzir/7deer_skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seo-landing](https://github.com/aleksandr-alhoff/seo-landing) · [distribb-skill](https://github.com/Bomx/distribb-skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [seo-god](https://github.com/AKCodez/seo-god) · [claude-code-seo](https://github.com/huifer/claude-code-seo) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [dispatchseo](https://github.com/NeoZi12/dispatchseo) · [Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) · [seo-audit](https://github.com/houtini-ai/seo-audit) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [pseo-skills](https://github.com/lisbeth718/pseo-skills) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills)
+**Google**（50）：[marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [seomachine](https://github.com/TheCraigHewitt/seomachine) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [web-quality-skills](https://github.com/addyosmani/web-quality-skills) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [mcp-gsc](https://github.com/AminForou/mcp-gsc) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [marketing-skills](https://github.com/kostja94/marketing-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [backlink_skills](https://github.com/flaqai/backlink_skills) · [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [seo](https://github.com/iannuttall/seo) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [seo-monster](https://github.com/avansaber/seo-monster) · [saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents) · [mcp-google-map](https://github.com/cablate/mcp-google-map) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [superseo-skills](https://github.com/inhouseseo/superseo-skills) · [open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) · [7deer_skills](https://github.com/kennyzir/7deer_skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seo-landing](https://github.com/aleksandr-alhoff/seo-landing) · [distribb-skill](https://github.com/Bomx/distribb-skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [seo-god](https://github.com/AKCodez/seo-god) · [claude-code-seo](https://github.com/huifer/claude-code-seo) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [dispatchseo](https://github.com/NeoZi12/dispatchseo) · [Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) · [seo-audit](https://github.com/houtini-ai/seo-audit) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [pseo-skills](https://github.com/lisbeth718/pseo-skills) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills)
 
 **Google AI 概览**（25）：[marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills)
 
@@ -523,7 +527,7 @@ SEO（搜索引擎优化）是让 Google、百度这类搜索引擎把你的网�
 
 ### 有哪些好用的 SEO skill？
 
-收录 76 个人工核对过的 SEO 和 GEO skill 项目（数据更新于 2026-11-02）。想一套管到底，先看[全套](#group-pipeline)（15 个），星数最高的是 [marketingskills](https://github.com/coreyhaines31/marketingskills)、[claude-seo](https://github.com/AgriciDaniel/claude-seo)、[notfair-plugin](https://github.com/nowork-studio/notfair-plugin)；只缺某一步，看关键词和排名数据、内容、技术审计、外链各节。
+收录 77 个人工核对过的 SEO 和 GEO skill 项目（数据更新于 2026-11-02）。想一套管到底，先看[全套](#group-pipeline)（15 个），星数最高的是 [marketingskills](https://github.com/coreyhaines31/marketingskills)、[claude-seo](https://github.com/AgriciDaniel/claude-seo)、[notfair-plugin](https://github.com/nowork-studio/notfair-plugin)；只缺某一步，看关键词和排名数据、内容、技术审计、外链各节。
 
 ### 想被豆包、元宝、Kimi、DeepSeek 引用，有专门的 skill 吗？
 
@@ -547,7 +551,7 @@ Claude Code、Codex 用 `npx skills add 作者/仓库名`，每个分组末尾�
 
 ### 这些项目安全吗？
 
-收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 76 个 skill 项目和 5 个工具。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 34 个）。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
+收录前逐个核对过仓库说明、目录和文件，并用脚本查过二进制和压缩包、安装钩子、远程执行和读敏感文件。收录了 77 个 skill 项目和 5 个工具。看过但没收的，原因逐条记在 [data/ignore.toml](data/ignore.toml)（目前 35 个）。脚本查不到不等于安全，安装前先读一遍它的 `SKILL.md` 和脚本。
 
 ### 多久更新一次？
 
