@@ -53,6 +53,10 @@ reason = "为作者自己的游戏落地页生成的 skill，只服务这一个�
 # ───────── 资源清单，不是 skill ─────────
 
 [[ignored]]
+repo = "i365dev/awesome-seo"
+reason = "资源清单，不是 skill"
+
+[[ignored]]
 repo = "amplifying-ai/awesome-generative-engine-optimization"
 reason = "资源清单，不是 skill"
 

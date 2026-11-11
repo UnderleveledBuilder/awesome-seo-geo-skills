@@ -517,6 +517,39 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "RomeoSEO/seo-skills",
+   "url": "https://github.com/RomeoSEO/seo-skills",
+   "name": "seo-skills",
+   "group": "pipeline",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "featured": false,
+   "desc": "RomeoSEO 的免费 SEO/GEO skill 包：选词、技术审计、写对比页、发布前质检，查 AI 怎么说你，上 Reddit、LinkedIn 拿引用",
+   "desc_en": "RomeoSEO's free SEO and GEO skill pack: a start-here skill orders the work, then keyword and intent research, technical and schema audits, comparison pages, pre-publish QA, AI-answer visibility and brand-fact fixes, and Reddit and LinkedIn placement.",
+   "note": "网站上那条 curl | bash 会从 romeoseo.com 下载压缩包再装；想先看文件，就 git clone 后跑仓库里的 install.sh。接 DataForSEO 是可选的，按次收费，skill 里写了花费上限",
+   "note_en": "The curl | bash line on the website downloads a zip from romeoseo.com; to read the files first, git clone and run the repo's install.sh. DataForSEO is optional and paid per call; the skills set a spending cap.",
+   "stars": 4,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 50,
+   "install": "npx skills add RomeoSEO/seo-skills",
+   "checked": "2026-11-11"
+  },
+  {
    "repo": "zubair-trabzada/geo-seo-claude",
    "url": "https://github.com/zubair-trabzada/geo-seo-claude",
    "name": "geo-seo-claude",

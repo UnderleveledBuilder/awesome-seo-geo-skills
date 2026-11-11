@@ -25,6 +25,19 @@ tier = "featured"
 checked = 2026-10-19
 
 [[skills]]
+repo = "RomeoSEO/seo-skills"
+desc = "RomeoSEO 的免费 SEO/GEO skill 包：选词、技术审计、写对比页、发布前质检，查 AI 怎么说你，上 Reddit、LinkedIn 拿引用"
+desc_en = "RomeoSEO's free SEO and GEO skill pack: a start-here skill orders the work, then keyword and intent research, technical and schema audits, comparison pages, pre-publish QA, AI-answer visibility and brand-fact fixes, and Reddit and LinkedIn placement."
+group = "pipeline"
+engines = ["google", "ai-overviews", "chatgpt", "perplexity", "gemini", "claude"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "gemini-cli"]
+note = "网站上那条 curl | bash 会从 romeoseo.com 下载压缩包再装；想先看文件，就 git clone 后跑仓库里的 install.sh。接 DataForSEO 是可选的，按次收费，skill 里写了花费上限"
+note_en = "The curl | bash line on the website downloads a zip from romeoseo.com; to read the files first, git clone and run the repo's install.sh. DataForSEO is optional and paid per call; the skills set a spending cap."
+checked = 2026-11-11
+
+[[skills]]
 repo = "aaron-he-zhu/aaron-marketing-skills"
 desc = "Aaron 的 120 个营销 skill，其中 16 个管 SEO 和 GEO，另有叙事、社媒、邮件、投放、达人和发布，可装成插件或 8 个 bot 的团队"
 desc_en = "Aaron's 120 marketing skills, 16 of them for SEO and GEO, plus narrative, social, email, paid, influencer and launch; install as a plugin, portable skills or an eight-bot team."

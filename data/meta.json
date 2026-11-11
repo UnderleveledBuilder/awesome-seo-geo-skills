@@ -323,6 +323,20 @@
       "stars": 1889,
       "status": "ok"
     },
+    "RomeoSEO/seo-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "48 free SEO, AEO, LLM SEO, GEO and parasite SEO skills for Claude Code, Codex and AI agents. MIT.",
+      "first_seen": "2026-11-11",
+      "forks": 1,
+      "full_name": "RomeoSEO/seo-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "skill_count": 50,
+      "skill_count_truncated": false,
+      "stars": 4,
+      "status": "ok"
+    },
     "Ryze-AI-Adgent/open-seo-mcp-skills": {
       "archived": false,
       "default_branch": "main",
