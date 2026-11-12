@@ -239,6 +239,38 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "Illyism/seo-skills",
+   "url": "https://github.com/Illyism/seo-skills",
+   "name": "seo-skills",
+   "group": "pipeline",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity",
+    "gemini"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "Illyism 的 SEO skill 合集：每天自动跑仓库 SEO、技术诊断、Ahrefs/DataForSEO 查词、对比页、AI 引用追踪、外链和目录提交",
+   "desc_en": "Illyism's SEO skills for Claude Code, Cursor and Codex: a daily repo SEO autopilot, technical teardowns, Ahrefs and DataForSEO SERP research, /vs/ pages, title rewrites, AI-citation tracking, link building and directory submissions.",
+   "note": "作者也卖 SEO 服务：外链（linkdr）、AI 引用追踪（aiseotracker）、目录（awesome-tools）这几个 skill 接的是他自己的付费产品；Ahrefs、DataForSEO 要自己的账号",
+   "note_en": "The author sells SEO services too: the linkdr, aiseotracker and awesome-tools skills connect to his own paid products; Ahrefs and DataForSEO need your own accounts.",
+   "stars": 1128,
+   "pushed_at": "2026-11-12",
+   "license": null,
+   "skills": 30,
+   "install": "npx skills add Illyism/seo-skills",
+   "checked": "2026-11-12"
+  },
+  {
    "repo": "kostja94/marketing-skills",
    "url": "https://github.com/kostja94/marketing-skills",
    "name": "marketing-skills",
@@ -1414,29 +1446,6 @@
    "skills": 33,
    "install": "npx skills add AgriciDaniel/claude-blog",
    "checked": "2026-10-28"
-  },
-  {
-   "repo": "Illyism/seo-skills",
-   "url": "https://github.com/Illyism/seo-skills",
-   "name": "seo-skills",
-   "group": "content",
-   "engines": [
-    "google"
-   ],
-   "format": "skill",
-   "lang": "en",
-   "agents": [],
-   "featured": false,
-   "desc": "SEO skill 合集：每日自动检查、改标题标签、更新掉排名的文章、外链、梳理搜索意图、写能排名的文案",
-   "desc_en": "SEO skills for Claude Code, Cursor and Codex: a daily SEO autopilot, title-tag fixes, refreshing posts that slipped, backlinks, search-intent mapping and copy that ranks.",
-   "note": "",
-   "note_en": "",
-   "stars": 698,
-   "pushed_at": "2026-10-30",
-   "license": null,
-   "skills": 12,
-   "install": "npx skills add Illyism/seo-skills",
-   "checked": "2026-10-19"
   },
   {
    "repo": "inhouseseo/superseo-skills",

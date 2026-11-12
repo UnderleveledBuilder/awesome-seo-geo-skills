@@ -214,15 +214,15 @@
     "Illyism/seo-skills": {
       "archived": false,
       "default_branch": "main",
-      "description": "SEO skills for Claude Code, Cursor and Codex: SEO autopilot, title tags, blog refreshes, backlinks, customer journeys, video transcripts and copywriting.",
+      "description": "30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex & AI agents: technical SEO roasts, Ahrefs & DataForSEO SERP workflows, first-hand proof KBs, backlinks & GEO.",
       "first_seen": "2026-10-19",
-      "forks": 70,
+      "forks": 104,
       "full_name": "Illyism/seo-skills",
       "license": null,
-      "pushed_at": "2026-10-30",
-      "skill_count": 12,
+      "pushed_at": "2026-11-12",
+      "skill_count": 30,
       "skill_count_truncated": false,
-      "stars": 698,
+      "stars": 1128,
       "status": "ok"
     },
     "JeffLi1993/seo-audit-skill": {

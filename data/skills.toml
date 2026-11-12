@@ -536,13 +536,16 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "Illyism/seo-skills"
-desc = "SEO skill 合集：每日自动检查、改标题标签、更新掉排名的文章、外链、梳理搜索意图、写能排名的文案"
-desc_en = "SEO skills for Claude Code, Cursor and Codex: a daily SEO autopilot, title-tag fixes, refreshing posts that slipped, backlinks, search-intent mapping and copy that ranks."
-group = "content"
-engines = ["google"]
+desc = "Illyism 的 SEO skill 合集：每天自动跑仓库 SEO、技术诊断、Ahrefs/DataForSEO 查词、对比页、AI 引用追踪、外链和目录提交"
+desc_en = "Illyism's SEO skills for Claude Code, Cursor and Codex: a daily repo SEO autopilot, technical teardowns, Ahrefs and DataForSEO SERP research, /vs/ pages, title rewrites, AI-citation tracking, link building and directory submissions."
+group = "pipeline"
+engines = ["google", "ai-overviews", "chatgpt", "perplexity", "gemini"]
 format = "skill"
 lang = "en"
-checked = 2026-10-19
+agents = ["claude-code", "cursor", "codex", "opencode"]
+note = "作者也卖 SEO 服务：外链（linkdr）、AI 引用追踪（aiseotracker）、目录（awesome-tools）这几个 skill 接的是他自己的付费产品；Ahrefs、DataForSEO 要自己的账号"
+note_en = "The author sells SEO services too: the linkdr, aiseotracker and awesome-tools skills connect to his own paid products; Ahrefs and DataForSEO need your own accounts."
+checked = 2026-11-12
 
 [[skills]]
 repo = "gbessoni/seobuild-onpage"
