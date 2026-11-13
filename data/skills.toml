@@ -149,8 +149,8 @@ checked = 2026-10-19
 
 [[skills]]
 repo = "akii-technologies-ltd/akii-seo-ai-search-optimizer"
-desc = "Akii 的免费 SEO/AEO/GEO 插件：审计、改内容、生成结构化数据，追踪在 ChatGPT、Claude 等 AI 里的可见度"
-desc_en = "Akii's free Claude Code plugin for SEO, AEO and GEO: audit sites, optimize content, generate schema and track AI visibility across ChatGPT, Claude, Gemini, Perplexity, Copilot and Google AI Overviews."
+desc = "免费 Claude Code 插件：网站审计、内容规划、链接检查、生成结构化数据。用公开网页或 Ahrefs Brand Radar 数据估算 AI 可见度。"
+desc_en = "Akii's free Claude Code plugin audits sites, plans content, checks links and generates structured data. It estimates AI search visibility from public web signals or optional Ahrefs Brand Radar data."
 group = "pipeline"
 engines = ["google", "ai-overviews", "chatgpt", "claude", "gemini", "perplexity"]
 format = "skill"
