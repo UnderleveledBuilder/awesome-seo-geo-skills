@@ -510,16 +510,16 @@
    "lang": "en",
    "agents": [],
    "featured": false,
-   "desc": "Akii 的免费 SEO/AEO/GEO 插件：审计、改内容、生成结构化数据，追踪在 ChatGPT、Claude 等 AI 里的可见度",
-   "desc_en": "Akii's free Claude Code plugin for SEO, AEO and GEO: audit sites, optimize content, generate schema and track AI visibility across ChatGPT, Claude, Gemini, Perplexity, Copilot and Google AI Overviews.",
-   "note": "",
-   "note_en": "",
-   "stars": 78,
-   "pushed_at": "2026-10-15",
+   "desc": "Akii 的免费 SEO/AEO/GEO 插件：网站审计、内容规划、查链接、生成结构化数据，用公开网页信号或 Ahrefs 数据估算 AI 可见度",
+   "desc_en": "Akii's free Claude Code plugin for SEO, AEO and GEO: audits sites, plans content, checks links and generates schema. AI visibility is a point-in-time estimate from public web signals or optional Ahrefs Brand Radar data, not direct queries to each engine.",
+   "note": "每台机器每天给 akii.com 发一次匿名安装计数（不含代码和网址），设 DO_NOT_TRACK=1 可关",
+   "note_en": "Sends an anonymous install count to akii.com at most once a day per machine (no code or URLs); set DO_NOT_TRACK=1 to turn it off.",
+   "stars": 80,
+   "pushed_at": "2026-11-13",
    "license": "MIT",
    "skills": 12,
    "install": "npx skills add akii-technologies-ltd/akii-seo-ai-search-optimizer",
-   "checked": "2026-10-19"
+   "checked": "2026-11-13"
   },
   {
    "repo": "calm-north/seojuice-skills",
@@ -1109,6 +1109,33 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "aivisibilitycensus/geo-skills",
+   "url": "https://github.com/aivisibilitycensus/geo-skills",
+   "name": "geo-skills",
+   "group": "geo",
+   "engines": [
+    "chatgpt",
+    "gemini",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "不打分的 GEO 测量：列出挡住 AI 搜索读页面的问题，统计 AI 回答提到品牌的比例并给 95% 区间，按公开 IP 核验 AI 爬虫",
+   "desc_en": "GEO measurement without a score: lists what stops AI search from reading a page, counts how often AI answers name a brand with 95% ranges, verifies AI crawlers against published IP ranges, and grades every tactic by its evidence.",
+   "note": "检查类脚本只要 Python 3、不用账号；收集 AI 回答那个要你自己的 DataForSEO 或 SerpApi key",
+   "note_en": "The checks need only Python 3 and no account; the answer collector needs your own DataForSEO or SerpApi key.",
+   "stars": 1,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 9,
+   "install": "npx skills add aivisibilitycensus/geo-skills",
+   "checked": "2026-11-13"
+  },
+  {
    "repo": "yaojingang/yao-geo-skills",
    "url": "https://github.com/yaojingang/yao-geo-skills",
    "name": "yao-geo-skills",
@@ -1396,6 +1423,36 @@
    "skills": 16,
    "install": "npx skills add zubair-trabzada/dataforseo-claude",
    "checked": "2026-10-19"
+  },
+  {
+   "repo": "CrakSEO/crakseo-mcp-plugins",
+   "url": "https://github.com/CrakSEO/crakseo-mcp-plugins",
+   "name": "crakseo-mcp-plugins",
+   "group": "research",
+   "engines": [
+    "google",
+    "bing",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "CrakSEO 的 SEO 插件：查关键词、实时 SERP、外链、排名追踪、站点审计、本地 SEO、AI 可见度、收录提交和 Search Console",
+   "desc_en": "CrakSEO's SEO plugins, each a skill on one of its hosted MCP servers: keyword research, live SERPs, backlinks, rank tracking, site audits, local SEO, AI search visibility, URL indexing and Search Console.",
+   "note": "接 CrakSEO 自家托管的 MCP，用他家账号登录，查数据扣预付积分；Search Console 和 Bing 站长那个免费",
+   "note_en": "Runs on CrakSEO's own hosted MCP servers with a CrakSEO sign-in; data calls use prepaid credits. The Search Console and Bing Webmaster Tools plugin is free.",
+   "stars": 0,
+   "pushed_at": "2026-11-09",
+   "license": "MIT",
+   "skills": 10,
+   "install": "npx skills add CrakSEO/crakseo-mcp-plugins",
+   "checked": "2026-11-13"
   },
   {
    "repo": "TheCraigHewitt/seomachine",

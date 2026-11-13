@@ -156,3 +156,9 @@ reason = "批量生成的模板仓库，名字套用与 SEO 无关的热门仓�
 [[ignored]]
 repo = "BeatAPI/BeatGEO"
 reason = "要自己部署的 GEO 监测工作台（网页加数据库加浏览器插件），不是 skill；未到平台收录门槛（≥1k★）"
+
+# ───────── 通用搜索数据接口 ─────────
+
+[[ignored]]
+repo = "rocosen/flashdata-mcp"
+reason = "通用的 Google、YouTube 搜索数据接口（还带媒体下载），没有排名、关键词难度这类 SEO 专门功能；通用搜索 API 都没收"

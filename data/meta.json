@@ -155,6 +155,20 @@
       "stars": 32,
       "status": "ok"
     },
+    "CrakSEO/crakseo-mcp-plugins": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "SEO MCP plugins by CrakSEO for Cursor and Agent Plugins: SEO Tools, SERP API, Keyword Research, Backlink Checker, Google Rank Checker, Site Audit, Local SEO, AI Search Visibility, Google Search Console Indexing and Google Search Console.",
+      "first_seen": "2026-11-13",
+      "forks": 0,
+      "full_name": "CrakSEO/crakseo-mcp-plugins",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "skill_count": 10,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "Fangx-AI/geo-doctor": {
       "archived": false,
       "default_branch": "master",
@@ -449,18 +463,32 @@
       "stars": 800,
       "status": "ok"
     },
+    "aivisibilitycensus/geo-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "9 open Claude skills for GEO / AEO: check if AI search can read a page, collect and analyze how often AI engines name a brand (with confidence ranges), plus schema parity, AI crawler log checks and migration guards. From the AI Visibility Census.",
+      "first_seen": "2026-11-13",
+      "forks": 4,
+      "full_name": "aivisibilitycensus/geo-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "skill_count": 9,
+      "skill_count_truncated": false,
+      "stars": 1,
+      "status": "ok"
+    },
     "akii-technologies-ltd/akii-seo-ai-search-optimizer": {
       "archived": false,
       "default_branch": "main",
-      "description": "Free MIT-licensed Claude Code plugin for SEO, AEO and GEO. Audit websites, plan content, generate schema and check links. Includes 12 skills, 5 agents and 3 commands.",
+      "description": "Akii: SEO & AI Search Optimizer. Free MIT-licensed Claude Code plugin for SEO, AEO and GEO. Audit websites, plan content, generate schema and check links. Includes 12 skills, 5 agents and 3 commands.",
       "first_seen": "2026-10-19",
       "forks": 6,
       "full_name": "akii-technologies-ltd/akii-seo-ai-search-optimizer",
       "license": "MIT",
-      "pushed_at": "2026-10-15",
+      "pushed_at": "2026-11-13",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 78,
+      "stars": 80,
       "status": "ok"
     },
     "aleksandr-alhoff/seo-landing": {
