@@ -1163,6 +1163,20 @@
       "stars": 917,
       "status": "ok"
     },
+    "zaDojo/seo-geo-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Free MCP for Google Search Console and Google Analytics, plus SERP, keyword research, rank tracking with charts, GEO, AEO and AI visibility (ChatGPT, Gemini, AI Overviews). For Claude, ChatGPT, Cursor and Codex.",
+      "first_seen": "2026-11-14",
+      "forks": 0,
+      "full_name": "zaDojo/seo-geo-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-10-29",
+      "skill_count": 12,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "zubair-trabzada/dataforseo-claude": {
       "archived": false,
       "default_branch": "main",

@@ -928,3 +928,17 @@ engines = ["chatgpt", "claude", "gemini", "perplexity", "ai-overviews"]
 format = "mcp"
 lang = "en"
 checked = 2026-10-19
+
+[[skills]]
+repo = "zaDojo/seo-geo-mcp"
+name = "zaDojo"
+desc = "zaDojo：12 个 SEO/GEO skill 加远程 MCP：审计、关键词、竞品、外链、排名、Search Console、GA4 和 AI 可见度"
+desc_en = "zaDojo plugin: 12 SEO and GEO skills plus a remote MCP server for site audits, keyword and competitor research, backlinks, rank tracking, local SEO, Search Console, GA4 and AI visibility in ChatGPT, Gemini, Perplexity and AI Overviews."
+group = "pipeline"
+engines = ["google", "chatgpt", "perplexity", "gemini", "claude", "ai-overviews"]
+format = "skill"
+lang = "en"
+checked = 2026-11-14
+agents = ["claude-code", "codex", "cursor"]
+note = "数据来自 zaDojo MCP（需账号）：Search Console、GA4 和基础站点审计免费，SERP、关键词、排名和 AI 可见度按量计费"
+note_en = "Data comes from the zaDojo MCP (account needed): Search Console, GA4 and plain site audits are free; SERP, keyword, rank tracking and AI visibility data use pay-as-you-go credits."

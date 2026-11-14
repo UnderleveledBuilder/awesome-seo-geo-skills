@@ -1,5 +1,5 @@
 {
- "name": "awesome-seo-geo-skills",
+ "name": "UnderleveledBuilder-awesome-seo-geo-skills",
  "url": "https://github.com/UnderleveledBuilder/awesome-seo-geo-skills",
  "updated": "2026-11-14",
  "format_version": 1,
@@ -580,6 +580,38 @@
    "skills": 50,
    "install": "npx skills add RomeoSEO/seo-skills",
    "checked": "2026-11-11"
+  },
+  {
+   "repo": "zaDojo/seo-geo-mcp",
+   "url": "https://github.com/zaDojo/seo-geo-mcp",
+   "name": "zaDojo",
+   "group": "pipeline",
+   "engines": [
+    "google",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "zaDojo：12 个 SEO/GEO skill 加远程 MCP：审计、关键词、竞品、外链、排名、Search Console、GA4 和 AI 可见度",
+   "desc_en": "zaDojo plugin: 12 SEO and GEO skills plus a remote MCP server for site audits, keyword and competitor research, backlinks, rank tracking, local SEO, Search Console, GA4 and AI visibility in ChatGPT, Gemini, Perplexity and AI Overviews.",
+   "note": "数据来自 zaDojo MCP（需账号）：Search Console、GA4 和基础站点审计免费，SERP、关键词、排名和 AI 可见度按量计费",
+   "note_en": "Data comes from the zaDojo MCP (account needed): Search Console, GA4 and plain site audits are free; SERP, keyword, rank tracking and AI visibility data use pay-as-you-go credits.",
+   "stars": 0,
+   "pushed_at": "2026-10-29",
+   "license": "MIT",
+   "skills": 12,
+   "install": "npx skills add zaDojo/seo-geo-mcp",
+   "checked": "2026-11-14"
   },
   {
    "repo": "zubair-trabzada/geo-seo-claude",
