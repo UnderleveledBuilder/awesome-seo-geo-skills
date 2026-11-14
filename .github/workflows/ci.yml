@@ -1,9 +1,8 @@
 name: CI
 
+# 2026-11-13 起只能手动触发：数据校验由维护者合并前在本地跑（python scripts/build.py --validate），这个文件留作参考。
 on:
-  pull_request:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   validate:

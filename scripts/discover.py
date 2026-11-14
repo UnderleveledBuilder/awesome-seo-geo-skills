@@ -9,7 +9,7 @@
 已收录（skills.toml）和已忽略（ignore.toml）的仓库会被排除。
 
 用法：
-  python3 scripts/discover.py --days 7 --out candidates.md                 # 每周（Actions 跑这个）
+  python3 scripts/discover.py --days 7 --out candidates.md                 # 每周一的定时刷新跑这个
   python3 scripts/discover.py --since 2025-10-01 --min-stars 0 --pages 3   # 大扫描：skill 从 2025-10 起才兴起
 """
 

@@ -26,7 +26,7 @@
    python3 scripts/build.py                      # 重新生成 README.md、README.en.md 和 catalog.json
    ```
 
-   跳过第 2、3 步也可以，合并后 GitHub Actions 会自动刷新并生成。
+   跳过第 2、3 步也可以，合并后维护者会刷新并生成。
 3. 提交 PR。CI 会校验数据格式。
 
 ## 字段说明
@@ -68,4 +68,4 @@ note_en   = "English note"           # note 的英文版，和 note 一起写
 | `scripts/discover.py` | 按 taxonomy.toml 里的关键词和 topic 搜候选项目，单列别人新开的同类清单 |
 | `scripts/security.py` | 收录前的安全检查 |
 
-`scripts/` 和 `.github/workflows/` 来自几个 awesome 清单共用的代码（见 `scripts/KIT`），改动请提 issue。GitHub Actions 每周一自动刷新元数据、重新生成 README，并把新候选开成 issue。
+`scripts/` 和 `.github/workflows/` 来自几个 awesome 清单共用的代码（见 `scripts/KIT`），改动请提 issue。每周一自动刷新元数据、重新生成 README，并把新候选开成 issue。

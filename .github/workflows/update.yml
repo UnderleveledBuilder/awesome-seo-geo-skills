@@ -1,11 +1,7 @@
 name: Update
 
+# 2026-11-13 起只能手动触发：每周一的刷新改在维护者自己的机器上按同样步骤跑，这个文件留作参考。
 on:
-  schedule:
-    - cron: "0 1 * * 1"   # 每周一 09:00（北京时间）
-  push:
-    branches: [main]
-    paths: ["data/**", "templates/**", "scripts/**"]
   workflow_dispatch:
 
 permissions:
