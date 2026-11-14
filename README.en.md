@@ -8,7 +8,7 @@
 
 This list collects SEO and GEO skills for AI agents. SEO gets you ranked by search engines; GEO gets you mentioned and cited in AI answers. Most use the standard SKILL.md format, so any agent that supports skills can install them; see the [FAQ](#faq). Every project was checked by hand and scanned by a script before it was listed, and is sorted by job and by the search engine or AI platform it targets. Chinese AI search (Doubao, Yuanbao, Kimi, DeepSeek, Qwen) has its own section.
 
-80 skill projects + 5 MCP servers and CLI tools · metadata updated 2026-11-13
+80 skill projects + 5 MCP servers and CLI tools · metadata updated 2026-11-14
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -267,7 +267,7 @@ npx skills add noahneancy-byte/geo-automation-skill-pack
 
 Research on real data: keyword volumes, SERPs, backlinks and competitors' rankings; reading Search Console and GA4, tracking rankings and building reports. Most need a third-party data service.
 
-- 🌟 **[open-seo](https://github.com/every-app/open-seo)** · ★ 27.6k<br>Open-source alternative to Semrush and Ahrefs: keyword research and clustering, competitor analysis, link prospecting, local SEO, site audits and AI visibility, with pre-built skills for your agent.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · English · 28 skills · MIT</sub><br><sub>💡 Skills connect to OpenSEO: self-host with your own DataForSEO key (pay as you go) or use the hosted version.</sub>
+- 🌟 **[open-seo](https://github.com/every-app/open-seo)** · ★ 27.7k<br>Open-source alternative to Semrush and Ahrefs: keyword research and clustering, competitor analysis, link prospecting, local SEO, site audits and AI visibility, with pre-built skills for your agent.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · English · 28 skills · MIT</sub><br><sub>💡 Skills connect to OpenSEO: self-host with your own DataForSEO key (pay as you go) or use the hosted version.</sub>
 
 - **[open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** · ★ 9.5k<br>A free SEO MCP server plus open-source SEO and GEO skills: keyword research, rank tracking, audits, backlinks, competitor gaps and AI visibility on your real Search Console, GA4 and ads data.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>updated 2026-10-27 · English · 8 skills · MIT</sub><br><sub>💡 Data flows through Ryze's hosted MCP, authorized with your Google account.</sub>
 
@@ -542,7 +542,7 @@ SEO (search engine optimization) gets your pages ranked by search engines such a
 
 ### What are the best agent skills for SEO?
 
-This list has 80 hand-checked SEO and GEO skill projects (data updated 2026-11-13). For one system that covers most of the work, start with [All-in-one](#group-pipeline) (17); the most-starred are [marketingskills](https://github.com/coreyhaines31/marketingskills), [claude-seo](https://github.com/AgriciDaniel/claude-seo) and [notfair-plugin](https://github.com/nowork-studio/notfair-plugin). For a single step, go to the keywords and ranking data, content, technical audit or backlinks sections.
+This list has 80 hand-checked SEO and GEO skill projects (data updated 2026-11-14). For one system that covers most of the work, start with [All-in-one](#group-pipeline) (17); the most-starred are [marketingskills](https://github.com/coreyhaines31/marketingskills), [claude-seo](https://github.com/AgriciDaniel/claude-seo) and [notfair-plugin](https://github.com/nowork-studio/notfair-plugin). For a single step, go to the keywords and ranking data, content, technical audit or backlinks sections.
 
 ### Do these skills need paid SEO data?
 

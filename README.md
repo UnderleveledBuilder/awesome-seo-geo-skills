@@ -10,7 +10,7 @@
 
 这里收录给 AI 智能体（agent）用的 SEO 和 GEO skill。SEO 是让搜索引擎把你排在前面；GEO 是让 AI 回答提到和引用你。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见[常见问题](#faq)。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和针对的搜索引擎、AI 平台整理。中文 AI 搜索（豆包、元宝、Kimi、DeepSeek、千问）单独成一节。
 
-收录 80 个 skill 项目 + 5 个 MCP 和命令行工具 · 元数据更新于 2026-11-13
+收录 80 个 skill 项目 + 5 个 MCP 和命令行工具 · 元数据更新于 2026-11-14
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -269,7 +269,7 @@ npx skills add noahneancy-byte/geo-automation-skill-pack
 
 接真实数据做研究：关键词搜索量、SERP、外链、竞品排名，读 Search Console 和 GA4，追排名、出报告。多数要接第三方数据服务。
 
-- 🌟 **[open-seo](https://github.com/every-app/open-seo)** · ★ 27.6k<br>开源版 Semrush/Ahrefs：关键词研究和聚类、竞品分析、外链挖掘、本地 SEO、站点审计和 AI 可见度，自带给 agent 用的 skill<br><sub>针对：通用</sub><br><sub>更新于 2026-11-13 · 英文 · 28 个 skill · MIT</sub><br><sub>💡 skill 接 OpenSEO：自己部署要 DataForSEO 的 Key（按用量付费），也有托管版</sub>
+- 🌟 **[open-seo](https://github.com/every-app/open-seo)** · ★ 27.7k<br>开源版 Semrush/Ahrefs：关键词研究和聚类、竞品分析、外链挖掘、本地 SEO、站点审计和 AI 可见度，自带给 agent 用的 skill<br><sub>针对：通用</sub><br><sub>更新于 2026-11-13 · 英文 · 28 个 skill · MIT</sub><br><sub>💡 skill 接 OpenSEO：自己部署要 DataForSEO 的 Key（按用量付费），也有托管版</sub>
 
 - **[open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** · ★ 9.5k<br>免费 SEO MCP 加开源 SEO/GEO skill：用你真实的 Search Console、GA4 和广告数据做关键词、排名、审计、外链和 AI 可见度<br><sub>针对：Google · ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>更新于 2026-10-27 · 英文 · 8 个 skill · MIT</sub><br><sub>💡 数据经 Ryze 托管的 MCP，用 Google 账号授权</sub>
 
@@ -544,7 +544,7 @@ SEO（搜索引擎优化）是让 Google、百度这类搜索引擎把你的网�
 
 ### 有哪些好用的 SEO skill？
 
-收录 80 个人工核对过的 SEO 和 GEO skill 项目（数据更新于 2026-11-13）。想一套管到底，先看[全套](#group-pipeline)（17 个），星数最高的是 [marketingskills](https://github.com/coreyhaines31/marketingskills)、[claude-seo](https://github.com/AgriciDaniel/claude-seo)、[notfair-plugin](https://github.com/nowork-studio/notfair-plugin)；只缺某一步，看关键词和排名数据、内容、技术审计、外链各节。
+收录 80 个人工核对过的 SEO 和 GEO skill 项目（数据更新于 2026-11-14）。想一套管到底，先看[全套](#group-pipeline)（17 个），星数最高的是 [marketingskills](https://github.com/coreyhaines31/marketingskills)、[claude-seo](https://github.com/AgriciDaniel/claude-seo)、[notfair-plugin](https://github.com/nowork-studio/notfair-plugin)；只缺某一步，看关键词和排名数据、内容、技术审计、外链各节。
 
 ### 想被豆包、元宝、Kimi、DeepSeek 引用，有专门的 skill 吗？
 

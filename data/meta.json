@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13",
+  "fetched_at": "2026-11-14",
   "repos": {
     "AKCodez/seo-god": {
       "archived": false,
@@ -68,7 +68,7 @@
       "pushed_at": "2026-11-11",
       "skill_count": 33,
       "skill_count_truncated": false,
-      "stars": 29118,
+      "stars": 29124,
       "status": "ok"
     },
     "AminForou/mcp-gsc": {
@@ -362,7 +362,7 @@
       "pushed_at": "2026-10-27",
       "skill_count": 8,
       "skill_count_truncated": false,
-      "stars": 9533,
+      "stars": 9542,
       "status": "ok"
     },
     "SNLabat/SEO-GEO-AEO-Skill": {
@@ -586,7 +586,7 @@
       "pushed_at": "2026-11-11",
       "skill_count": 53,
       "skill_count_truncated": false,
-      "stars": 60203,
+      "stars": 60207,
       "status": "ok"
     },
     "cucuwang/geoptimize": {
@@ -692,13 +692,13 @@
       "default_branch": "main",
       "description": "Open source alternative to Semrush and Ahrefs",
       "first_seen": "2026-10-19",
-      "forks": 3868,
+      "forks": 3869,
       "full_name": "every-app/open-seo",
       "license": "MIT",
       "pushed_at": "2026-11-13",
       "skill_count": 28,
       "skill_count_truncated": false,
-      "stars": 27650,
+      "stars": 27653,
       "status": "ok"
     },
     "flaqai/Awesome_SEO_Writing_Skill": {
