@@ -415,6 +415,8 @@ npx skills add Hainrixz/claude-seo-ai
 
 地图和本地商家、商品页、应用商店优化（ASO）。
 
+- **[No Stairs Please MCP](https://nostairsplease.com/mcp)**<br>覆盖美国和加拿大 1,700+ 现场音乐演出场地的公开 MCP 服务器与本地场地目录，支持按城市、容量和无障碍信息查询<br><sub>针对：本地场地与 MCP 数据</sub>
+
 - **[aso-skills](https://github.com/appeeky/aso-skills)** · ★ 2.3k<br>应用商店优化（ASO）和 App 推广的 40 个 skill：关键词研究、元数据优化、竞品分析和市场情报<br><sub>针对：应用商店</sub><br><sub>更新于 2026-11-13 · 英文 · 40 个 skill · MIT</sub><br><sub>💡 数据来自 Appeeky API，要它的 Key</sub>
 
 - **[amazon-sorftime-research-MCP-skill](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill)** · ★ 1.1k<br>亚马逊选品和竞品分析：单个 Listing 全维度拆解、全品类分析、关键词、差评和市场调研，接 Sorftime、西柚、卖家精灵等 MCP<br><sub>针对：电商站内搜索</sub><br><sub>更新于 2026-11-12 · 中文 · 9 个 skill</sub><br><sub>💡 数据来自 Sorftime 等付费服务</sub>
