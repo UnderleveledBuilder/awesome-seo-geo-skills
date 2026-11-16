@@ -1425,6 +1425,37 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "zaDojo/seo-geo-mcp",
+   "url": "https://github.com/zaDojo/seo-geo-mcp",
+   "name": "zaDojo",
+   "group": "research",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity",
+    "gemini"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "zaDojo 的 12 个 SEO/GEO skill，接它托管的 MCP：关键词、实时 SERP、竞品、外链、站点审计、排名追踪、本地 SEO、AI 可见度",
+   "desc_en": "zaDojo's 12 SEO and GEO skills on its hosted MCP server: keyword research, live SERPs, competitors and backlinks, site audits, rank tracking, local SEO, Search Console, GA4 and AI visibility in ChatGPT, Gemini, Perplexity and AI Overviews.",
+   "note": "接 zaDojo 托管的 MCP，用他家账号登录；Search Console 和 GA4 免费，其余按用量扣费，月费 10 欧元含 10 欧元用量",
+   "note_en": "Runs on zaDojo's hosted MCP server with a zaDojo sign-in. Search Console and GA4 are free; other data is pay-as-you-go, with a €10 monthly plan that includes €10 of usage.",
+   "stars": 2,
+   "pushed_at": "2026-10-29",
+   "license": "MIT",
+   "skills": 12,
+   "install": "npx skills add zaDojo/seo-geo-mcp",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "CrakSEO/crakseo-mcp-plugins",
    "url": "https://github.com/CrakSEO/crakseo-mcp-plugins",
    "name": "crakseo-mcp-plugins",
