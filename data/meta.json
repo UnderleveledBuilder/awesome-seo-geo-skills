@@ -1135,6 +1135,20 @@
       "stars": 2303,
       "status": "ok"
     },
+    "askads/mcp-yandex-wordstat": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "MCP server for Yandex Wordstat: search query volume, related phrases, trends and regions in Claude, Cursor, Codex",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "askads/mcp-yandex-wordstat",
+      "license": "MIT",
+      "pushed_at": "2026-11-04",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 9,
+      "status": "ok"
+    },
     "avalonreset/legends-geogrid": {
       "archived": false,
       "default_branch": "main",
@@ -1259,6 +1273,20 @@
       "skill_count": 14,
       "skill_count_truncated": false,
       "stars": 22,
+      "status": "ok"
+    },
+    "carlosuhart/seo-audit-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Claude Code skills for technical SEO audits — WordPress, PrestaShop, GA4, GTM, Screaming Frog, SE Ranking, Semrush, robots.txt. Anonymized patterns from real audits.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "carlosuhart/seo-audit-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "skill_count": 41,
+      "skill_count_truncated": false,
+      "stars": 6,
       "status": "ok"
     },
     "chenchaoge/seo-ai-link": {
@@ -1723,6 +1751,20 @@
       "stars": 628,
       "status": "ok"
     },
+    "ibangtam/skill-seo-co-ban": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "3 skill Claude cho SEO tiếng Việt: nghiên cứu từ khoá → dàn ý → viết bài. Không cần công cụ trả phí.",
+      "first_seen": "2026-11-16",
+      "forks": 6,
+      "full_name": "ibangtam/skill-seo-co-ban",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
     "iliasabk/geolint": {
       "archived": false,
       "default_branch": "main",
@@ -1833,6 +1875,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 474,
+      "status": "ok"
+    },
+    "jorgejaramillo/seoskills": {
+      "archived": false,
+      "default_branch": "master",
+      "description": "Skills de Claude Code para usar en SEO.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "jorgejaramillo/seoskills",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 9,
+      "skill_count_truncated": false,
+      "stars": 3,
       "status": "ok"
     },
     "karero/croftweaver": {
@@ -2087,6 +2143,20 @@
       "stars": 11,
       "status": "ok"
     },
+    "micaelgomestavares/aeo-geo-bestpractices": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI agent skill (Claude Code, Cursor, Antigravity) that optimizes websites for SEO, AEO & GEO — get found on Google, ChatGPT, Perplexity and Gemini — and score 100 on Google Lighthouse 13.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "micaelgomestavares/aeo-geo-bestpractices",
+      "license": "MIT",
+      "pushed_at": "2026-10-31",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "mmmmingos/where-to-submit-your-startup": {
       "archived": false,
       "default_branch": "main",
@@ -2297,6 +2367,20 @@
       "stars": 3,
       "status": "ok"
     },
+    "prikotov/yandex-wordstat": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI Agent Skill for Yandex Wordstat API",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "prikotov/yandex-wordstat",
+      "license": null,
+      "pushed_at": "2026-11-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "pucilpet/crawlgraph-mcp": {
       "archived": false,
       "default_branch": "master",
@@ -2421,6 +2505,20 @@
       "skill_count": 0,
       "skill_count_truncated": false,
       "stars": 81,
+      "status": "ok"
+    },
+    "sayiyla/sayiyla-seo-ajan": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Türkçe öncelikli SEO, AEO ve GEO ajanları: web metni düzeltici, Instagram/TikTok/YouTube açıklama yazıcı, site denetçisi. Claude Code eklentisi + bağımsız Node araçları. MIT.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "sayiyla/sayiyla-seo-ajan",
+      "license": "MIT",
+      "pushed_at": "2026-11-08",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 6,
       "status": "ok"
     },
     "seo-skills/geo-audit-skill": {
@@ -2773,6 +2871,20 @@
       "stars": 6,
       "status": "ok"
     },
+    "tom-ned/seo-cartograph-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "SEO MCP server + free SEO skills for Claude. Real-data SEO: crawl, Google Search Console, rank tracking, internal linking, technical audit, content briefs & reports.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "tom-ned/seo-cartograph-mcp",
+      "license": null,
+      "pushed_at": "2026-11-03",
+      "skill_count": 13,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "tsingyuai/growth-lab": {
       "archived": false,
       "default_branch": "main",
@@ -2827,6 +2939,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 7,
+      "status": "ok"
+    },
+    "vincentventalon/my-claude-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Les skills Claude Code que j'utilise vraiment sur mes sites et mes vidéos, une nouvelle chaque mardi (montage vidéo, SEO Search Console…)",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "vincentventalon/my-claude-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 6,
       "status": "ok"
     },
     "vinpatel/aeorank": {

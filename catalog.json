@@ -943,6 +943,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "vincentventalon/my-claude-skills",
+   "url": "https://github.com/vincentventalon/my-claude-skills",
+   "name": "my-claude-skills",
+   "group": "pipeline",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "fr",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "法语 SEO skill 包：技术审计、竞品、下一篇写什么、内链和读懂 Search Console，不用付费工具",
+   "desc_en": "French SEO skill pack for Claude Code: technical audit, competitors, what to write next, internal linking and reading your Search Console, without paid tools or Google scraping.",
+   "note": "在作者的个人合集里，另一包是短视频 skill；只装 skills/seo 那包就行",
+   "note_en": "Part of the author's personal collection; the other pack is for short video. Install only skills/seo.",
+   "stars": 6,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add vincentventalon/my-claude-skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "wfprieto/World-Class-SEO-Agent-System",
    "url": "https://github.com/wfprieto/World-Class-SEO-Agent-System",
    "name": "World-Class-SEO-Agent-System",
@@ -1943,6 +1968,38 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "micaelgomestavares/aeo-geo-bestpractices",
+   "url": "https://github.com/micaelgomestavares/aeo-geo-bestpractices",
+   "name": "aeo-geo-bestpractices",
+   "group": "geo",
+   "engines": [
+    "google",
+    "chatgpt",
+    "perplexity",
+    "claude",
+    "gemini"
+   ],
+   "format": "skill",
+   "lang": "pt",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "葡萄牙语 SEO/AEO/GEO skill：标签、JSON-LD、llms.txt、AI 爬虫规则，再把 Lighthouse 四项刷到 98–100",
+   "desc_en": "Portuguese skill that makes a landing page or web app discoverable by search engines and AI assistants (SEO, AEO, GEO: meta tags, JSON-LD, llms.txt, AI crawler rules) and targets 98–100 in every Lighthouse category.",
+   "note": "README 有英文版，SKILL.md 和指南是巴西葡萄牙语",
+   "note_en": "The README has an English version; SKILL.md and the guides are in Brazilian Portuguese.",
+   "stars": 5,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add micaelgomestavares/aeo-geo-bestpractices",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "Advance-Labs/aeo-toolkit",
    "url": "https://github.com/Advance-Labs/aeo-toolkit",
    "name": "aeo-toolkit",
@@ -2803,6 +2860,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "prikotov/yandex-wordstat",
+   "url": "https://github.com/prikotov/yandex-wordstat",
+   "name": "yandex-wordstat",
+   "group": "research",
+   "engines": [
+    "yandex"
+   ],
+   "format": "skill",
+   "lang": "ru",
+   "agents": [
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "俄语 Yandex Wordstat skill：查词的搜索量、相似词、按天周月的走势和地区分布，出 CSV 和 Markdown",
+   "desc_en": "Russian skill for Yandex Wordstat: phrase frequency, similar queries, demand history by day, week or month and regional split, exported as CSV and Markdown.",
+   "note": "要 Yandex Cloud 服务账号的 Search API Key",
+   "note_en": "Needs a Yandex Cloud service-account API key for Search API.",
+   "stars": 3,
+   "pushed_at": "2026-11-13",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add prikotov/yandex-wordstat",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "zaDojo/seo-geo-mcp",
    "url": "https://github.com/zaDojo/seo-geo-mcp",
    "name": "zaDojo",
@@ -3083,6 +3165,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "ibangtam/skill-seo-co-ban",
+   "url": "https://github.com/ibangtam/skill-seo-co-ban",
+   "name": "skill-seo-co-ban",
+   "group": "content",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "vi",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "越南语 SEO 写作 3 件套：关键词研究、照 Google 前几名列大纲、写带出处的文章，不用付费 SEO 工具",
+   "desc_en": "Three Vietnamese SEO skills for Claude: keyword research, an outline built from the Google top results, and a sourced article with schema, for the Vietnamese market and without paid SEO tools.",
+   "note": "",
+   "note_en": "",
+   "stars": 7,
+   "pushed_at": "2026-11-09",
+   "license": "MIT",
+   "skills": 3,
+   "install": "npx skills add ibangtam/skill-seo-co-ban",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "AltoRank/altorank",
    "url": "https://github.com/AltoRank/altorank",
    "name": "altorank",
@@ -3108,6 +3215,33 @@
    "license": "AGPL-3.0",
    "skills": 2,
    "install": "npx skills add AltoRank/altorank",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "sayiyla/sayiyla-seo-ajan",
+   "url": "https://github.com/sayiyla/sayiyla-seo-ajan",
+   "name": "sayiyla-seo-ajan",
+   "group": "content",
+   "engines": [
+    "google",
+    "yandex"
+   ],
+   "format": "skill",
+   "lang": "tr",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "土耳其语 SEO/AEO/GEO 改稿 agent：改网页标题、描述、开头答案和 FAQ，写社媒说明，附站点审计和检查命令行",
+   "desc_en": "Turkish-first Claude Code agents that fix page copy for SEO, AEO and GEO (title, meta, answer-first intro, FAQ) and write Instagram, TikTok and YouTube captions, plus a site auditor and dependency-free Node checkers.",
+   "note": "是 Claude Code 子 agent 加 Node 命令行，没有 SKILL.md；Codex 读仓库里的 AGENTS.md",
+   "note_en": "Claude Code subagents plus Node command-line tools, no SKILL.md; Codex reads the repo's AGENTS.md.",
+   "stars": 6,
+   "pushed_at": "2026-11-08",
+   "license": "MIT",
+   "skills": 0,
+   "install": "npx skills add sayiyla/sayiyla-seo-ajan",
    "checked": "2026-11-16"
   },
   {
@@ -3864,6 +3998,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "carlosuhart/seo-audit-skills",
+   "url": "https://github.com/carlosuhart/seo-audit-skills",
+   "name": "seo-audit-skills",
+   "group": "technical",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "西班牙语技术 SEO 审计 41 个 skill：WordPress、PrestaShop、JS 框架、核心网页指标、Schema、GEO",
+   "desc_en": "41 Spanish skills for technical SEO, UX and accessibility audits: WordPress, PrestaShop, JS frameworks, Core Web Vitals, schema, hreflang, GEO, GA4, Screaming Frog and Semrush, from anonymised real audits.",
+   "note": "",
+   "note_en": "",
+   "stars": 6,
+   "pushed_at": "2026-11-01",
+   "license": "MIT",
+   "skills": 41,
+   "install": "npx skills add carlosuhart/seo-audit-skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "6t9xstar/one-step-seo",
    "url": "https://github.com/6t9xstar/one-step-seo",
    "name": "one-step-seo",
@@ -4044,6 +4203,31 @@
    "license": "MIT",
    "skills": 20,
    "install": "npx skills add JakeLabate/Claude-SEO-Skills",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "jorgejaramillo/seoskills",
+   "url": "https://github.com/jorgejaramillo/seoskills",
+   "name": "jorgejaramillo/seoskills",
+   "group": "technical",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "es",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "西班牙语 SEO 审计 skill：渲染抓取、robots.txt、站内审计、内链、图片、标题和描述，汇成一份网页报告",
+   "desc_en": "Spanish Claude Code SEO skills: rendered crawl, robots.txt, technical and on-page audit, internal links, images, titles and meta descriptions, gathered into one HTML report.",
+   "note": "渲染抓取要 Cloudflare 账号（Browser Run），也可以直接读 sitemap",
+   "note_en": "The rendered crawl needs a Cloudflare account (Browser Run); you can start from the sitemap instead.",
+   "stars": 3,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 9,
+   "install": "npx skills add jorgejaramillo/seoskills",
    "checked": "2026-11-16"
   },
   {
@@ -5188,6 +5372,33 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "askads/mcp-yandex-wordstat",
+   "url": "https://github.com/askads/mcp-yandex-wordstat",
+   "name": "mcp-yandex-wordstat",
+   "group": "mcp",
+   "engines": [
+    "yandex"
+   ],
+   "format": "mcp",
+   "lang": "ru",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "俄语 Yandex Wordstat 的 MCP：查热门和相似搜索词、需求走势和地区分布，只读",
+   "desc_en": "Russian MCP server for Yandex Wordstat: top and similar queries, demand dynamics and regional split, read-only.",
+   "note": "要 Yandex Cloud 的 Search API Key 和目录 ID；默认向作者发送匿名使用统计（不含参数和 Key），设 ASKADS_TELEMETRY=0 可关",
+   "note_en": "Needs a Yandex Cloud Search API key and folder ID. Sends anonymous usage telemetry to the author by default (no arguments or keys); set ASKADS_TELEMETRY=0 to turn it off.",
+   "stars": 9,
+   "pushed_at": "2026-11-04",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "AKzar1el/mcp-gsc",
    "url": "https://github.com/AKzar1el/mcp-gsc",
    "name": "AKzar1el/mcp-gsc",
@@ -5786,6 +5997,31 @@
    "pushed_at": "2026-11-11",
    "license": "MIT",
    "skills": 1,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "tom-ned/seo-cartograph-mcp",
+   "url": "https://github.com/tom-ned/seo-cartograph-mcp",
+   "name": "seo-cartograph-mcp",
+   "group": "mcp",
+   "engines": [
+    "google"
+   ],
+   "format": "mcp",
+   "lang": "fr",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "SEO Cartograph 的 MCP 加 13 个法语 skill：读你的抓取、Search Console、GA4、排名和内链图，再出审计和简报",
+   "desc_en": "SEO Cartograph MCP server plus 13 French skills: lets Claude read your crawl, Search Console, GA4, rankings, clusters and internal-link map, then produce audits, briefs and reports.",
+   "note": "MCP 要 SEO Cartograph 账号（OAuth 登录，只读）；README 标明的几个免费 skill 不用账号",
+   "note_en": "The MCP server needs a SEO Cartograph account (OAuth, read-only); the free skills listed in the README work without one.",
+   "stars": 3,
+   "pushed_at": "2026-11-03",
+   "license": null,
+   "skills": 13,
    "install": null,
    "checked": "2026-11-16"
   },

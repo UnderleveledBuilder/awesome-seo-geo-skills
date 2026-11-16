@@ -370,6 +370,19 @@ lang = "en"
 agents = ["claude-code", "codex", "opencode"]
 checked = 2026-11-16
 
+[[skills]]
+repo = "vincentventalon/my-claude-skills"
+desc = "法语 SEO skill 包：技术审计、竞品、下一篇写什么、内链和读懂 Search Console，不用付费工具"
+desc_en = "French SEO skill pack for Claude Code: technical audit, competitors, what to write next, internal linking and reading your Search Console, without paid tools or Google scraping."
+group = "pipeline"
+engines = ["google"]
+format = "skill"
+lang = "fr"
+agents = ["claude-code"]
+note = "在作者的个人合集里，另一包是短视频 skill；只装 skills/seo 那包就行"
+note_en = "Part of the author's personal collection; the other pack is for short video. Install only skills/seo."
+checked = 2026-11-16
+
 # ───────── GEO ─────────
 
 [[skills]]
@@ -833,6 +846,19 @@ note = "要 Peec AI 账号，并和 ai-visibility-tracking-strategy-builder 一�
 note_en = "Needs a Peec AI account and the core ai-visibility-tracking-strategy-builder skill alongside."
 checked = 2026-11-16
 
+[[skills]]
+repo = "micaelgomestavares/aeo-geo-bestpractices"
+desc = "葡萄牙语 SEO/AEO/GEO skill：标签、JSON-LD、llms.txt、AI 爬虫规则，再把 Lighthouse 四项刷到 98–100"
+desc_en = "Portuguese skill that makes a landing page or web app discoverable by search engines and AI assistants (SEO, AEO, GEO: meta tags, JSON-LD, llms.txt, AI crawler rules) and targets 98–100 in every Lighthouse category."
+group = "geo"
+engines = ["google", "chatgpt", "perplexity", "claude", "gemini"]
+format = "skill"
+lang = "pt"
+agents = ["claude-code", "codex", "cursor", "opencode"]
+note = "README 有英文版，SKILL.md 和指南是巴西葡萄牙语"
+note_en = "The README has an English version; SKILL.md and the guides are in Brazilian Portuguese."
+checked = 2026-11-16
+
 # ───────── 中文 AI 搜索 ─────────
 
 [[skills]]
@@ -1152,6 +1178,19 @@ note = "9 个里 8 个要接 Ubersuggest 的 MCP，用它的账号"
 note_en = "Eight of the nine skills need the Ubersuggest MCP server and an Ubersuggest account."
 checked = 2026-11-16
 
+[[skills]]
+repo = "prikotov/yandex-wordstat"
+desc = "俄语 Yandex Wordstat skill：查词的搜索量、相似词、按天周月的走势和地区分布，出 CSV 和 Markdown"
+desc_en = "Russian skill for Yandex Wordstat: phrase frequency, similar queries, demand history by day, week or month and regional split, exported as CSV and Markdown."
+group = "research"
+engines = ["yandex"]
+format = "skill"
+lang = "ru"
+agents = ["opencode"]
+note = "要 Yandex Cloud 服务账号的 Search API Key"
+note_en = "Needs a Yandex Cloud service-account API key for Search API."
+checked = 2026-11-16
+
 # ───────── 内容写作和优化 ─────────
 
 [[skills]]
@@ -1334,6 +1373,30 @@ engines = ["google", "bing", "yandex"]
 format = "skill"
 lang = "multi"
 agents = ["claude-code", "codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "ibangtam/skill-seo-co-ban"
+desc = "越南语 SEO 写作 3 件套：关键词研究、照 Google 前几名列大纲、写带出处的文章，不用付费 SEO 工具"
+desc_en = "Three Vietnamese SEO skills for Claude: keyword research, an outline built from the Google top results, and a sourced article with schema, for the Vietnamese market and without paid SEO tools."
+group = "content"
+engines = ["google"]
+format = "skill"
+lang = "vi"
+agents = ["claude-code"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "sayiyla/sayiyla-seo-ajan"
+desc = "土耳其语 SEO/AEO/GEO 改稿 agent：改网页标题、描述、开头答案和 FAQ，写社媒说明，附站点审计和检查命令行"
+desc_en = "Turkish-first Claude Code agents that fix page copy for SEO, AEO and GEO (title, meta, answer-first intro, FAQ) and write Instagram, TikTok and YouTube captions, plus a site auditor and dependency-free Node checkers."
+group = "content"
+engines = ["google", "yandex"]
+format = "skill"
+lang = "tr"
+agents = ["claude-code", "codex"]
+note = "是 Claude Code 子 agent 加 Node 命令行，没有 SKILL.md；Codex 读仓库里的 AGENTS.md"
+note_en = "Claude Code subagents plus Node command-line tools, no SKILL.md; Codex reads the repo's AGENTS.md."
 checked = 2026-11-16
 
 # ───────── 技术 SEO 和站点审计 ─────────
@@ -1712,6 +1775,31 @@ engines = ["google", "bing", "chatgpt", "perplexity", "claude", "gemini"]
 format = "skill"
 lang = "zh"
 agents = ["codex"]
+checked = 2026-11-16
+
+[[skills]]
+repo = "jorgejaramillo/seoskills"
+name = "jorgejaramillo/seoskills"
+desc = "西班牙语 SEO 审计 skill：渲染抓取、robots.txt、站内审计、内链、图片、标题和描述，汇成一份网页报告"
+desc_en = "Spanish Claude Code SEO skills: rendered crawl, robots.txt, technical and on-page audit, internal links, images, titles and meta descriptions, gathered into one HTML report."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "es"
+agents = ["claude-code"]
+note = "渲染抓取要 Cloudflare 账号（Browser Run），也可以直接读 sitemap"
+note_en = "The rendered crawl needs a Cloudflare account (Browser Run); you can start from the sitemap instead."
+checked = 2026-11-16
+
+[[skills]]
+repo = "carlosuhart/seo-audit-skills"
+desc = "西班牙语技术 SEO 审计 41 个 skill：WordPress、PrestaShop、JS 框架、核心网页指标、Schema、GEO"
+desc_en = "41 Spanish skills for technical SEO, UX and accessibility audits: WordPress, PrestaShop, JS frameworks, Core Web Vitals, schema, hreflang, GEO, GA4, Screaming Frog and Semrush, from anonymised real audits."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "es"
+agents = ["claude-code"]
 checked = 2026-11-16
 
 # ───────── 本地、电商和应用商店 ─────────
@@ -2491,6 +2579,32 @@ lang = "en"
 agents = ["cursor"]
 note = "用你自己的模型 API Key"
 note_en = "Uses your own model API keys."
+checked = 2026-11-16
+
+[[skills]]
+repo = "askads/mcp-yandex-wordstat"
+desc = "俄语 Yandex Wordstat 的 MCP：查热门和相似搜索词、需求走势和地区分布，只读"
+desc_en = "Russian MCP server for Yandex Wordstat: top and similar queries, demand dynamics and regional split, read-only."
+group = "mcp"
+engines = ["yandex"]
+format = "mcp"
+lang = "ru"
+agents = ["claude-code", "codex", "cursor"]
+note = "要 Yandex Cloud 的 Search API Key 和目录 ID；默认向作者发送匿名使用统计（不含参数和 Key），设 ASKADS_TELEMETRY=0 可关"
+note_en = "Needs a Yandex Cloud Search API key and folder ID. Sends anonymous usage telemetry to the author by default (no arguments or keys); set ASKADS_TELEMETRY=0 to turn it off."
+checked = 2026-11-16
+
+[[skills]]
+repo = "tom-ned/seo-cartograph-mcp"
+desc = "SEO Cartograph 的 MCP 加 13 个法语 skill：读你的抓取、Search Console、GA4、排名和内链图，再出审计和简报"
+desc_en = "SEO Cartograph MCP server plus 13 French skills: lets Claude read your crawl, Search Console, GA4, rankings, clusters and internal-link map, then produce audits, briefs and reports."
+group = "mcp"
+engines = ["google"]
+format = "mcp"
+lang = "fr"
+agents = ["claude-code"]
+note = "MCP 要 SEO Cartograph 账号（OAuth 登录，只读）；README 标明的几个免费 skill 不用账号"
+note_en = "The MCP server needs a SEO Cartograph account (OAuth, read-only); the free skills listed in the README work without one."
 checked = 2026-11-16
 
 # ───────── 相关开源平台 ─────────
