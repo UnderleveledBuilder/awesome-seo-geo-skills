@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-14",
+  "fetched_at": "2026-11-16",
   "repos": {
     "AKCodez/seo-god": {
       "archived": false,
       "default_branch": "main",
       "description": "Turn Claude Code into an agentic SEO operator for your own site — audit, measure, daily loop, AI visibility, scheduled runs. Free path, no paid keys.",
       "first_seen": "2026-10-19",
-      "forks": 16,
+      "forks": 17,
       "full_name": "AKCodez/seo-god",
       "license": "MIT",
       "pushed_at": "2026-08-03",
@@ -23,10 +23,10 @@
       "forks": 2,
       "full_name": "AKzar1el/mcp-geo",
       "license": "MIT",
-      "pushed_at": "2026-11-14",
+      "pushed_at": "2026-11-16",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 40,
+      "stars": 39,
       "status": "ok"
     },
     "ALLENLION35/geo-first-principles": {
@@ -40,7 +40,7 @@
       "pushed_at": "2026-09-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 302,
+      "stars": 303,
       "status": "ok"
     },
     "AgriciDaniel/claude-blog": {
@@ -48,13 +48,13 @@
       "default_branch": "main",
       "description": "Free, open source blog writer for Claude Code. Researches current sources, writes answer-first posts for Google and AI answers, has an independent reviewer score each one out of 100 and ships only after five delivery gates. 32 skills, 30 /blog commands, 5 agents. Active development at AI-Marketing-Hub/claude-blog; public releases ship here.",
       "first_seen": "2026-10-19",
-      "forks": 472,
+      "forks": 473,
       "full_name": "AgriciDaniel/claude-blog",
       "license": "MIT",
       "pushed_at": "2026-11-03",
       "skill_count": 33,
       "skill_count_truncated": false,
-      "stars": 2748,
+      "stars": 2763,
       "status": "ok"
     },
     "AgriciDaniel/claude-seo": {
@@ -62,13 +62,13 @@
       "default_branch": "main",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "first_seen": "2026-10-19",
-      "forks": 3705,
+      "forks": 3743,
       "full_name": "AgriciDaniel/claude-seo",
       "license": "MIT",
-      "pushed_at": "2026-11-11",
-      "skill_count": 33,
+      "pushed_at": "2026-11-15",
+      "skill_count": 35,
       "skill_count_truncated": false,
-      "stars": 29124,
+      "stars": 29728,
       "status": "ok"
     },
     "AminForou/mcp-gsc": {
@@ -76,13 +76,13 @@
       "default_branch": "main",
       "description": "Google Search Console Insights with Claude AI for SEOs",
       "first_seen": "2026-10-19",
-      "forks": 283,
+      "forks": 284,
       "full_name": "AminForou/mcp-gsc",
       "license": "MIT",
       "pushed_at": "2026-11-06",
       "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 2200,
+      "stars": 2207,
       "status": "ok"
     },
     "Auriti-Labs/geo-optimizer-skill": {
@@ -90,13 +90,13 @@
       "default_branch": "main",
       "description": "GEO Optimizer, the open-source engine behind GeoReady (geoready.dev): audit whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. CLI, Python, MCP.",
       "first_seen": "2026-10-19",
-      "forks": 158,
+      "forks": 159,
       "full_name": "Auriti-Labs/geo-optimizer-skill",
       "license": "MIT",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-14",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 1321,
+      "stars": 1328,
       "status": "ok"
     },
     "Bhanunamikaze/Agentic-SEO-Skill": {
@@ -110,7 +110,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1055,
+      "stars": 1058,
       "status": "ok"
     },
     "Bomx/distribb-skill": {
@@ -180,7 +180,7 @@
       "pushed_at": "2026-11-09",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 607,
+      "stars": 609,
       "status": "ok"
     },
     "Hainrixz/claude-seo-ai": {
@@ -202,13 +202,13 @@
       "default_branch": "main",
       "description": "中国市场优先的 GEO(生成式引擎优化)+ SEO 内容优化系统:让内容被豆包/千问/DeepSeek/文心/元宝/ChatGPT/Perplexity 引用。兼容 Claude Code/Codex/OpenClaw/Hermes,零依赖,MIT。",
       "first_seen": "2026-10-19",
-      "forks": 28,
+      "forks": 29,
       "full_name": "HeiGeAi/HeiGe-GEO-SEO",
       "license": "MIT",
       "pushed_at": "2026-10-15",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 93,
+      "stars": 95,
       "status": "ok"
     },
     "Houseofmvps/claude-rank": {
@@ -230,13 +230,13 @@
       "default_branch": "main",
       "description": "30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex & AI agents: technical SEO roasts, Ahrefs & DataForSEO SERP workflows, first-hand proof KBs, backlinks & GEO.",
       "first_seen": "2026-10-19",
-      "forks": 114,
+      "forks": 120,
       "full_name": "Illyism/seo-skills",
       "license": null,
       "pushed_at": "2026-11-12",
       "skill_count": 30,
       "skill_count_truncated": false,
-      "stars": 1220,
+      "stars": 1261,
       "status": "ok"
     },
     "JeffLi1993/seo-audit-skill": {
@@ -250,7 +250,7 @@
       "pushed_at": "2026-06-17",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 786,
+      "stars": 788,
       "status": "ok"
     },
     "Kronop/vibe-aso": {
@@ -258,7 +258,7 @@
       "default_branch": "main",
       "description": "You vibe-coded the app — now vibe the ASO. A Claude Code skill: keyword research, 50-locale App Store metadata, localized screenshots, worldwide pricing, in-app localization.",
       "first_seen": "2026-10-19",
-      "forks": 48,
+      "forks": 47,
       "full_name": "Kronop/vibe-aso",
       "license": "MIT",
       "pushed_at": "2026-08-12",
@@ -284,15 +284,15 @@
     "NeoZi12/dispatchseo": {
       "archived": false,
       "default_branch": "main",
-      "description": "Free SEO autopilot: researched articles published to your site. Hosted at dispatchseo.com (2 free articles per month), or self-host this repo and drive it with Claude Code, Codex or Cursor over MCP. Open source (AGPL).",
+      "description": "Free SEO autopilot: researched articles published to your site, for any site in a GitHub repo, including Lovable sites. Hosted at dispatchseo.com (2 free articles per month), or self-host this repo and drive it with Claude Code, Codex or Cursor over MCP. Open source (AGPL).",
       "first_seen": "2026-10-19",
       "forks": 16,
       "full_name": "NeoZi12/dispatchseo",
       "license": "AGPL-3.0",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-15",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 98,
+      "stars": 99,
       "status": "ok"
     },
     "OranAi-Ltd/orangeo-ai-visibility-skill": {
@@ -314,13 +314,13 @@
       "default_branch": "main",
       "description": "Hand your SaaS growth chores to an agent: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions, plus a social analysis pack with a Douyin comments skill. Works with Grok Bot, Muse, Dot, Hermes, OpenClaw, Claude Code and Codex.",
       "first_seen": "2026-11-10",
-      "forks": 131,
+      "forks": 134,
       "full_name": "Pluviobyte/saas-growth-agents",
       "license": "MIT",
       "pushed_at": "2026-11-10",
       "skill_count": 5,
       "skill_count_truncated": false,
-      "stars": 533,
+      "stars": 541,
       "status": "ok"
     },
     "ReScienceLab/opc-skills": {
@@ -328,13 +328,13 @@
       "default_branch": "main",
       "description": "Agent Skills for Solopreneurs",
       "first_seen": "2026-10-19",
-      "forks": 170,
+      "forks": 171,
       "full_name": "ReScienceLab/opc-skills",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-15",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 1910,
+      "stars": 1912,
       "status": "ok"
     },
     "RomeoSEO/seo-skills": {
@@ -342,13 +342,13 @@
       "default_branch": "main",
       "description": "48 free SEO, AEO, LLM SEO, GEO and parasite SEO skills for Claude Code, Codex and AI agents. MIT.",
       "first_seen": "2026-11-11",
-      "forks": 1,
+      "forks": 3,
       "full_name": "RomeoSEO/seo-skills",
       "license": "MIT",
       "pushed_at": "2026-11-11",
       "skill_count": 50,
       "skill_count_truncated": false,
-      "stars": 7,
+      "stars": 8,
       "status": "ok"
     },
     "Ryze-AI-Adgent/open-seo-mcp-skills": {
@@ -356,13 +356,13 @@
       "default_branch": "main",
       "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
       "first_seen": "2026-10-19",
-      "forks": 397,
+      "forks": 399,
       "full_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
       "license": "MIT",
       "pushed_at": "2026-10-27",
       "skill_count": 8,
       "skill_count_truncated": false,
-      "stars": 9542,
+      "stars": 9999,
       "status": "ok"
     },
     "SNLabat/SEO-GEO-AEO-Skill": {
@@ -376,7 +376,7 @@
       "pushed_at": "2026-03-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 287,
+      "stars": 291,
       "status": "ok"
     },
     "TheCraigHewitt/seomachine": {
@@ -390,7 +390,7 @@
       "pushed_at": "2026-10-23",
       "skill_count": 26,
       "skill_count_truncated": false,
-      "stars": 7611,
+      "stars": 7620,
       "status": "ok"
     },
     "TimBroddin/skills": {
@@ -418,7 +418,7 @@
       "pushed_at": "2026-07-04",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 455,
+      "stars": 456,
       "status": "ok"
     },
     "aaron-he-zhu/aaron-marketing-skills": {
@@ -426,13 +426,13 @@
       "default_branch": "main",
       "description": "120 marketing skills as an AI marketing staff — plugin, portable skills, or an 8-bot team across 7 disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch) on one contract, with 8 auditor gates: TALE · CORE-EEAT · CITE · ECHO · SEND · ROAS · STAR · RAMP.",
       "first_seen": "2026-10-19",
-      "forks": 399,
+      "forks": 400,
       "full_name": "aaron-he-zhu/aaron-marketing-skills",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-14",
+      "pushed_at": "2026-11-15",
       "skill_count": 120,
       "skill_count_truncated": false,
-      "stars": 3142,
+      "stars": 3145,
       "status": "ok"
     },
     "addyosmani/web-quality-skills": {
@@ -446,7 +446,7 @@
       "pushed_at": "2026-08-24",
       "skill_count": 6,
       "skill_count_truncated": false,
-      "stars": 3081,
+      "stars": 3088,
       "status": "ok"
     },
     "aigclink/geolook": {
@@ -460,7 +460,7 @@
       "pushed_at": "2026-08-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 816,
+      "stars": 819,
       "status": "ok"
     },
     "aivisibilitycensus/geo-skills": {
@@ -471,10 +471,10 @@
       "forks": 4,
       "full_name": "aivisibilitycensus/geo-skills",
       "license": "MIT",
-      "pushed_at": "2026-11-11",
+      "pushed_at": "2026-11-14",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 1,
+      "stars": 5,
       "status": "ok"
     },
     "akii-technologies-ltd/akii-seo-ai-search-optimizer": {
@@ -502,7 +502,7 @@
       "pushed_at": "2026-10-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 211,
+      "stars": 212,
       "status": "ok"
     },
     "appeeky/aso-skills": {
@@ -516,7 +516,7 @@
       "pushed_at": "2026-11-13",
       "skill_count": 40,
       "skill_count_truncated": false,
-      "stars": 2299,
+      "stars": 2303,
       "status": "ok"
     },
     "avansaber/seo-monster": {
@@ -530,7 +530,7 @@
       "pushed_at": "2026-11-13",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 493,
+      "stars": 496,
       "status": "ok"
     },
     "beyondtahir/beyondseo": {
@@ -558,7 +558,7 @@
       "pushed_at": "2026-10-22",
       "skill_count": 4,
       "skill_count_truncated": false,
-      "stars": 497,
+      "stars": 499,
       "status": "ok"
     },
     "calm-north/seojuice-skills": {
@@ -572,7 +572,7 @@
       "pushed_at": "2026-02-27",
       "skill_count": 14,
       "skill_count_truncated": false,
-      "stars": 21,
+      "stars": 22,
       "status": "ok"
     },
     "coreyhaines31/marketingskills": {
@@ -580,13 +580,13 @@
       "default_branch": "main",
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "first_seen": "2026-10-19",
-      "forks": 8791,
+      "forks": 8831,
       "full_name": "coreyhaines31/marketingskills",
       "license": "MIT",
       "pushed_at": "2026-11-11",
       "skill_count": 53,
       "skill_count_truncated": false,
-      "stars": 60207,
+      "stars": 60593,
       "status": "ok"
     },
     "cucuwang/geoptimize": {
@@ -664,13 +664,13 @@
       "default_branch": "main",
       "description": "Open-source Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) platform. Track how ChatGPT, Claude, Perplexity, Gemini, Copilot, Grok, and Google AI Overviews mention and cite your brand in AI search. MIT-licensed, self-hostable, every metric auditable in code.",
       "first_seen": "2026-10-19",
-      "forks": 166,
+      "forks": 168,
       "full_name": "elmohq/elmo",
       "license": "MIT",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-14",
       "skill_count": 3,
       "skill_count_truncated": false,
-      "stars": 598,
+      "stars": 602,
       "status": "ok"
     },
     "elvisun/newsjack": {
@@ -678,13 +678,13 @@
       "default_branch": "main",
       "description": "The open-source skills that turn your agent into a full PR team.",
       "first_seen": "2026-10-19",
-      "forks": 175,
+      "forks": 176,
       "full_name": "elvisun/newsjack",
       "license": "MIT",
       "pushed_at": "2026-11-11",
       "skill_count": 35,
       "skill_count_truncated": false,
-      "stars": 1693,
+      "stars": 1695,
       "status": "ok"
     },
     "every-app/open-seo": {
@@ -692,13 +692,13 @@
       "default_branch": "main",
       "description": "Open source alternative to Semrush and Ahrefs",
       "first_seen": "2026-10-19",
-      "forks": 3869,
+      "forks": 3910,
       "full_name": "every-app/open-seo",
       "license": "MIT",
       "pushed_at": "2026-11-13",
       "skill_count": 28,
       "skill_count_truncated": false,
-      "stars": 27653,
+      "stars": 27827,
       "status": "ok"
     },
     "flaqai/Awesome_SEO_Writing_Skill": {
@@ -726,7 +726,7 @@
       "pushed_at": "2026-11-12",
       "skill_count": 16,
       "skill_count_truncated": false,
-      "stars": 892,
+      "stars": 896,
       "status": "ok"
     },
     "garrettjsmith/localseoskills": {
@@ -740,7 +740,7 @@
       "pushed_at": "2026-10-30",
       "skill_count": 39,
       "skill_count_truncated": false,
-      "stars": 150,
+      "stars": 151,
       "status": "ok"
     },
     "gbessoni/seobuild-onpage": {
@@ -754,7 +754,7 @@
       "pushed_at": "2026-11-12",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 266,
+      "stars": 267,
       "status": "ok"
     },
     "houtini-ai/seo-audit": {
@@ -793,10 +793,10 @@
       "forks": 52,
       "full_name": "iannuttall/seo",
       "license": "Apache-2.0",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-15",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 627,
+      "stars": 628,
       "status": "ok"
     },
     "inhouseseo/superseo-skills": {
@@ -804,13 +804,13 @@
       "default_branch": "main",
       "description": "11 Claude skills for SEO: page audits, linkbuilding, article writing, E-E-A-T audits, semantic gap analysis, link building. Methodology from Koray   Tuğberk, Kyle Roof, and Lily Ray, plus a generation-time anti-AI-slop ruleset. Production-tested at InhouseSEO",
       "first_seen": "2026-10-19",
-      "forks": 50,
+      "forks": 51,
       "full_name": "inhouseseo/superseo-skills",
       "license": "Apache-2.0",
       "pushed_at": "2026-09-03",
       "skill_count": 11,
       "skill_count_truncated": false,
-      "stars": 396,
+      "stars": 397,
       "status": "ok"
     },
     "jdevalk/skills": {
@@ -846,7 +846,7 @@
       "default_branch": "main",
       "description": "Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO, ",
       "first_seen": "2026-10-19",
-      "forks": 61,
+      "forks": 62,
       "full_name": "joeseesun/qiaomu-seo",
       "license": "MIT",
       "pushed_at": "2026-08-03",
@@ -866,7 +866,7 @@
       "pushed_at": "2026-09-29",
       "skill_count": 33,
       "skill_count_truncated": false,
-      "stars": 341,
+      "stars": 342,
       "status": "ok"
     },
     "kostja94/marketing-skills": {
@@ -874,13 +874,13 @@
       "default_branch": "main",
       "description": "Agent Skills for Marketing — SEO, Social, Influencer & More. 160+ open-source skills for SEO, content, 40+ page types, paid ads, channels, and strategies. Add project context; get tailored, production-ready output. Cursor, Claude Code, OpenClaw — no lock-in.",
       "first_seen": "2026-10-19",
-      "forks": 150,
+      "forks": 151,
       "full_name": "kostja94/marketing-skills",
       "license": "MIT",
       "pushed_at": "2026-11-06",
       "skill_count": 15,
       "skill_count_truncated": false,
-      "stars": 1104,
+      "stars": 1106,
       "status": "ok"
     },
     "leopard627/fire-your-seo-agency": {
@@ -888,13 +888,13 @@
       "default_branch": "main",
       "description": "Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver) by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다",
       "first_seen": "2026-10-19",
-      "forks": 224,
+      "forks": 225,
       "full_name": "leopard627/fire-your-seo-agency",
       "license": "MIT",
       "pushed_at": "2026-11-03",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1007,
+      "stars": 1009,
       "status": "ok"
     },
     "liangdabiao/GEO-Content-Optimizer-Skill": {
@@ -916,13 +916,13 @@
       "default_branch": "main",
       "description": "亚马逊选品 之 Listing全维度穿透分析报告  加上 全品类分析 ，关键词分析，差评分析 ，市场调研 等等。codex/claude code agent skill, amazon sorftime  MCP/西柚mcp/sif mcp/卖家精灵sellersprite 智能体skill.   亚马逊跨境电商skill工具集。",
       "first_seen": "2026-10-19",
-      "forks": 161,
+      "forks": 163,
       "full_name": "liangdabiao/amazon-sorftime-research-MCP-skill",
       "license": null,
       "pushed_at": "2026-11-12",
       "skill_count": 9,
       "skill_count_truncated": false,
-      "stars": 1130,
+      "stars": 1135,
       "status": "ok"
     },
     "lisbeth718/pseo-skills": {
@@ -944,7 +944,7 @@
       "default_branch": "main",
       "description": "開源、可攜、不綁定單一廠商的全域 SEO 顧問技能 - 蒸餾 SEO 權威方法論，協助任何產業做 SEO 健檢、修復、內容產出",
       "first_seen": "2026-10-19",
-      "forks": 36,
+      "forks": 37,
       "full_name": "mars-tw/open-seo-advisor-skill",
       "license": "Apache-2.0",
       "pushed_at": "2026-09-23",
@@ -978,7 +978,7 @@
       "pushed_at": "2026-11-11",
       "skill_count": 52,
       "skill_count_truncated": false,
-      "stars": 867,
+      "stars": 870,
       "status": "ok"
     },
     "noahneancy-byte/geo-automation-skill-pack": {
@@ -1006,7 +1006,7 @@
       "pushed_at": "2026-11-13",
       "skill_count": 45,
       "skill_count_truncated": false,
-      "stars": 4146,
+      "stars": 4204,
       "status": "ok"
     },
     "onvoyage-ai/gtm-engineer-skills": {
@@ -1020,7 +1020,7 @@
       "pushed_at": "2026-10-11",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 1362,
+      "stars": 1363,
       "status": "ok"
     },
     "onvoyage-ai/voyage-geo-agent": {
@@ -1076,7 +1076,7 @@
       "pushed_at": "2026-11-12",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 669,
+      "stars": 670,
       "status": "ok"
     },
     "seranking/seo-skills": {
@@ -1084,13 +1084,13 @@
       "default_branch": "main",
       "description": "Claude SEO Skills — production Claude Agent Skills for the SE Ranking MCP server. Content briefs, AI Search share of voice, audits, backlink gaps, keyword clusters, schema, sitemap, GEO, and more.",
       "first_seen": "2026-10-19",
-      "forks": 50,
+      "forks": 51,
       "full_name": "seranking/seo-skills",
       "license": "MIT",
       "pushed_at": "2026-11-05",
       "skill_count": 32,
       "skill_count_truncated": false,
-      "stars": 207,
+      "stars": 210,
       "status": "ok"
     },
     "squirrelscan/skills": {
@@ -1132,7 +1132,7 @@
       "pushed_at": "2026-11-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 581,
+      "stars": 587,
       "status": "ok"
     },
     "yaojingang/GEOHub": {
@@ -1160,7 +1160,7 @@
       "pushed_at": "2026-10-01",
       "skill_count": 24,
       "skill_count_truncated": false,
-      "stars": 917,
+      "stars": 920,
       "status": "ok"
     },
     "zubair-trabzada/dataforseo-claude": {
@@ -1168,13 +1168,13 @@
       "default_branch": "main",
       "description": "SEO Agency Killer for Claude Code — powered by DataForSEO. 13 skills + 5 subagents for keyword research, rank tracking, backlink audits, technical crawls, competitor analysis, and PDF reporting. One-command install.",
       "first_seen": "2026-10-19",
-      "forks": 59,
+      "forks": 60,
       "full_name": "zubair-trabzada/dataforseo-claude",
       "license": "MIT",
       "pushed_at": "2026-05-20",
       "skill_count": 16,
       "skill_count_truncated": false,
-      "stars": 176,
+      "stars": 178,
       "status": "ok"
     },
     "zubair-trabzada/geo-seo-claude": {
@@ -1182,13 +1182,13 @@
       "default_branch": "main",
       "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community",
       "first_seen": "2026-10-19",
-      "forks": 1750,
+      "forks": 1754,
       "full_name": "zubair-trabzada/geo-seo-claude",
       "license": "MIT",
-      "pushed_at": "2026-11-13",
+      "pushed_at": "2026-11-15",
       "skill_count": 16,
       "skill_count_truncated": false,
-      "stars": 11668,
+      "stars": 11704,
       "status": "ok"
     }
   }
