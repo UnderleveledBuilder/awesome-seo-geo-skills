@@ -197,6 +197,10 @@ repo = "fmariv/awesome-web-gis-resources"
 reason = "资源清单，不是 skill"
 
 [[ignored]]
+repo = "GetBelki/SEO-GEO-Playbook"
+reason = "电商 SEO/GEO 知识库（文档），不是 skill"
+
+[[ignored]]
 repo = "izak-fisher/generative-engine-optimization-tools"
 reason = "资源清单，不是 skill"
 
@@ -251,6 +255,14 @@ repo = "AI-Marketing-OS-LTD/cmo-so-skills"
 reason = "通用营销合集（124 个 skill，含投放、视频、邮件），SEO 部分不突出"
 
 [[ignored]]
+repo = "aka-kika/akakika-skills"
+reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "BeatAPI/grokbot-growth"
+reason = "出海增长 Bot 团队的开工包，SEO/AEO 只是六条工作线之一，SEO 部分不突出"
+
+[[ignored]]
 repo = "boraoztunc/skills"
 reason = "通用 skill 合集（设计、动画、文案为主），SEO 部分不突出"
 
@@ -263,12 +275,20 @@ repo = "cgallic/kai-cmo-harness"
 reason = "通用营销合集（273 个 skill），SEO 部分不突出"
 
 [[ignored]]
+repo = "chenyuxiaojin/xiaochen-skills"
+reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
 repo = "cmj-hub/gtm-operator-skills"
 reason = "通用营销合集，SEO 部分不突出"
 
 [[ignored]]
 repo = "ducdg88/ducpt-skills"
 reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "generosomm/universal-web-dev"
+reason = "通用建站 skill，SEO 只是上线检查的一项，SEO 部分不突出"
 
 [[ignored]]
 repo = "genfeedai/skills"
@@ -287,12 +307,24 @@ repo = "getcargohq/cargo-manifest"
 reason = "通用营销合集，SEO 部分不突出"
 
 [[ignored]]
+repo = "HugoLopes45/hl-skills"
+reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
 repo = "hyperfx-ai/marketing-skills"
 reason = "通用营销合集（投放、社媒、邮件、素材），SEO 部分不突出"
 
 [[ignored]]
+repo = "indranilbanerjee/neels-plugins"
+reason = "作者几个插件的安装入口：营销合集 Digital Marketing Pro（已忽略）、已收录的 ContentForge 等，没有新的 SEO 内容"
+
+[[ignored]]
 repo = "JasonColapietro/suede-creator-skills"
 reason = "通用 skill 合集（应用开发、投放、分析等 70 个），SEO 部分不突出"
+
+[[ignored]]
+repo = "Jeffallan/writing-with-agents"
+reason = "写作方法 skill 合集，SEO 写作只是 10 个 skill 之一，SEO 部分不突出"
 
 [[ignored]]
 repo = "JMC-Go-to-market/claude-operator-pass"
@@ -315,6 +347,18 @@ repo = "Kumar2421/marlo-self-hosted-ai-cmo"
 reason = "通用营销合集，SEO 部分不突出"
 
 [[ignored]]
+repo = "LeahyCC/claude-skills"
+reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "Littlpinguin/marketing-cockpit-template"
+reason = "通用营销合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "LuCheremisina/marketing-skills"
+reason = "通用营销合集（俄语，Yandex 广告、邮件、内容），SEO 部分不突出"
+
+[[ignored]]
 repo = "matt-j-penny/ai-video-marketing"
 reason = "通用营销合集，SEO 部分不突出"
 
@@ -325,6 +369,10 @@ reason = "通用营销合集（78 个 skill，含邮件、广告、社媒、外�
 [[ignored]]
 repo = "oyi77/1ai-skills"
 reason = "通用 skill 合集，SEO 部分不突出"
+
+[[ignored]]
+repo = "risukisu/marketing-skills"
+reason = "通用营销合集，SEO 部分照搬已收录的 AgriciDaniel/claude-seo"
 
 [[ignored]]
 repo = "shalintripathi/saas-marketing-agents"
@@ -353,7 +401,19 @@ repo = "appgoblin-dev/appgoblin"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
 [[ignored]]
+repo = "armin5872/OptiQra"
+reason = "网站优化应用（网页版、桌面版、VS Code 插件），没有 skill 或 MCP；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
 repo = "aws-samples/sample-llm-search-citation-analysis-with-amazon-bedrock"
+reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "clawnify/OpenSEO"
+reason = "要自己部署的 WordPress 写稿发稿应用（Cloudflare Workers），没有 skill 或 MCP；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "codebyzerone/GEO-ANALYTICS"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
 [[ignored]]
@@ -389,6 +449,10 @@ repo = "nocobase/NocoReach"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
 [[ignored]]
+repo = "Nuraveda/shopify-agentic-seo-app"
+reason = "要自己部署的 Shopify 应用，不是 skill；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
 repo = "oneglanse/oneglanse"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
@@ -409,6 +473,10 @@ repo = "Ratimon/openquok-monorepo"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
 [[ignored]]
+repo = "rishu685/BrandRadar"
+reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
 repo = "sendtogeo/Seo-Panel"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
 
@@ -423,6 +491,14 @@ reason = "要自己部署的 Google 商家资料管理应用，自带的 MCP 只
 [[ignored]]
 repo = "tentacl-ai/seo-autopilot"
 reason = "要自己部署的完整应用，不是 skill；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "TheWallet-AI/sitelens"
+reason = "要自己部署的网站和 GEO 就绪度审计网页应用，没有 skill 或 MCP；未到平台收录门槛（≥1k★）"
+
+[[ignored]]
+repo = "tianpengg/geo-monitor"
+reason = "要自己部署的 AI 爬虫访问监测应用，附带的 skill 是开发它用的；未到平台收录门槛（≥1k★）"
 
 [[ignored]]
 repo = "tomaszboloz/SEOmi"
@@ -444,6 +520,10 @@ reason = "本地跑的 AI 概览引用追踪网页应用，没有 skill 或 MCP�
 
 [[ignored]]
 repo = "ahmershahdev/ahmershahdev"
+reason = "个人网站、主页或博客"
+
+[[ignored]]
+repo = "ahnafnafee/ahnafnafee.dev"
 reason = "个人网站、主页或博客"
 
 [[ignored]]
@@ -482,6 +562,22 @@ reason = "个人网站、主页或博客"
 repo = "shimo4228/writing"
 reason = "个人网站、主页或博客"
 
+[[ignored]]
+repo = "Spirizeon/superminimalism"
+reason = "一个极简落地页，不是 SEO 工具"
+
+[[ignored]]
+repo = "whobot-com/llms.txt"
+reason = "一家公司自己的 llms.txt 档案，单站项目"
+
+[[ignored]]
+repo = "WOOK98/seo-optimizer"
+reason = "给 airesearchs.com 一个站定制的 SEO skill"
+
+[[ignored]]
+repo = "yehyakin/llms-txt-cn"
+reason = "llms.txt 在线生成和校验网站（cetxt.com）的源码，不是 skill 或 MCP"
+
 # 建站框架、CMS 和代码库
 
 [[ignored]]
@@ -514,6 +610,10 @@ reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，
 
 [[ignored]]
 repo = "angelespejo/vitepress-plugin-llmstxt"
+reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
+
+[[ignored]]
+repo = "angeo-dev/module-llms-txt"
 reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
 
 [[ignored]]
@@ -561,6 +661,10 @@ repo = "casoon/astro-site-files"
 reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
 
 [[ignored]]
+repo = "codebdy/waimao-site"
+reason = "多语言外贸建站 skill，SEO 只是附带的基础项"
+
+[[ignored]]
 repo = "codiume/orbit"
 reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，不是给 agent 用的 SEO skill"
 
@@ -597,6 +701,10 @@ repo = "elightup/slim-seo"
 reason = "建站用的 SEO 插件或代码库（元标签、站点地图、结构化数据、跳转），不是给 agent 用的 skill 或 MCP"
 
 [[ignored]]
+repo = "ethanplusai/astro-conversion-kit"
+reason = "把 WordPress 等网站搬到 Astro 静态站的 skill，保持 SEO 不变是搬站的要求之一，不是 SEO 工具"
+
+[[ignored]]
 repo = "eusef/auto-llms-txt"
 reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
 
@@ -609,8 +717,16 @@ repo = "FluxWP/FluxWP"
 reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
 
 [[ignored]]
+repo = "gerodp/hugo-landing-skill"
+reason = "搭 Hugo 落地页和博客的 skill，SEO 只是附带功能"
+
+[[ignored]]
 repo = "gobuildwp/wordpress-mcp-ai-gobuildwp"
 reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
+
+[[ignored]]
+repo = "houlaoge/aiw"
+reason = "AI 建静态站的工具，SEO、GEO 只是附带功能"
 
 [[ignored]]
 repo = "iannuttall/seo-graph"
@@ -619,6 +735,14 @@ reason = "建站用的 SEO 插件或代码库（元标签、站点地图、结�
 [[ignored]]
 repo = "Jacckisback/eclair-cms"
 reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
+
+[[ignored]]
+repo = "Jacckisback/Wordless"
+reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
+
+[[ignored]]
+repo = "jackyduhai/geo-website-os"
+reason = "GEO 友好的企业官网系统（CMS），不是 skill"
 
 [[ignored]]
 repo = "jasongitmail/super-sitemap"
@@ -653,8 +777,16 @@ repo = "kfuras/notipo-app"
 reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
 
 [[ignored]]
+repo = "KnpLabs/KnpPaginatorBundle"
+reason = "Symfony 的分页组件，SEO 友好只是卖点，不是给 agent 用的 SEO skill"
+
+[[ignored]]
 repo = "kpumuk/meta-tags"
 reason = "建站用的 SEO 插件或代码库（元标签、站点地图、结构化数据、跳转），不是给 agent 用的 skill 或 MCP"
+
+[[ignored]]
+repo = "legioncodeinc/automated-content-engine"
+reason = "用聊天搭博客的内容系统（Payload CMS、Neon 数据库、自带 MCP），SEO 只是附带功能"
 
 [[ignored]]
 repo = "lucidui-dev/lucidui"
@@ -679,6 +811,10 @@ reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，
 [[ignored]]
 repo = "miriamschwab/make-my-site-agent-ready"
 reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
+
+[[ignored]]
+repo = "miyanialkesh7/drishti-geo"
+reason = "WordPress 的 AI 可见度插件，不是给 agent 用的 skill 或 MCP"
 
 [[ignored]]
 repo = "mrwebtv/ultimapress"
@@ -729,6 +865,14 @@ repo = "rankmath/seo-by-rank-math"
 reason = "建站用的 SEO 插件或代码库（元标签、站点地图、结构化数据、跳转），不是给 agent 用的 skill 或 MCP"
 
 [[ignored]]
+repo = "raphaelstolt/llms-txt-php"
+reason = "生成和解析 llms.txt 的 PHP 代码库，不是给 agent 用的 skill 或 MCP"
+
+[[ignored]]
+repo = "relaticle/ink"
+reason = "Filament 的博客组件，SEO 和 MCP 只是附带功能，不是给 agent 用的 SEO skill"
+
+[[ignored]]
 repo = "rj-nexus/rj-nexus"
 reason = "CMS 或网店系统，SEO 只是附带功能，不是 skill"
 
@@ -751,6 +895,10 @@ reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，
 [[ignored]]
 repo = "seite-sh/seite"
 reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，不是给 agent 用的 SEO skill"
+
+[[ignored]]
+repo = "Serfe/serfe-ai-discovery"
+reason = "WordPress 的 AI 发现插件（robots.txt、llms.txt、Markdown 版页面），不是给 agent 用的 skill 或 MCP"
 
 [[ignored]]
 repo = "shipwords-dev/shipwords"
@@ -787,6 +935,10 @@ reason = "建站框架、模板、主题或组件库，SEO 只是附带功能，
 [[ignored]]
 repo = "tfmurad/astro-llms-md"
 reason = "建站框架或 CMS 的 llms.txt 生成插件，单点小工具，不是 skill 或 MCP"
+
+[[ignored]]
+repo = "timncox/squarespace-mcp"
+reason = "让 agent 管 Squarespace 网站的 MCP（菜单、页面、文章、商品），SEO 只是其中一项设置"
 
 [[ignored]]
 repo = "tortuvshin/grove"
@@ -855,8 +1007,16 @@ repo = "AgentsKit-io/doc-bridge"
 reason = "文档站、文档生成器或文档镜像，带 llms.txt 而已，和 SEO 无关"
 
 [[ignored]]
+repo = "ai-watcher/aiwatcher-local"
+reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
+
+[[ignored]]
 repo = "andreibesleaga/GABBE"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
+
+[[ignored]]
+repo = "aotter/mantle"
+reason = "agent 应用开发 SDK，带 llms.txt 而已，和 SEO 无关"
 
 [[ignored]]
 repo = "apache/burr"
@@ -879,6 +1039,10 @@ repo = "ben-vargas/ai-sdk-provider-cursor-sdk"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
 
 [[ignored]]
+repo = "boogy/argus"
+reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
+
+[[ignored]]
 repo = "CarlosDanielDev/maestro"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
 
@@ -893,6 +1057,10 @@ reason = "AI 编程或 agent 开发工具，和 SEO 无关"
 [[ignored]]
 repo = "csuftt/zcode-jetbrains-plugin"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
+
+[[ignored]]
+repo = "dgesteves/ondocs"
+reason = "给文档站加 AI 问答的工具，和 SEO 无关"
 
 [[ignored]]
 repo = "Dicklesworthstone/meta_skill"
@@ -927,6 +1095,10 @@ repo = "hit1001/multiagent-visibility-tool"
 reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
 
 [[ignored]]
+repo = "inthhq/leadtype"
+reason = "文档站、文档生成器或文档镜像，带 llms.txt 而已，和 SEO 无关"
+
+[[ignored]]
 repo = "invertase/docs.page"
 reason = "文档站、文档生成器或文档镜像，带 llms.txt 而已，和 SEO 无关"
 
@@ -948,6 +1120,10 @@ reason = "文档站、文档生成器或文档镜像，带 llms.txt 而已，和
 
 [[ignored]]
 repo = "josstei/maestro-orchestrate"
+reason = "AI 编程或 agent 开发工具，和 SEO 无关"
+
+[[ignored]]
+repo = "kostja94/vibe-coding"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
 
 [[ignored]]
@@ -979,8 +1155,16 @@ repo = "open-mosaic/mosaic"
 reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
 
 [[ignored]]
+repo = "ota-meshi/llms-full-unbind"
+reason = "把 llms-full.txt 拆成单页的小工具，给读文档用，和 SEO 无关"
+
+[[ignored]]
 repo = "overkazaf/re-agent"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
+
+[[ignored]]
+repo = "paradedb/agent-skills"
+reason = "ParadeDB 数据库的 agent skill，和 SEO 无关"
 
 [[ignored]]
 repo = "parallel-web/parallel-llms-txt"
@@ -1003,8 +1187,24 @@ repo = "raccioly/docguard"
 reason = "AI 编程或 agent 开发工具，和 SEO 无关"
 
 [[ignored]]
+repo = "rm-rf-prod/GroundTruth-MCP"
+reason = "给 agent 查最新文档和审代码的 MCP，和 SEO 无关"
+
+[[ignored]]
 repo = "RoboJunior/vyroniq"
 reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
+
+[[ignored]]
+repo = "rottathiago/tokenotch"
+reason = "AI agent 或系统的监控、可观测性工具，和 AI 搜索可见度无关"
+
+[[ignored]]
+repo = "saleem-hadad/larecipe"
+reason = "文档站、文档生成器或文档镜像，带 llms.txt 而已，和 SEO 无关"
+
+[[ignored]]
+repo = "SapienXai/AgentOS"
+reason = "OpenClaw 的 agent 管理面板，和 SEO 无关"
 
 [[ignored]]
 repo = "skulitom/Anode"
@@ -1069,6 +1269,10 @@ repo = "AlanBacker/audio-flyover-geolocation"
 reason = "照片、录音或用户名的 OSINT 定位工具，和 SEO 里的 GEO 不是一回事"
 
 [[ignored]]
+repo = "AmonRaNet/QGeoView"
+reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
+
+[[ignored]]
 repo = "assador/places"
 reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
 
@@ -1127,6 +1331,10 @@ reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO �
 [[ignored]]
 repo = "geolibrerian/gismap"
 reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
+
+[[ignored]]
+repo = "H4ck-J3x/GSW-OSINT"
+reason = "照片、录音或用户名的 OSINT 定位工具，和 SEO 里的 GEO 不是一回事"
 
 [[ignored]]
 repo = "idlesign/pysyge"
@@ -1221,6 +1429,14 @@ repo = "ropensci/parzer"
 reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
 
 [[ignored]]
+repo = "siisee11/geometry-shorts-skill"
+reason = "做卫星地图短视频（国家排名、时间线）的 skill，和 SEO 里的 GEO 不是一回事"
+
+[[ignored]]
+repo = "smartdatahub/gdc-snowflake-skills"
+reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
+
+[[ignored]]
 repo = "snooppr/snoop"
 reason = "照片、录音或用户名的 OSINT 定位工具，和 SEO 里的 GEO 不是一回事"
 
@@ -1234,6 +1450,10 @@ reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO �
 
 [[ignored]]
 repo = "SteadfastAsArt/geoscience-skills"
+reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
+
+[[ignored]]
+repo = "terrestris/react-geo"
 reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
 
 [[ignored]]
@@ -1280,6 +1500,10 @@ reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO �
 repo = "yuiseki/GeoAI-master-skills"
 reason = "地理空间（GIS、地图、坐标、IP 定位）项目，和 SEO 里的 GEO 不是一回事"
 
+[[ignored]]
+repo = "zhangj1115/biotree-hollow"
+reason = "生信问答 skill，GEO 指基因表达数据库，和 SEO 里的 GEO 不是一回事"
+
 # 其他
 
 [[ignored]]
@@ -1303,6 +1527,10 @@ repo = "BoxLab-Ltd/yandex-metrica-mcp"
 reason = "网站统计（Yandex Metrika）的 MCP，没有排名、关键词这类 SEO 专门功能"
 
 [[ignored]]
+repo = "bright-cn/geo-ai-agent"
+reason = "Bright Data 示例项目 brightdata/geo-ai-agent 的中文翻译版"
+
+[[ignored]]
 repo = "Cappybara12/mcp-use"
 reason = "Graftcode 跨语言调用的演示项目（拿内容流水线当例子），不是 SEO skill 或 MCP"
 
@@ -1323,8 +1551,16 @@ repo = "DevCrabs-Inc/yandex-metrika-mcp"
 reason = "网站统计（Yandex Metrika）的 MCP，没有排名、关键词这类 SEO 专门功能"
 
 [[ignored]]
+repo = "DomainRank/ai-seo-skills"
+reason = "目录站 DomainRank 自家的 skill：一个往它的目录提交网站，一个把关键词密度提到 5%（按 Google 的规则算关键词堆砌）"
+
+[[ignored]]
 repo = "FarzamHabibi/pre-production-checklist"
 reason = "上线前检查清单，SEO 只是其中一小部分"
+
+[[ignored]]
+repo = "foverse/seoverse"
+reason = "照搬已收录的 every-app/open-seo 改名 SEOVerse，许可证上还是原作者"
 
 [[ignored]]
 repo = "frankhzh-source/haifeng-geo-articles"
@@ -1337,6 +1573,14 @@ reason = "通用商业数据 skill（线索、抓取、电商、投资尽调）�
 [[ignored]]
 repo = "hackers-reality/youtube-skillbox"
 reason = "YouTube 数据工具箱，属于自媒体，不是 SEO"
+
+[[ignored]]
+repo = "hahwul/deadfinder"
+reason = "通用的网页断链检查工具，不是 SEO 或 GEO 专门工具"
+
+[[ignored]]
+repo = "ibadwi/SEO-AEO-MASTER-SPEC-SKILL"
+reason = "给 agent 照着做的 SEO/AEO 规范文档（英语和阿拉伯语）加一个审计脚本，没有 SKILL.md"
 
 [[ignored]]
 repo = "JakubKontra/skills"
@@ -1371,8 +1615,16 @@ repo = "lowdevco/claude-seo"
 reason = "照搬已收录的 AgriciDaniel/claude-seo 的 agent 定义，没加新东西"
 
 [[ignored]]
+repo = "lucasveneno/trafficbot"
+reason = "用代理池给网站刷访问量的脚本，是刷流量，不是 SEO 工具"
+
+[[ignored]]
 repo = "marcosmodly/marketing-skill"
 reason = "通用营销合集（投放、外联、短视频），SEO 只有简报一项"
+
+[[ignored]]
+repo = "neoswf/ai-visibility-tracker"
+reason = "给 Claude Code 照着搭 AI 可见度追踪器的说明书，不是 skill，也不是现成工具"
 
 [[ignored]]
 repo = "nexscope-ai/nexscope-ecommerce-skills"
@@ -1393,6 +1645,10 @@ reason = "同作者 ai-search-audit-full 的单页精简版，收了完整版"
 [[ignored]]
 repo = "Olexan-art/getlooploop-skills"
 reason = "只有 vectorscope 一个 skill（看检索系统怎么读一个页面），同作者已收录的 ai-search-audit-full 内置了它"
+
+[[ignored]]
+repo = "omkarcloud/semrush-scraper"
+reason = "抓 Semrush 免费工具页的本地接口（自动过验证码，建议上住宅代理），不是 skill 或 MCP"
 
 [[ignored]]
 repo = "ora/ax"
@@ -1435,6 +1691,10 @@ repo = "sybrew/the-seo-framework"
 reason = "WordPress 的 SEO 插件本体，仓库里的 skill 是给插件开发者用的，不是给 agent 用的 SEO skill"
 
 [[ignored]]
+repo = "trakkr-aisearch/ai-500"
+reason = "Trakkr 每月公开的 AI 可见度排行快照，是数据，不是工具"
+
+[[ignored]]
 repo = "trendsmcp-ai/TrendWatch"
 reason = "用 GitHub Actions 跑的趋势提醒模板，靠 Trends MCP 的接口，本身不是 skill 或 MCP"
 
@@ -1465,6 +1725,10 @@ repo = "10k11/flux"
 reason = "媒体管理桌面应用，和 SEO 无关"
 
 [[ignored]]
+repo = "AffineFoundation/affine"
+reason = "和 SEO、GEO 无关"
+
+[[ignored]]
 repo = "AgriciDaniel/web-obs"
 reason = "把网站存进 Obsidian，和 SEO 无关"
 
@@ -1475,6 +1739,10 @@ reason = "AI 设计规范的集成包，和 SEO 无关"
 [[ignored]]
 repo = "AliOsm/pastehtml.dev"
 reason = "HTML 分享服务，和 SEO 无关"
+
+[[ignored]]
+repo = "ameliandev/ngpc-project-template"
+reason = "Neo Geo Pocket 掌机的开发模板，和 SEO、GEO 无关"
 
 [[ignored]]
 repo = "badhope/workbench"
@@ -1491,6 +1759,10 @@ reason = "Web3 教程，和 SEO 无关"
 [[ignored]]
 repo = "blazephoenixxyz-crypto/Blaze-Phoenix-Dex"
 reason = "DeFi 路由，和 SEO 无关"
+
+[[ignored]]
+repo = "brandonmarkgaia-hub/Acacia-Garden-AI-Worldbuilding-Codex"
+reason = "和 SEO、GEO 无关"
 
 [[ignored]]
 repo = "cpfcoaching/jobhunter-Max"
@@ -1529,6 +1801,10 @@ repo = "drsaavedra/sf-docs-agent"
 reason = "Salesforce 文档问答 agent，和 SEO 无关"
 
 [[ignored]]
+repo = "DuongNAD/smart-drive-os"
+reason = "和 SEO、GEO 无关"
+
+[[ignored]]
 repo = "fanbidog/okkmax-web"
 reason = "AI API 中转站测评站，和 SEO 无关"
 
@@ -1545,6 +1821,10 @@ repo = "gcontini/ats-strike"
 reason = "简历定制工具，和 SEO 无关"
 
 [[ignored]]
+repo = "hokithree7/2nothing"
+reason = "AI agent 答题实验，带 llms.txt 而已，和 SEO 无关"
+
+[[ignored]]
 repo = "inaridiy/webforai"
 reason = "HTML 转 Markdown 的代码库，和 SEO 无关"
 
@@ -1559,6 +1839,10 @@ reason = "翻墙机场广告，和 SEO 无关"
 [[ignored]]
 repo = "jongko54/webEmbedding"
 reason = "网站克隆引擎，和 SEO 无关"
+
+[[ignored]]
+repo = "kvcops/JobHunterX"
+reason = "找工作的 AI 助手，和 SEO 无关"
 
 [[ignored]]
 repo = "latent-to/cacheon"
@@ -1589,6 +1873,10 @@ repo = "meta-recsys/silvertorch"
 reason = "GPU 检索引擎，和 SEO 无关"
 
 [[ignored]]
+repo = "mo9652962-ai/second-brain"
+reason = "个人 Obsidian 知识库，对齐 llms.txt 而已，和 SEO 无关"
+
+[[ignored]]
 repo = "mrsaraei/MorphoStain"
 reason = "病理图像研究代码，和 SEO 无关"
 
@@ -1601,8 +1889,16 @@ repo = "nativ3ai/hermes-geopolitical-market-sim"
 reason = "地缘政治预测市场模拟，和 SEO 无关"
 
 [[ignored]]
+repo = "Neoo-Blue/orbis"
+reason = "网络防火墙和流量分析工具，和 SEO 无关"
+
+[[ignored]]
 repo = "nf-core/fetchngs"
 reason = "生物信息数据下载流程，和 SEO 无关"
+
+[[ignored]]
+repo = "nicglazkov/commutescout"
+reason = "和 SEO、GEO 无关"
 
 [[ignored]]
 repo = "nopara73/LongevityWorldCup"
@@ -1629,8 +1925,20 @@ repo = "purujawa06-bot/Na-api"
 reason = "AI API 平台，和 SEO 无关"
 
 [[ignored]]
+repo = "rdlu/nms-items-interface"
+reason = "和 SEO、GEO 无关"
+
+[[ignored]]
+repo = "Riyoway/cue"
+reason = "保存和优化提示词的工具，和 SEO 无关"
+
+[[ignored]]
 repo = "rmzlb/notifyd"
 reason = "通知服务，和 SEO 无关"
+
+[[ignored]]
+repo = "SamadK01/react-native-ultrastore"
+reason = "和 SEO、GEO 无关"
 
 [[ignored]]
 repo = "sceneview/sceneview"
@@ -1669,6 +1977,10 @@ repo = "timschmidt/csgrs"
 reason = "CAD 几何计算内核，和 SEO 无关"
 
 [[ignored]]
+repo = "tomavic/angular-philosophies"
+reason = "Angular 代码风格指南，和 SEO 无关"
+
+[[ignored]]
 repo = "ultrametricai/ultrametric"
 reason = "创业公司模板仓库，和 SEO 无关"
 
@@ -1695,6 +2007,10 @@ reason = "查询语言，和 SEO 无关"
 [[ignored]]
 repo = "xiaofang142/hivemtk"
 reason = "私域营销 SCRM 系统，和 SEO 无关"
+
+[[ignored]]
+repo = "yashau/fonts.mv"
+reason = "迪维希语网页字体，和 SEO 无关"
 
 [[ignored]]
 repo = "younatics/MotionBook"

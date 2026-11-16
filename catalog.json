@@ -563,6 +563,35 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "IamRamgarhia/All-In-One-Free-SEO-Tool",
+   "url": "https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool",
+   "name": "All-In-One-Free-SEO-Tool",
+   "group": "pipeline",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity",
+    "gemini"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "自己部署的免费 SEO 平台：站点审计、排名、关键词、AI 可见度、外链和客户报告，附 5 个 skill 写报告、定关键词、改问题",
+   "desc_en": "Self-hosted free SEO platform: site audits, rank tracking, keyword research, AI visibility, backlinks and client reports. Ships 5 skills that write the report, plan keywords and apply fixes through its MCP server.",
+   "note": "skill 要先自己部署这个平台（Docker），通过它的 MCP 干活",
+   "note_en": "The skills need your own install of the platform (Docker) and work through its MCP server.",
+   "stars": 129,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 5,
+   "install": "npx skills add IamRamgarhia/All-In-One-Free-SEO-Tool",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "AKCodez/seo-god",
    "url": "https://github.com/AKCodez/seo-god",
    "name": "seo-god",
@@ -744,6 +773,33 @@
    "checked": "2026-10-19"
   },
   {
+   "repo": "tipsai/product-seo",
+   "url": "https://github.com/tipsai/product-seo",
+   "name": "tipsai/product-seo",
+   "group": "pipeline",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "卖产品的网站做 SEO：从 Search Console 数据出发，先挑产品正好能回答的搜索，再改页面、做工具页、清理、站外提及，每项改动定复查日期",
+   "desc_en": "SEO for a site that sells a product. Starts from your Search Console data, keeps the topics your product actually answers, then works on pages, tools, cleanup, titles, mentions and AI search. Every change gets a check date and an undo rule.",
+   "note": "",
+   "note_en": "",
+   "stars": 20,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add tipsai/product-seo",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "maxschottke-spec/seo-survival-kit",
    "url": "https://github.com/maxschottke-spec/seo-survival-kit",
    "name": "seo-survival-kit",
@@ -795,6 +851,32 @@
    "license": "MIT",
    "skills": 40,
    "install": "npx skills add karero/croftweaver",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "oegeyilmaz9/seo-aeo-geo-ultimate",
+   "url": "https://github.com/oegeyilmaz9/seo-aeo-geo-ultimate",
+   "name": "seo-aeo-geo-ultimate",
+   "group": "pipeline",
+   "engines": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "SEO、AEO、GEO 一整套：一个总入口分派 27 个 skill，审计、技术、内容、外链、本地、电商、AI 搜索，每步留证据",
+   "desc_en": "Evidence-first SEO, AEO and GEO suite for Codex and Claude Code: one router dispatches 27 skills covering audits, technical, content, authority, local, commerce and AI search, with written evidence for each step.",
+   "note": "",
+   "note_en": "",
+   "stars": 8,
+   "pushed_at": "2026-11-03",
+   "license": "Apache-2.0",
+   "skills": 27,
+   "install": "npx skills add oegeyilmaz9/seo-aeo-geo-ultimate",
    "checked": "2026-11-16"
   },
   {
@@ -937,6 +1019,33 @@
    "license": "MIT",
    "skills": 4,
    "install": "npx skills add AntonioBlago/claude-code-seo-starter",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "raulveneri/seo-kit",
+   "url": "https://github.com/raulveneri/seo-kit",
+   "name": "raulveneri/seo-kit",
+   "group": "pipeline",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "SEO/GEO 工作流：定改什么、动手改、跑 PageSpeed、读 Google 数据、改前改后各爬一次对比，附 10 个 skill",
+   "desc_en": "SEO and GEO workflows for Claude Code, Codex and OpenCode: keyword research, an optimisation plan, the changes themselves, PageSpeed, Google data and before/after crawl comparisons. 10 skills.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-08",
+   "license": null,
+   "skills": 10,
+   "install": "npx skills add raulveneri/seo-kit",
    "checked": "2026-11-16"
   },
   {
@@ -1779,6 +1888,61 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Elvinaskill/foreign-trade-geo-skill",
+   "url": "https://github.com/Elvinaskill/foreign-trade-geo-skill",
+   "name": "foreign-trade-geo-skill",
+   "group": "geo",
+   "engines": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "外贸 B2B 独立站 GEO 审计：查可发现性、AI 爬虫访问、Schema、内容证据和英文页面能否被 AI 引用，出带证据的整改建议",
+   "desc_en": "GEO audit for B2B export sites: discoverability, AI crawler access, schema, content evidence and whether English pages can be cited by AI, with evidence-backed fixes.",
+   "note": "许可是 PolyForm 非商用",
+   "note_en": "Licensed PolyForm Noncommercial.",
+   "stars": 6,
+   "pushed_at": "2026-11-05",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add Elvinaskill/foreign-trade-geo-skill",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "rebelytics/peec-ai-tracking-strategy-builder",
+   "url": "https://github.com/rebelytics/peec-ai-tracking-strategy-builder",
+   "name": "peec-ai-tracking-strategy-builder",
+   "group": "geo",
+   "engines": [
+    "chatgpt",
+    "gemini",
+    "perplexity",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "AI 可见度追踪方案 skill 的 Peec AI 配套：在 Peec 里落地追踪方案，管字段、额度、写入和核对",
+   "desc_en": "Peec AI companion to ai-visibility-tracking-strategy-builder: everything platform-specific for running an AI visibility tracking strategy in Peec AI, from MCP reads and fields to credit budgeting and write verification.",
+   "note": "要 Peec AI 账号，并和 ai-visibility-tracking-strategy-builder 一起装",
+   "note_en": "Needs a Peec AI account and the core ai-visibility-tracking-strategy-builder skill alongside.",
+   "stars": 6,
+   "pushed_at": "2026-11-16",
+   "license": "CC-BY-4.0",
+   "skills": 1,
+   "install": "npx skills add rebelytics/peec-ai-tracking-strategy-builder",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "Advance-Labs/aeo-toolkit",
    "url": "https://github.com/Advance-Labs/aeo-toolkit",
    "name": "aeo-toolkit",
@@ -2338,6 +2502,65 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "ZensInk/zens-ink-seo-package",
+   "url": "https://github.com/ZensInk/zens-ink-seo-package",
+   "name": "zens-ink-seo-package",
+   "group": "research",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "openclaw"
+   ],
+   "featured": false,
+   "desc": "给独立开发者的免费关键词研究工具：20 个命令行查关键词、难度、竞品差距和排名，纯 Python，附 9 个 skill",
+   "desc_en": "Free keyword research toolkit for indie builders: 20 command-line tools for keywords, difficulty, competitor gaps, rank tracking and site audits from free data sources. Pure Python, no dependencies, 9 skills.",
+   "note": "搜索量要免费的 Bing 站长 Key",
+   "note_en": "Search volume needs a free Bing Webmaster key.",
+   "stars": 57,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 9,
+   "install": "npx skills add ZensInk/zens-ink-seo-package",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "duckduckdeploy/openseo",
+   "url": "https://github.com/duckduckdeploy/openseo",
+   "name": "duckduckdeploy/openseo",
+   "group": "research",
+   "engines": [
+    "google",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode",
+    "gemini-cli"
+   ],
+   "featured": false,
+   "desc": "开源版 Ahrefs、Semrush（openseo.gg）：站点审计、关键词、排名、外链、AI 概览和本地排名，附 7 个 skill 走它的 MCP",
+   "desc_en": "Open-source Ahrefs and Semrush alternative (openseo.gg): domain audits, keyword research, rank tracking, backlinks, AI Overview checks and local rankings. Ships 7 skills that work through its MCP server.",
+   "note": "skill 接它的 MCP：可自己部署或用托管版，查数据按次付费",
+   "note_en": "The skills connect to its MCP server: self-host it or use the hosted version; search data is paid per lookup.",
+   "stars": 52,
+   "pushed_at": "2026-10-31",
+   "license": "MIT",
+   "skills": 7,
+   "install": "npx skills add duckduckdeploy/openseo",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "every-app/seo-party-skills",
    "url": "https://github.com/every-app/seo-party-skills",
    "name": "seo-party-skills",
@@ -2470,6 +2693,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "ubersuggest/seo-skills",
+   "url": "https://github.com/ubersuggest/seo-skills",
+   "name": "ubersuggest/seo-skills",
+   "group": "research",
+   "engines": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "Ubersuggest 官方 SEO skill：关键词研究、竞品、内容简报、找内容需求、站点审计、AI 可见度和行动计划",
+   "desc_en": "Official Ubersuggest SEO skills and Claude Code plugin: keyword research, competitor analysis, content briefs, content demand, site audits, AI visibility and an SEO action plan.",
+   "note": "9 个里 8 个要接 Ubersuggest 的 MCP，用它的账号",
+   "note_en": "Eight of the nine skills need the Ubersuggest MCP server and an Ubersuggest account.",
+   "stars": 7,
+   "pushed_at": "2026-10-30",
+   "license": "Apache-2.0",
+   "skills": 9,
+   "install": "npx skills add ubersuggest/seo-skills",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "manifoldmcp/marketing-skills",
    "url": "https://github.com/manifoldmcp/marketing-skills",
    "name": "Manifold",
@@ -2524,6 +2773,33 @@
    "license": null,
    "skills": 1,
    "install": "npx skills add owensky-dev/seo-gsc-ga4-analyst",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "kid7st/agenticseo",
+   "url": "https://github.com/kid7st/agenticseo",
+   "name": "agenticseo",
+   "group": "research",
+   "engines": [
+    "google"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "给编程 agent 的本地 SEO 命令行加 10 个 skill：关键词、竞品、外链、本地 SEO、排名追踪和站点审计，不用服务器",
+   "desc_en": "Local command-line tool plus 10 agent skills for keyword research, competitor analysis, backlinks, local SEO, rank tracking and site audits. No server and no MCP.",
+   "note": "skill 改编自 OpenSEO；付费查询走 DataForSEO，按次付费",
+   "note_en": "Skills adapted from OpenSEO; paid lookups go to DataForSEO, pay per call.",
+   "stars": 3,
+   "pushed_at": "2026-11-12",
+   "license": "MIT",
+   "skills": 10,
+   "install": "npx skills add kid7st/agenticseo",
    "checked": "2026-11-16"
   },
   {
@@ -2895,6 +3171,34 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "jayanti-prajapati/research-first-writer",
+   "url": "https://github.com/jayanti-prajapati/research-first-writer",
+   "name": "research-first-writer",
+   "group": "content",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "chatgpt",
+    "perplexity"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "先研究再写的文章 skill：看真实排名页缺什么、每个数字记出处，不编“我们测过”，写给 Google 排名和 AI 引用",
+   "desc_en": "Writes research-first articles that rank in Google and get cited by ChatGPT, Perplexity and AI Overviews: real SERP research, a facts ledger, rule checks and no fake first-hand claims.",
+   "note": "",
+   "note_en": "",
+   "stars": 5,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add jayanti-prajapati/research-first-writer",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "seranking/marketing-automation-plugins",
    "url": "https://github.com/seranking/marketing-automation-plugins",
    "name": "seranking/marketing-automation-plugins",
@@ -2919,6 +3223,34 @@
    "license": null,
    "skills": 38,
    "install": "npx skills add seranking/marketing-automation-plugins",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "borisowlexa2010-star/IndexGap",
+   "url": "https://github.com/borisowlexa2010-star/IndexGap",
+   "name": "IndexGap",
+   "group": "content",
+   "engines": [
+    "google",
+    "bing",
+    "yandex"
+   ],
+   "format": "skill",
+   "lang": "multi",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "批量生成页面（programmatic SEO）发布前的质检：查编造的数字、整批模板出错、近似重复和 hreflang，中英俄输出",
+   "desc_en": "Quality control for programmatic-SEO pipelines: catches invented numbers, template-wide breakage, near-duplicates and broken hreflang before you publish. Pure Python, English and Russian skills.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 6,
+   "install": "npx skills add borisowlexa2010-star/IndexGap",
    "checked": "2026-11-16"
   },
   {
@@ -3321,6 +3653,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "spruikco/fat-agent-skill",
+   "url": "https://github.com/spruikco/fat-agent-skill",
+   "name": "fat-agent-skill",
+   "group": "technical",
+   "engines": [
+    "google",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "网站上线后的检查 agent：审计 SEO、AI 爬虫权限、安全、无障碍、性能、本地 SEO 等，再一项项带你修",
+   "desc_en": "FAT Agent (Fix, Audit, Test): post-launch website QA that audits SEO, AI crawler access, security, accessibility, performance, local SEO and more, then walks you through each fix.",
+   "note": "可选的 ctx 工具要用 curl | sh 装，skill 会先问你，不装也能用",
+   "note_en": "The optional ctx tool installs via curl | sh; the skill asks first and works without it.",
+   "stars": 40,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 2,
+   "install": "npx skills add spruikco/fat-agent-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "iamjeeth/launch-seo-skill",
    "url": "https://github.com/iamjeeth/launch-seo-skill",
    "name": "launch-seo-skill",
@@ -3641,6 +3999,29 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Quincunx33/ai-seo-skill",
+   "url": "https://github.com/Quincunx33/ai-seo-skill",
+   "name": "Quincunx33/ai-seo-skill",
+   "group": "technical",
+   "engines": [
+    "general"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "讲证据的 SEO 工程 skill：技术审计、结构化数据、页面体验，只在有仓库权限时改代码",
+   "desc_en": "Evidence-based SEO engineering skill for websites and web apps: technical audits, structured data, page experience and safe implementation, changing code only with repository access.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add Quincunx33/ai-seo-skill",
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "JakeLabate/Claude-SEO-Skills",
    "url": "https://github.com/JakeLabate/Claude-SEO-Skills",
    "name": "JakeLabate/Claude-SEO-Skills",
@@ -3699,6 +4080,36 @@
    "license": "MIT",
    "skills": 1,
    "install": "npx skills add ssheleg/seo-aeo-audit",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "yangjing6213-dev/seo-geo-smart-audit-skill",
+   "url": "https://github.com/yangjing6213-dev/seo-geo-smart-audit-skill",
+   "name": "seo-geo-smart-audit-skill",
+   "group": "technical",
+   "engines": [
+    "google",
+    "bing",
+    "chatgpt",
+    "perplexity",
+    "claude",
+    "gemini"
+   ],
+   "format": "skill",
+   "lang": "zh",
+   "agents": [
+    "codex"
+   ],
+   "featured": false,
+   "desc": "独立站 SEO/GEO 只读巡检：查收录、robots、sitemap、canonical、结构化数据、AI 爬虫和 llms.txt，确认的和待补的分开写",
+   "desc_en": "Read-only, evidence-backed SEO and GEO audit for independent sites: indexing, robots.txt, sitemaps, canonicals, structured data, AI crawlers and llms.txt, separating confirmed issues from open questions.",
+   "note": "",
+   "note_en": "",
+   "stars": 3,
+   "pushed_at": "2026-11-02",
+   "license": "Apache-2.0",
+   "skills": 1,
+   "install": "npx skills add yangjing6213-dev/seo-geo-smart-audit-skill",
    "checked": "2026-11-16"
   },
   {
@@ -3994,6 +4405,35 @@
    "license": "MIT",
    "skills": 3,
    "install": "npx skills add JittoJoseph/seo-skills",
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "lucholabs/applyra-aso-skill",
+   "url": "https://github.com/lucholabs/applyra-aso-skill",
+   "name": "applyra-aso-skill",
+   "group": "local",
+   "engines": [
+    "app-stores"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode",
+    "gemini-cli"
+   ],
+   "featured": false,
+   "desc": "App Store 和 Google Play 的 ASO skill：关键词、排名、竞品、元数据校验、本地化、截图简报和转化实验",
+   "desc_en": "ASO skill for the App Store and Google Play: keyword research, rankings, competitors, validated metadata, localization, screenshot briefs and conversion experiments.",
+   "note": "实时数据要 Applyra 账号（免费档也能用接口）",
+   "note_en": "Live ASO data needs an Applyra account (the free plan includes API access).",
+   "stars": 3,
+   "pushed_at": "2026-11-02",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add lucholabs/applyra-aso-skill",
    "checked": "2026-11-16"
   },
   {
@@ -4491,6 +4931,31 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "WorkSmartAI-alt/ai-visibility-monitor",
+   "url": "https://github.com/WorkSmartAI-alt/ai-visibility-monitor",
+   "name": "WorkSmartAI-alt/ai-visibility-monitor",
+   "group": "mcp",
+   "engines": [
+    "chatgpt",
+    "claude",
+    "perplexity"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "AI 可见度命令行：把买家会问的问题拿去问 ChatGPT、Claude、Perplexity，找你能赢的问题和该写的内容",
+   "desc_en": "Open-source CLI that runs your buyer queries against ChatGPT, Claude and Perplexity, scores adjacent queries you can win, shows which sources get cited and tracks the trend week over week.",
+   "note": "用你自己的各家模型 API Key",
+   "note_en": "Uses your own model API keys.",
+   "stars": 21,
+   "pushed_at": "2026-10-30",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "stufently/yandex-mcp",
    "url": "https://github.com/stufently/yandex-mcp",
    "name": "yandex-mcp",
@@ -4591,6 +5056,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "webappski/aeo-platform",
+   "url": "https://github.com/webappski/aeo-platform",
+   "name": "webappski/aeo-platform",
+   "group": "mcp",
+   "engines": [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "perplexity"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [],
+   "featured": false,
+   "desc": "AEO/GEO 命令行：量品牌在 ChatGPT、Claude、Gemini、Perplexity 里的可见度，查 AI 爬虫可抓取性和权威信号",
+   "desc_en": "Open-source AEO/GEO CLI: measures your brand across ChatGPT, Claude, Gemini and Perplexity, audits AI-bot crawlability and authority signals, and exports a brand context for a 30-step AEO plan.",
+   "note": "用你自己的模型 API Key（建议至少两家）；npm 安装时会跑 git config core.hooksPath .githooks，按 README 全局装或用 npx，别装进自己的 git 项目",
+   "note_en": "Uses your own model API keys (two recommended). Its npm postinstall runs git config core.hooksPath .githooks, so install it globally or use npx as the README says, not inside your own git project.",
+   "stars": 13,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "acamolese/google-search-console-mcp",
    "url": "https://github.com/acamolese/google-search-console-mcp",
    "name": "acamolese/google-search-console-mcp",
@@ -4615,6 +5106,57 @@
    "pushed_at": "2026-11-14",
    "license": "MIT",
    "skills": 5,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "waseemnasir2k26/fiverr-gig-optimizer",
+   "url": "https://github.com/waseemnasir2k26/fiverr-gig-optimizer",
+   "name": "fiverr-gig-optimizer",
+   "group": "mcp",
+   "engines": [
+    "marketplaces"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code"
+   ],
+   "featured": false,
+   "desc": "Fiverr 服务页优化命令行：给标题、标签、描述打分并给改法，附 Claude Code 命令，离线跑",
+   "desc_en": "Offline CLI for Fiverr sellers: scores a gig 0–100 with fixes for the title, search tags and description, checks buyer messages for filtered words and does the fee maths. Includes Claude Code commands.",
+   "note": "",
+   "note_en": "",
+   "stars": 10,
+   "pushed_at": "2026-11-02",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "onlymoein/google-search-console-mcp",
+   "url": "https://github.com/onlymoein/google-search-console-mcp",
+   "name": "onlymoein/google-search-console-mcp",
+   "group": "mcp",
+   "engines": [
+    "google"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "本地跑的 Search Console MCP：搜索数据、按小时数据、网址检查和站点地图，处理好接口的各种坑",
+   "desc_en": "Local MCP server for the Google Search Console API: search analytics, hourly data, URL inspection and sitemaps, with guards for the API's quirks.",
+   "note": "",
+   "note_en": "",
+   "stars": 10,
+   "pushed_at": "2026-11-11",
+   "license": "MIT",
+   "skills": 0,
    "install": null,
    "checked": "2026-11-16"
   },
@@ -4674,6 +5216,37 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "AutomateLab-tech/citation-intelligence",
+   "url": "https://github.com/AutomateLab-tech/citation-intelligence",
+   "name": "citation-intelligence",
+   "group": "mcp",
+   "engines": [
+    "perplexity",
+    "ai-overviews",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "bing"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "量 AI 引用的 MCP：查 Perplexity、AI 概览、ChatGPT、Claude、Gemini、Bing 对一个问题引用了哪些网址，12 个工具",
+   "desc_en": "Self-hosted MCP server that measures which URLs Perplexity, Google AI Overviews, ChatGPT, Claude, Gemini and Bing cite for a query. 12 tools, no telemetry.",
+   "note": "用你自己的各家 API Key",
+   "note_en": "Bring your own API keys.",
+   "stars": 8,
+   "pushed_at": "2026-11-02",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "pucilpet/crawlgraph-mcp",
    "url": "https://github.com/pucilpet/crawlgraph-mcp",
    "name": "crawlgraph-mcp",
@@ -4696,6 +5269,32 @@
    "pushed_at": "2026-11-12",
    "license": "MIT",
    "skills": 1,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "sudomichael/search-console-mcp",
+   "url": "https://github.com/sudomichael/search-console-mcp",
+   "name": "sudomichael/search-console-mcp",
+   "group": "mcp",
+   "engines": [
+    "google"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "只读的 Search Console MCP：用 Google 账号登录一次就能用，不用建 Google Cloud 项目，令牌只存本机",
+   "desc_en": "Read-only Google Search Console MCP server: one Google sign-in, no Google Cloud project or API keys, tokens stored only on your machine.",
+   "note": "",
+   "note_en": "",
+   "stars": 8,
+   "pushed_at": "2026-11-08",
+   "license": "MIT",
+   "skills": 0,
    "install": null,
    "checked": "2026-11-16"
   },
@@ -4836,6 +5435,60 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "tmolavi/geo-scope",
+   "url": "https://github.com/tmolavi/geo-scope",
+   "name": "geo-scope",
+   "group": "mcp",
+   "engines": [
+    "chatgpt",
+    "gemini",
+    "perplexity"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "AI 可见度测量框架：多家模型同题对比，记品牌提及、推荐和引用，可复现，带命令行和 MCP",
+   "desc_en": "Open framework for measuring AI answer visibility: entity mentions, recommendations and citations across model providers, with reproducible runs, a CLI and an MCP server.",
+   "note": "用你自己的模型 API Key",
+   "note_en": "Uses your own model API keys.",
+   "stars": 6,
+   "pushed_at": "2026-11-16",
+   "license": "MIT",
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "stufently/google-webtools-mcp",
+   "url": "https://github.com/stufently/google-webtools-mcp",
+   "name": "google-webtools-mcp",
+   "group": "mcp",
+   "engines": [
+    "google"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "Search Console 加 GA4 的 MCP：管站点、看搜索表现、查收录、出 GA4 报表、验证站点",
+   "desc_en": "MCP server for Google Search Console and Google Analytics 4: property management, search performance, indexing checks, GA4 reports and site verification.",
+   "note": "要 Google 服务账号；附带的 SKILL.md 是俄语",
+   "note_en": "Needs a Google service account; the bundled SKILL.md is in Russian.",
+   "stars": 6,
+   "pushed_at": "2026-11-06",
+   "license": "MIT",
+   "skills": 1,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "puneetindersingh/bulk-ai-cli-connector",
    "url": "https://github.com/puneetindersingh/bulk-ai-cli-connector",
    "name": "bulk-ai-cli-connector",
@@ -4885,6 +5538,36 @@
    "stars": 5,
    "pushed_at": "2026-11-10",
    "license": null,
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "cloro-dev/geo-tracker",
+   "url": "https://github.com/cloro-dev/geo-tracker",
+   "name": "cloro-dev/geo-tracker",
+   "group": "mcp",
+   "engines": [
+    "google",
+    "ai-overviews",
+    "bing",
+    "chatgpt",
+    "gemini"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "给 agent 用的 GEO 加 SEO 追踪 MCP：定时把问题发给 ChatGPT、Gemini、Google AI 模式等，回答存进你自己的数据库",
+   "desc_en": "Agent-driven GEO and SEO tracker: an MCP server that schedules prompts across ChatGPT, Gemini, Google AI Mode, Bing AI Mode, Search and News and stores every answer in your own Postgres.",
+   "note": "要自己部署，查询走 cloro 的接口（要它的 API Key）",
+   "note_en": "Self-hosted; queries go through the cloro API (needs a cloro API key).",
+   "stars": 4,
+   "pushed_at": "2026-11-07",
+   "license": "MIT",
    "skills": 0,
    "install": null,
    "checked": "2026-11-16"
@@ -4946,6 +5629,32 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "Rankparse/rankparse-mcp",
+   "url": "https://github.com/Rankparse/rankparse-mcp",
+   "name": "rankparse-mcp",
+   "group": "mcp",
+   "engines": [
+    "general"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "RankParse 托管的 SEO 数据 MCP：外链、域名权重、技术栈和页面审计，数据来自 Common Crawl",
+   "desc_en": "Hosted SEO data MCP server from RankParse: backlinks, domain authority, tech stack and page audits, built on Common Crawl data.",
+   "note": "托管服务，仓库里只有接口文档；免 Key 有 25 个工具，全部 85 个要它的 API Key，按次付费",
+   "note_en": "Hosted service; the repository holds only API docs. 25 tools work without a key, all 85 need a RankParse API key, billed per call.",
+   "stars": 4,
+   "pushed_at": "2026-11-07",
+   "license": null,
+   "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
    "repo": "Semust-com/semust-mcp",
    "url": "https://github.com/Semust-com/semust-mcp",
    "name": "semust-mcp",
@@ -4971,6 +5680,34 @@
    "pushed_at": "2026-11-16",
    "license": "MIT",
    "skills": 0,
+   "install": null,
+   "checked": "2026-11-16"
+  },
+  {
+   "repo": "sonnivasquez/gsc-mcp",
+   "url": "https://github.com/sonnivasquez/gsc-mcp",
+   "name": "sonnivasquez/gsc-mcp",
+   "group": "mcp",
+   "engines": [
+    "google"
+   ],
+   "format": "mcp",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode"
+   ],
+   "featured": false,
+   "desc": "本地 Search Console MCP，34 个工具：对比搜索表现、找 SEO 机会、查网址收录，默认只读",
+   "desc_en": "Local Google Search Console MCP server with 34 tools: compare search performance, find SEO opportunities and check URL indexing, read-only by default.",
+   "note": "",
+   "note_en": "",
+   "stars": 4,
+   "pushed_at": "2026-11-05",
+   "license": "Apache-2.0",
+   "skills": 1,
    "install": null,
    "checked": "2026-11-16"
   },
