@@ -5979,7 +5979,13 @@
    "name": "localseodata/mcp-server",
    "group": "mcp",
    "engines": [
-    "google"
+    "google",
+    "ai-overviews",
+    "bing",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude"
    ],
    "format": "mcp",
    "lang": "en",
@@ -5989,8 +5995,8 @@
     "gemini-cli"
    ],
    "featured": false,
-   "desc": "Local SEO Data 的 MCP，53 个本地 SEO 工具：SERP 和地图排名、评价、审计、关键词、竞品、网格追踪和 AI 可见度打分",
-   "desc_en": "Local SEO Data MCP server with 53 local SEO tools: SERP and map rankings, reviews, audits, keyword research, competitor analysis, geogrid tracking and AI visibility scoring.",
+   "desc": "Local SEO Data 的 MCP，55 个本地 SEO 工具：SERP 和地图排名、评价、审计、关键词、竞品、网格追踪和 AI 可见度打分",
+   "desc_en": "Local SEO Data MCP server with 55 local SEO tools: SERP and map rankings, reviews, audits, keyword research, competitor analysis, geogrid tracking and AI visibility scoring.",
    "note": "要 Local SEO Data 账号，按额度付费",
    "note_en": "Needs a Local SEO Data account, billed in credits.",
    "stars": 3,
