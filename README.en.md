@@ -8,7 +8,7 @@
 
 This list collects SEO and GEO skills for AI agents. SEO gets you ranked by search engines; GEO gets you mentioned and cited in AI answers. Most use the standard SKILL.md format, so any agent that supports skills can install them; see the [FAQ](#faq). Every project was checked by hand and scanned by a script before it was listed, and is sorted by job and by the search engine or AI platform it targets. Chinese AI search (Doubao, Yuanbao, Kimi, DeepSeek, Qwen) has its own section.
 
-81 skill projects + 5 MCP servers and CLI tools · metadata updated 2026-11-16
+152 skill projects + 38 MCP servers and CLI tools · metadata updated 2026-11-16
 
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🔌 MCP server or CLI tool · 🧩 full app · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
@@ -19,17 +19,18 @@ This list collects SEO and GEO skills for AI agents. SEO gets you ranked by sear
 
 ## Contents
 
-- [New this week](#new) (5)
+- [New this week](#new) (109)
 - [By type](#by-group)
-  - [All-in-one: audit → keywords → content → technical → tracking](#group-pipeline) (17)
-  - [GEO: get cited in AI answers](#group-geo) (21)
+  - [All-in-one: audit → keywords → content → technical → tracking](#group-pipeline) (30)
+  - [GEO: get cited in AI answers](#group-geo) (39)
   - [Chinese AI search: Doubao, Yuanbao, Kimi, DeepSeek, Qwen](#group-cn-ai) (5)
-  - [Keywords, competitors and ranking data](#group-research) (8)
-  - [Content writing and optimization](#group-content) (8)
-  - [Technical SEO and site audits](#group-technical) (11)
-  - [Local, e-commerce and app stores](#group-local) (7)
-  - [Backlinks, PR and off-site mentions](#group-offsite) (4)
-  - [MCP servers and CLI tools (not skills)](#group-mcp) (5)
+  - [Keywords, competitors and ranking data](#group-research) (17)
+  - [Content writing and optimization](#group-content) (13)
+  - [Technical SEO and site audits](#group-technical) (30)
+  - [Local, e-commerce and app stores](#group-local) (12)
+  - [Backlinks, PR and off-site mentions](#group-offsite) (6)
+  - [MCP servers and CLI tools (not skills)](#group-mcp) (35)
+  - [Related open-source platforms (full apps, not skills)](#group-apps) (3)
 - [By search engine and AI platform](#by-engines)
 - [FAQ](#faq)
 - [Resources](#resources)
@@ -38,8 +39,112 @@ This list collects SEO and GEO skills for AI agents. SEO gets you ranked by sear
 <a id="new"></a>
 ## New this week
 
-5 added in the last 7 days:
+109 added in the last 7 days:
 
+- [niubigeo](https://github.com/Albert-Weasker/niubigeo) ★10.3k: NiubiGEO, an open-source GEO research tool: enter a domain, compare how models describe your product, which competitors they recommend and which sources they cite, and repeat the same research later.
+- [GEOFlow](https://github.com/yaojingang/GEOFlow) ★4.1k: Open-source GEO content engineering and multi-site distribution platform with AI quality inspection, hosted sites, browser-assisted publishing and signed updates, plus a skill to operate it.
+- [growth-lab](https://github.com/tsingyuai/growth-lab) ★2k: Open-source growth tool that runs Claude Code or Codex through an SEO page loop: find search demand, write the page, review it and read its performance. Also has a WeChat article loop and crawlers for Douyin, Weibo, Bilibili and more.
+- [python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer) ★1.5k: Long-standing SEO analysis CLI and Python library: crawls a site, counts words in the body and warns of technical SEO issues, with an optional AI content pass through Claude.
+- [LibreCrawl](https://github.com/PhialsBasement/LibreCrawl) ★1.1k: Free SEO crawler and open-source alternative to Screaming Frog: crawl websites, analyze links, extract SEO data and export results without subscription fees.
+- [specification.website](https://github.com/jdevalk/specification.website) ★925: Joost de Valk's website specification: 185 pages on what a good website does, from HTML and accessibility to security, SEO and agent readiness, each item sourced. A skill and MCP server let agents audit against it.
+- [bisibility](https://github.com/CorgiCorner/bisibility) ★605: Open-source SEO platform: track Google rankings, research keywords and inspect backlinks, with 20 skills for keyword clustering, competitor analysis, local SEO and AI visibility audits.
+- [limelit-co/open](https://github.com/limelit-co/open) ★445: Limelit's self-hosted AI visibility tracker: one Go binary and SQLite, tracking how ChatGPT, Claude, Perplexity, Gemini and AI Overviews mention and cite your brand. Ships skills that check AI crawler access and llms.txt.
+- [OpenGSO](https://github.com/sherwinvishesh/OpenGSO) ★433: CLI that makes a website readable by AI agents: score it 0 to 100, generate a Markdown twin of every page plus robots.txt, llms.txt and sitemap.xml, and serve the twin at the same URL.
+- [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) ★429: GetCito, an open-source AI search optimization and visibility tracking platform, with 30 skills: answer-first rewrites, FAQs, competitor comparisons, citation gaps, content refreshes and wrong-claim fixes.
+- [geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker) ★329: Open-source AI visibility tracker and AEO checker: how ChatGPT, Perplexity, Gemini and Google AI Mode mention and cite your brand. MCP server and CLI; the skill drives the CLI.
+- [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) ★328: Free global SEO and GEO skill with 18 market portals and 56 stdlib scripts: multilingual GEO, programmatic SEO, Core Web Vitals and penalty recovery, plus a monitoring daemon and CI gates.
+- [yan-skills](https://github.com/yan-labs/yan-skills) ★309: Skills for indie site builders doing SEO: rankup covers a site's whole life from keyword choice to launch and growth, backlink covers where to post links and whether they took. Also browser data pulls, image generation and the Cloudflare CLI.
+- [ansvisor](https://github.com/ansvisor/ansvisor) ★242: Open-source AI search execution platform: tracks visibility across ChatGPT, Claude, Gemini, AI Overviews, Perplexity and more, and lets agents turn signals into prioritized actions and drafted fixes. Ships 41 skills.
+- [eGEOagents](https://github.com/mverab/eGEOagents) ★218: Open-source GEO and AEO toolkit: content scoring, schema generation, competitive analysis, validation and a GEO loop, so content gets into ChatGPT, Perplexity, Gemini and Claude answers. CLI, Claude Code and MCP.
+- [canonry](https://github.com/Canonry/canonry) ★209: Agent-first AEO and GEO platform: tracks mentions and citations across ChatGPT, Claude and Gemini, joins them with Search Console, GA4 and AI crawler traffic, then lets your agent create and publish content. REST API, CLI, MCP and web.
+- [codex-seo](https://github.com/zhtyyx/codex-seo) ★157: SEO audits inside the Codex CLI: 26 sub-skills and 19 specialist roles across technical SEO, schema, GEO, local and e-commerce, ending in a prioritized action plan.
+- [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) ★102: Free Rust SEO and GEO command-line tool: 64-rule audits, live crawls, AI citation scores, rank drift, Search Console pulls, CI gates and an MCP server, driven by a skill.
+- [screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp) ★96: Headless MCP server for Screaming Frog SEO Spider: run crawls, export and analyze crawl data through its CLI, for scheduled audits, CI and unattended agents.
+- [vercel-seo-audit](https://github.com/JosephDoUrden/vercel-seo-audit) ★81: Explains why Google isn't indexing a Next.js site on Vercel, from what the deployed site actually sends: metadata streamed into the body, redirect chains, the trailing-slash 308, robots.txt, the sitemap and noindex. CLI plus skill.
+- [pagespeed-insights-mcp](https://github.com/ruslanlap/pagespeed-insights-mcp) ★81: MCP server for the Google PageSpeed Insights and Chrome UX Report APIs: analyze, compare and optimize web performance from your agent.
+- [lighthouse-mcp-server](https://github.com/danielsogl/lighthouse-mcp-server) ★75: MCP server that runs Google Lighthouse audits with 13+ tools for performance, accessibility, SEO and security.
+- [legends-geogrid](https://github.com/avalonreset/legends-geogrid) ★59: Agent-first Google Maps rank checker, local rank tracker and Google Business Profile audit studio, with circular geo-grid maps and 18-page local SEO PDF reports.
+- [OpenGSC](https://github.com/fenjo26/OpenGSC) ★58: Self-hosted Google Search Console dashboard: rank tracking, keyword research, AI visibility audits and an AI SEO content suite, with a 105-tool MCP server and 8 skills.
+- [southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit) ★54: Systematic SEO audits and competitive analyses for service businesses, ending in a client-ready PDF proposal: keyword research, technical and AI visibility audit, content strategy and quick wins.
+- [seo-party-skills](https://github.com/every-app/seo-party-skills) ★50: Experimental skills for OpenSEO: claiming a ChatGPT business profile, competitor strategy, customer keywords, keyword gaps, money pages, ranking on AI and reverse-engineering a competitor's SEO.
+- [sitewalk](https://github.com/adityaarsharma/sitewalk) ★48: Sitewalk's open-source technical SEO audit MCP server: crawls your site like a search bot and returns problems ranked by impact with fixes, a health score, and PDF and CSV reports.
+- [openspider](https://github.com/wojcikdominik/openspider) ★47: Open-source website crawler and technical SEO auditor for AI agents and humans on macOS and Windows, built with Rust and Tauri. Its MCP server is read-only by default; starting crawls needs your permission.
+- [mxfschr/claude-code-seo](https://github.com/mxfschr/claude-code-seo) ★46: An SEO system for Claude Code: a 26-section knowledge base plus 9 slash commands that run live audits against Search Console and DataForSEO, covering cannibalization, cluster expansion, competitor watch and quick wins.
+- [shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill) ★45: Audits any Shopify theme for performance, SEO, AEO and GEO in 90 seconds: 80+ checks, a scored report and paste-in Liquid fixes.
+- [surendranb/google-search-console-mcp](https://github.com/surendranb/google-search-console-mcp) ★40: Google Search Console MCP server, with 5 skills for brand visibility, citation opportunities, intent analysis and search appearance audits.
+- [claude-seo-skill](https://github.com/mangollc/claude-seo-skill) ★39: SEO and AEO plugin for agencies: keyword research, technical audits, content optimization, local SEO, backlinks and AI search optimization in 6 skills. No API keys needed.
+- [seo-ai-link](https://github.com/chenchaoge/seo-ai-link) ★38: Link building for independent sites end to end: mine competitor backlinks, manage a link database, let AI submit links, and recheck indexing, with visual reports and the author's tested link list built in.
+- [seo-guide-skill](https://github.com/lesishu/seo-guide-skill) ★33: End-to-end SEO skill: site diagnosis, on-page optimization, technical SEO, content strategy and link building.
+- [contentforge](https://github.com/indranilbanerjee/contentforge) ★33: Editorial production system for long-form content: a 10-phase pipeline researches, fact-checks, drafts, humanizes and adds internal links to a publication-ready .docx, then checks AI citations and content decay after publishing.
+- [google-seo-mcp](https://github.com/Akxan/google-seo-mcp) ★30: SEO and GEO MCP server with 102 tools: Search Console, GA4, PageSpeed Insights, structured data, llms.txt and AI crawler checks, plus edits on WordPress (Yoast, WP-CLI) and GitHub.
+- [agentmarkup](https://github.com/agentmarkup/agentmarkup) ★27: Build-time llms.txt, JSON-LD, Markdown mirrors, AI crawler controls and validation for Vite, Astro, Next.js, Nuxt and any static site, with a skill that sets it up.
+- [local-falcon/mcp](https://github.com/local-falcon/mcp) ★26: MCP server for Local Falcon: geo-grid rank tracking, campaign management and competitor analysis across Google Maps, Apple Maps, ChatGPT, Gemini and AI Overviews, with a local visibility skill.
+- [aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions) ★25: Open-source CLI and MCP server that tracks how ChatGPT, Claude, Gemini, Grok and Perplexity mention your brand and competitors, ranks mentions, extracts cited links and domains, and builds a local HTML report.
+- [autoseo](https://github.com/codextde/autoseo) ★25: Open-source AI SEO and GEO platform: brand tracking in ChatGPT, Perplexity, Gemini, Claude and AI Overviews, plus keyword research, rank tracking, site audits and backlinks, with 17 skills.
+- [launch-seo-skill](https://github.com/iamjeeth/launch-seo-skill) ★21: The 10 SEO things to do right after a site goes live, from Search Console, Analytics and noindex to robots.txt, the sitemap, www vs non-www, titles and Bing Webmaster Tools. It checks the live site and fixes what it can.
+- [yandex-mcp](https://github.com/stufently/yandex-mcp) ★21: MCP servers for Yandex APIs with 94 tools: Search, Wordstat, Webmaster, Metrika and Direct, plus skills for keyword research and competitive analysis in Russian and CIS markets.
+- [vinpatel/aeorank](https://github.com/vinpatel/aeorank) ★20: Scans any website for AI visibility, scores it 0 to 100 across 12 dimensions and generates 8 AI-readable files such as llms.txt and a robots.txt patch. CLI, GitHub Action and app.
+- [99-website](https://github.com/NicoSKOOL/99-website) ★19: Claude Code skills that build SEO websites scoring 99 on Lighthouse with Astro and Cloudflare: business intake, keyword-based sitemap, images, audits, deployment and Google Business Profile sync.
+- [agent-lighthouse](https://github.com/ForkPoint/agent-lighthouse) ★17: Lighthouse for AI agents: 223 audits of whether ChatGPT, Claude, Perplexity, AI crawlers and agentic browsers can discover, parse, cite and act on your website, covering llms.txt, robots.txt, Schema.org and more.
+- [SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic) ★16: Korean Claude Code plugin for SEO and GEO diagnosis: crawl, render, Core Web Vitals, structured data, AI crawler policy and regression checks, with Search Console, GA4 and PageSpeed. Applies approved fixes to Next.js projects.
+- [mcp-abilities-rankmath](https://github.com/bjornfix/mcp-abilities-rankmath) ★16: Rank Math SEO abilities for MCP: read and update meta descriptions, titles and focus keywords through the WordPress Abilities API.
+- [seo-signal-skills](https://github.com/daily-growth-signals/seo-signal-skills) ★14: SignalDig's research skill: keyword demand, related queries, SERPs, trends, competitors, GEO visibility and backlinks, plus public discussions on X, Reddit, Xiaohongshu, Zhihu and Threads.
+- [CodoSEO](https://github.com/SafrowLabs/CodoSEO) ★14: Fast open-source SEO and GEO monitoring and site audits built in Rust, an alternative to Screaming Frog and Ahrefs Site Audit, with an MCP server and an audit skill.
+- [where-to-submit-your-startup](https://github.com/mmmmingos/where-to-submit-your-startup) ★13: Open library of 1,085 places to submit a startup, each marked free, free with a catch or paid, with reported problems. The skill lets your agent answer whether and how to submit to each.
+- [GBP Autopilot](https://github.com/tanzeeldevAi/google-business-profile-ai-automation) ★13: GBP Autopilot, a CLI for Google Business Profiles: scores a profile against 57 local SEO rules with a client-ready report, then fixes it through the API, replies to reviews, posts weekly, sets holiday hours and alerts you to changes.
+- [seo-utils-skills](https://github.com/seoutilsapp/seo-utils-skills) ★12: Guide skill for the SEO Utils MCP server: teaches the agent when to query local data, when to run a paid lookup and when to write, so rank reports, competitor keywords and cannibalization checks use the right tool.
+- [seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit) ★11: SEO recovery kit for e-commerce and D2C sites: 18 Claude Code skills for core-update diagnosis and recovery, AI search visibility, Search Console and AI citation tracking, and PDF reports for decision makers.
+- [etsy-listing-helper](https://github.com/silennsong/etsy-listing-helper) ★11: Turns print-on-demand product specs and photos into copy-paste-ready Etsy listings: title, 13 SEO tags, description, official category path and attributes.
+- [croftweaver](https://github.com/karero/croftweaver) ★10: Builds a complete website from a short brief on Astro, GitHub and Cloudflare, with SEO, schema markup, accessibility checks and tests. After launch, Search Console data and a weekly check of which AI assistants name the site point to the next edit.
+- [topcited-skills](https://github.com/TopCited/topcited-skills) ★10: TopCited's skills: SEO and GEO knowledge, the TopCited API, and a guided AI visibility workflow.
+- [gscdump](https://github.com/harlan-zw/gscdump) ★10: Dumps your entire Google Search Console dataset locally and runs reports through a CLI or MCP server as JSON, so your agents can find insights and improve your SEO.
+- [seo-night-skill](https://github.com/IncomeStreamSurfer/seo-night-skill) ★10: Fixes AI-slop SEO on AI-built websites: audits the codebase, rewrites poetic headings into what people search for, fills gaps, and commits each change separately on a branch for review.
+- [taobao-shop-growth](https://github.com/yuyang2230/taobao-shop-growth) ★10: Taobao and Qianniu shop growth skills: shop diagnosis, titles, filling required attributes to lift traffic limits, content traffic and batch automation, each method field-tested on a real shop.
+- [acamolese/google-search-console-mcp](https://github.com/acamolese/google-search-console-mcp) ★10: Read-only Google Search Console MCP server with 17 tools: quick wins, CTR gaps, cannibalization, traffic-drop diagnosis and indexing, plus a white-label HTML SEO audit.
+- [legends-github](https://github.com/avalonreset/legends-github) ★9: GitHub SEO for repositories: audit repo health, research real Google and GitHub search demand, optimize the description, topics, README and social preview, and ship clean releases.
+- [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator) ★9: W3C HTML and CSS validator and technical SEO audit MCP server, part of the DigestSEO suite.
+- [pseolint](https://github.com/ouranos-labs/pseolint) ★8: Pre-publish checks for programmatic SEO that audit page relationships, not just pages, to stay clear of SpamBrain. AI-triaged findings across 8 LLM providers, cost caps and an MCP server.
+- [AKzar1el/mcp-gsc](https://github.com/AKzar1el/mcp-gsc) ★8: Google Search Console MCP server: clicks, impressions, average position, URL inspection, sitemaps and indexing workflows. Run locally with npm or self-host on Cloudflare Workers.
+- [crawlgraph-mcp](https://github.com/pucilpet/crawlgraph-mcp) ★8: MCP server for the CrawlGraph backlink API built on the Common Crawl webgraph: backlink lookups, backlink changes and competitor gap analysis.
+- [search-os](https://github.com/vamsireddy4/search-os) ★7: One Claude Code skill for SEO, AEO, GEO and AI visibility: get found in Google, Bing, ChatGPT, Claude, Perplexity and AI Overviews.
+- [agent-readiness](https://github.com/Canonry/agent-readiness) ★7: Open-source website agent-readiness audit: scores 16 factors from llms.txt and AI crawler access to structured data and extractable content, with ranked fixes your agent can act on. Runs offline, no API keys.
+- [literallydotdev/aeo](https://github.com/literallydotdev/aeo) ★7: CLI that runs an AI visibility (AEO) audit on your machine: whether ChatGPT, Claude, Gemini, Perplexity and AI Overviews mention and cite you, written to a portable evidence bundle anyone can verify offline.
+- [gsc-mcp](https://github.com/geniushub-seo/gsc-mcp) ★7: Local Google Search Console MCP server: a single Go binary, one-line install, sign-in with your own Google account, and 6 skills for CTR gaps, index health, traffic-decline diagnosis and reports.
+- [mcp-trendpulse](https://github.com/AKzar1el/mcp-trendpulse) ★7: Google News and Google Trends MCP server for keyword, market and content research: compare keyword momentum, explore related demand and add current news.
+- [altorank](https://github.com/AltoRank/altorank) ★6: Open-source alternative to Outrank and Jasper: keyword research, scored and fact-checked articles, Markdown or HTML export and CMS publishing, with every publish approved by a person. Ships a skill.
+- [JittoJoseph/seo-skills](https://github.com/JittoJoseph/seo-skills) ★6: Free open-source SEO audits for Shopify stores and any website: from a URL, see what Google and AI crawlers can read and what to fix first, with Shopify fixes in admin and theme terms. No app, no API keys.
+- [blacksparrow](https://github.com/Shantodotdev/blacksparrow) ★6: Local-first website crawler and 120-rule technical SEO audit engine in Rust, a lightweight Screaming Frog alternative with a built-in MCP server. Also checks llms.txt and AI crawler access.
+- [ai-bot-access](https://github.com/codevibe-technology/ai-bot-access) ★6: One command checks whether 24 AI, search and link-preview bots can read your site, against robots.txt and the real server response, plus share previews, bot IP verification and access-log reports.
+- [World-Class-SEO-Agent-System](https://github.com/wfprieto/World-Class-SEO-Agent-System) ★5: Model-agnostic SEO operating system: knowledge, prompts and evidence rules for technical SEO, content strategy, GEO, local SEO, accessibility, digital PR and competitive intelligence, plus a bounded seoctl CLI.
+- [aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit) ★5: Open-source AEO toolkit: 44 small checks that decide whether ChatGPT, Claude and Perplexity cite you, with a crawl-parse-score engine, MCP servers and 24 skills covering schema, freshness, AI crawlers, traffic drops and more.
+- [CiteLadder](https://github.com/abhij1306/CiteLadder) ★5: Self-hostable open-source AI search visibility tracker: see which brands and pages ChatGPT, Gemini, Claude and AI Overviews name. An alternative to Peec and Profound, with 17 skills.
+- [seo-gsc-ga4-analyst](https://github.com/owensky-dev/seo-gsc-ga4-analyst) ★5: Codex skill that joins Search Console performance with GA4 organic traffic and key events locally, producing a weekly SEO report and an action list.
+- [Manifold](https://github.com/manifoldmcp/marketing-skills) ★5: Manifold's free hosted marketing data MCP server with skills: Google search, AI answers, Search Console, Google Analytics, Google Maps, app stores and Amazon, plus Reddit, social and ad libraries.
+- [rankmath-seo-wp](https://github.com/Moksa1123/rankmath-seo-wp) ★5: WordPress article writer skill that produces Rank Math 80+ scoring posts as paste-ready Gutenberg blocks, including HowTo and FAQ blocks.
+- [rankcontrol](https://github.com/rankcontrol/rankcontrol) ★5: RankControl's CLI skill: AI search visibility and citations, SEO content planning, article generation and publishing to your CMS, backlinks and outreach, and reports.
+- [sitebulb-plugin](https://github.com/sitebulb/sitebulb-plugin) ★5: Official Sitebulb skills grounded in your real Sitebulb audit data: what to fix first, what changed since the last crawl, client-ready audit documents, dev tickets and post-release checks.
+- [pagination-independence-architecture](https://github.com/rebelytics/pagination-independence-architecture) ★5: Advanced technical SEO skill that makes a listing site's indexable value independent of paginated pages: audit pagination-orphaned items, design demand-backed subcategories, verify coverage, then prune per category.
+- [one-step-seo](https://github.com/6t9xstar/one-step-seo) ★5: Privacy-first, zero-dependency Node.js SEO platform for technical audits, AI search visibility (GEO and AEO), automated fixes and continuous monitoring, with 24 agent skills.
+- [searvex](https://github.com/cihantopac/searvex) ★5: Open-source SEO and AI search auditor for websites and code repositories: finds issues, groups them by root cause, and fixes the safe ones with rollback. Reports are one offline HTML file.
+- [bulk-ai-cli-connector](https://github.com/puneetindersingh/bulk-ai-cli-connector) ★5: WordPress plugin with a bundled MCP server: lets Claude, ChatGPT and other agents bulk edit Yoast and Rank Math SEO meta, JSON-LD schema, redirects and page copy over the REST API, with undo.
+- [google-discover-api-mcp-server](https://github.com/cotletdev/google-discover-api-mcp-server) ★5: Google Discover API and MCP server: read the live Discover feed of any country, see which publishers and stories trend, and track your own site in the feed.
+- [WordRocket/claude-seo-skills](https://github.com/WordRocket/claude-seo-skills) ★4: WordRocket's free SEO skills: a full-site audit with 6 specialist agents in parallel, plus local SEO pages, AI Overviews visibility, backlinks and core-update recovery. Every recommendation is checked against Google's own documentation.
+- [seranking/marketing-automation-plugins](https://github.com/seranking/marketing-automation-plugins) ★4: Marketing and content skills from SE Ranking and Planable: briefs, editorial plans, content refreshes, AI visibility benchmarks and comparison pages, plus paid ads and social.
+- [lighthouse-skill](https://github.com/nimajafari/lighthouse-skill) ★4: Agent skill for running Google Lighthouse: measure performance, accessibility, SEO and best practices, set budgets, gate CI, and re-measure to verify that fixes worked.
+- [yandex-webmaster-mcp](https://github.com/BoxLab-Ltd/yandex-webmaster-mcp) ★4: Read-only MCP server for Yandex Webmaster: query indexing, search queries, diagnostics and backlinks in plain language, with URL recrawl and secretless login.
+- [geolint](https://github.com/iliasabk/geolint) ★4: ESLint for AI search: checks robots.txt rules for 51 AI crawlers, llms.txt, structured data and citability against 52 rules, as a CLI and an MCP server.
+- [geo-audit](https://github.com/g-shevchenko/geo-audit) ★4: Open-source GEO audit toolkit that scores any URL for AI search visibility in ChatGPT, Perplexity, Claude, Gemini and AI Overviews and writes a prioritized action plan.
+- [semust-mcp](https://github.com/Semust-com/semust-mcp) ★4: Semust MCP server: Google Search Console, GA4, rank tracking, AI Overview visibility, Bing, Yandex and web analytics, plus Google Ads and social posting.
+- [claude-code-seo-starter](https://github.com/AntonioBlago/claude-code-seo-starter) ★3: Claude Code starter for SEO freelancers and agencies: the full client workflow from status quo and potential analysis to an offer and a PDF, with an intent-aware CTR model.
+- [llms-txt-writer](https://github.com/shimo4228/llms-txt-writer) ★3: Writes and checks documents only AI reads (llms.txt, llms-full.txt, FAQ pages, glossaries) so AI search can cite them, scoring each draft with a local script against thresholds from studies of AI citation.
+- [get-cited-by-ai](https://github.com/paultaki/get-cited-by-ai) ★3: GEO skill for getting cited by AI search: every rule is evidence-tagged from 26,767 measured citations across the author's seven sites, with a demand-gated workflow.
+- [ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder) ★3: Methodology skill for building an AI visibility tracking strategy: the prompt set, grouping, brand roster and reporting split that measure how a brand shows up in ChatGPT, Gemini, Perplexity and AI Overviews, on any monitoring platform.
+- [ai-search-audit-full](https://github.com/Olexan-art/ai-search-audit-full) ★3: Audits one page or up to 50 pages for search and AI search: every problem with its source and a fix direction, an answer map, a heat map of problems, before/after and local history, in one HTML report.
+- [aizaloapp/aeorank](https://github.com/aizaloapp/aeorank) ★3: AEORank's SEO, AEO and GEO diagnostic skill: 62 technical rules, 14 semantic dimensions and live Perplexity and Google AI Mode citation checks through the AEORank API or remote MCP.
+- [JakeLabate/Claude-SEO-Skills](https://github.com/JakeLabate/Claude-SEO-Skills) ★3: 20 technical SEO audit skills: canonicals, headings, internal links, cannibalization, llms.txt, metadata, robots.txt, sitemaps, soft 404s and more. Each crawls a site or scans local HTML and exports CSV or .docx.
+- [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) ★3: Audits a website's visibility across Google, Bing and Yandex and across AI Overviews, ChatGPT, Perplexity, Claude and Gemini, with source evidence for every finding and a prioritized change plan.
+- [localseodata/mcp-server](https://github.com/localseodata/mcp-server) ★3: Local SEO Data MCP server with 53 local SEO tools: SERP and map rankings, reviews, audits, keyword research, competitor analysis, geogrid tracking and AI visibility scoring.
+- [a-bibikov/ai-search-audit](https://github.com/a-bibikov/ai-search-audit) ★3: Checks whether ChatGPT, Claude and Perplexity can read, understand and cite your site with 56 AI search checks, as a CLI and a GitHub Action, with JSON output for scripts and agents.
 - [zaDojo](https://github.com/zaDojo/seo-geo-mcp) ★2: zaDojo's 12 SEO and GEO skills on its hosted MCP server: keyword research, live SERPs, competitors and backlinks, site audits, rank tracking, local SEO, Search Console, GA4 and AI visibility in ChatGPT, Gemini, Perplexity and AI Overviews.
 - [geo-skills](https://github.com/aivisibilitycensus/geo-skills) ★5: GEO measurement without a score: lists what stops AI search from reading a page, counts how often AI answers name a brand with 95% ranges, verifies AI crawlers against published IP ranges, and grades every tactic by its evidence.
 - [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins) ★0: CrakSEO's SEO plugins, each a skill on one of its hosted MCP servers: keyword research, live SERPs, backlinks, rank tracking, site audits, local SEO, AI search visibility, URL indexing and Search Console.
@@ -62,6 +167,8 @@ One set of skills covering most of SEO, some with GEO as well.
 
 - **[aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills)** · ★ 3.1k<br>Aaron's 120 marketing skills, 16 of them for SEO and GEO, plus narrative, social, email, paid, influencer and launch; install as a plugin, portable skills or an eight-bot team.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-15 · Multilingual · 120 skills · Apache-2.0</sub>
 
+- **[growth-lab](https://github.com/tsingyuai/growth-lab)** · ★ 2k<br>Open-source growth tool that runs Claude Code or Codex through an SEO page loop: find search demand, write the page, review it and read its performance. Also has a WeChat article loop and crawlers for Douyin, Weibo, Bilibili and more.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · Multilingual · 22 skills · Apache-2.0</sub>
+
 - **[seo-skills](https://github.com/Illyism/seo-skills)** · ★ 1.3k<br>Illyism's SEO skills for Claude Code, Cursor and Codex: a daily repo SEO autopilot, technical teardowns, Ahrefs and DataForSEO SERP research, /vs/ pages, title rewrites, AI-citation tracking, link building and directory submissions.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-12 · English · 30 skills</sub><br><sub>💡 The author sells SEO services too: the linkdr, aiseotracker and awesome-tools skills connect to his own paid products; Ahrefs and DataForSEO need your own accounts.</sub>
 
 - **[marketing-skills](https://github.com/kostja94/marketing-skills)** · ★ 1.1k<br>160+ marketing and SEO skills: technical and on-page SEO, research, content, 40+ page types, paid ads and channels, grounded in the product context you provide.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-06 · English · 15 skills · MIT</sub>
@@ -76,7 +183,13 @@ One set of skills covering most of SEO, some with GEO as well.
 
 - **[7deer_skills](https://github.com/kennyzir/7deer_skills)** · ★ 342<br>33 skills for building Roblox game sites: judge whether a game is worth it, keyword research, site planning, SEO QA, ongoing updates and backlink growth.<br><sub>Targets: Google</sub><br><sub>updated 2026-09-29 · Chinese · 33 skills · MIT</sub>
 
+- **[everyinfra/seo-skills](https://github.com/everyinfra/seo-skills)** · ★ 328<br>Free global SEO and GEO skill with 18 market portals and 56 stdlib scripts: multilingual GEO, programmatic SEO, Core Web Vitals and penalty recovery, plus a monitoring daemon and CI gates.<br><sub>Targets: Google · Bing · ChatGPT · Gemini · Google AI Overviews · Yandex</sub><br><sub>updated 2026-11-16 · Multilingual · Apache-2.0</sub>
+
+- **[yan-skills](https://github.com/yan-labs/yan-skills)** · ★ 309<br>Skills for indie site builders doing SEO: rankup covers a site's whole life from keyword choice to launch and growth, backlink covers where to post links and whether they took. Also browser data pulls, image generation and the Cloudflare CLI.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · Chinese · 11 skills · MIT</sub>
+
 - **[beyondseo](https://github.com/beyondtahir/beyondseo)** · ★ 267<br>A complete SEO workflow with its own crawler: SEO, AEO and GEO, content, competitors and reputation, plus 206 publishing sources with DR context and tailored backlink plans. The core needs no API keys.<br><sub>Targets: Google · ChatGPT</sub><br><sub>updated 2026-11-04 · English · MIT</sub>
+
+- **[codex-seo](https://github.com/zhtyyx/codex-seo)** · ★ 157<br>SEO audits inside the Codex CLI: 26 sub-skills and 19 specialist roles across technical SEO, schema, GEO, local and e-commerce, ending in a prioritized action plan.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-09 · Multilingual · 33 skills · MIT</sub><br><sub>💡 A port of AgriciDaniel/claude-seo (listed above) to the Codex CLI, with a Chinese README.</sub>
 
 - **[seo-god](https://github.com/AKCodez/seo-god)** · ★ 123<br>Turns Claude Code into an SEO operator for your own site: crawls with a local OpenSEO container, fixes issues in your repo, diffs Search Console numbers day over day and runs on a schedule. The free path needs no paid keys.<br><sub>Targets: Google</sub><br><sub>updated 2026-08-03 · English · MIT</sub>
 
@@ -84,9 +197,27 @@ One set of skills covering most of SEO, some with GEO as well.
 
 - **[akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer)** · ★ 80<br>Akii's free Claude Code plugin for SEO, AEO and GEO: audits sites, plans content, checks links and generates schema. AI visibility is a point-in-time estimate from public web signals or optional Ahrefs Brand Radar data, not direct queries to each engine.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-13 · English · 12 skills · MIT</sub><br><sub>💡 Sends an anonymous install count to akii.com at most once a day per machine (no code or URLs); set DO_NOT_TRACK=1 to turn it off.</sub>
 
+- **[mxfschr/claude-code-seo](https://github.com/mxfschr/claude-code-seo)** · ★ 46<br>An SEO system for Claude Code: a 26-section knowledge base plus 9 slash commands that run live audits against Search Console and DataForSEO, covering cannibalization, cluster expansion, competitor watch and quick wins.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-11 · English · 12 skills</sub><br><sub>💡 Live data needs Search Console access and a DataForSEO account (pay as you go).</sub>
+
+- **[claude-seo-skill](https://github.com/mangollc/claude-seo-skill)** · ★ 39<br>SEO and AEO plugin for agencies: keyword research, technical audits, content optimization, local SEO, backlinks and AI search optimization in 6 skills. No API keys needed.<br><sub>Targets: Google · ChatGPT · Perplexity · Google AI Overviews</sub><br><sub>updated 2026-11-06 · English · 6 skills</sub>
+
+- **[seo-guide-skill](https://github.com/lesishu/seo-guide-skill)** · ★ 33<br>End-to-end SEO skill: site diagnosis, on-page optimization, technical SEO, content strategy and link building.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-01 · Chinese · MIT</sub>
+
 - **[seojuice-skills](https://github.com/calm-north/seojuice-skills)** · ★ 22<br>14 practitioner skills from SEOJuice: full audits, page speed, keyword strategy, internal linking, content recovery, beating competitors and AI visibility.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-02-27 💤 · English · 14 skills · MIT</sub>
 
+- **[seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit)** · ★ 11<br>SEO recovery kit for e-commerce and D2C sites: 18 Claude Code skills for core-update diagnosis and recovery, AI search visibility, Search Console and AI citation tracking, and PDF reports for decision makers.<br><sub>Targets: Google · ChatGPT · Perplexity · Google AI Overviews</sub><br><sub>updated 2026-11-13 · English · 19 skills · MIT</sub>
+
+- **[croftweaver](https://github.com/karero/croftweaver)** · ★ 10<br>Builds a complete website from a short brief on Astro, GitHub and Cloudflare, with SEO, schema markup, accessibility checks and tests. After launch, Search Console data and a weekly check of which AI assistants name the site point to the next edit.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · English · 40 skills · MIT</sub>
+
 - **[seo-skills](https://github.com/RomeoSEO/seo-skills)** · ★ 8<br>RomeoSEO's free SEO and GEO skill pack: a start-here skill orders the work, then keyword and intent research, technical and schema audits, comparison pages, pre-publish QA, AI-answer visibility and brand-fact fixes, and Reddit and LinkedIn placement.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-11 · English · 50 skills · MIT</sub><br><sub>💡 The curl \| bash line on the website downloads a zip from romeoseo.com; to read the files first, git clone and run the repo's install.sh. DataForSEO is optional and paid per call; the skills set a spending cap.</sub>
+
+- **[search-os](https://github.com/vamsireddy4/search-os)** · ★ 7<br>One Claude Code skill for SEO, AEO, GEO and AI visibility: get found in Google, Bing, ChatGPT, Claude, Perplexity and AI Overviews.<br><sub>Targets: Google · Bing · ChatGPT · Perplexity · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-12 · English · MIT</sub>
+
+- **[World-Class-SEO-Agent-System](https://github.com/wfprieto/World-Class-SEO-Agent-System)** · ★ 5<br>Model-agnostic SEO operating system: knowledge, prompts and evidence rules for technical SEO, content strategy, GEO, local SEO, accessibility, digital PR and competitive intelligence, plus a bounded seoctl CLI.<br><sub>Targets: Google · Google AI Overviews</sub><br><sub>updated 2026-11-15 · 📝 prompts · English · MIT</sub>
+
+- **[WordRocket/claude-seo-skills](https://github.com/WordRocket/claude-seo-skills)** · ★ 4<br>WordRocket's free SEO skills: a full-site audit with 6 specialist agents in parallel, plus local SEO pages, AI Overviews visibility, backlinks and core-update recovery. Every recommendation is checked against Google's own documentation.<br><sub>Targets: Google · ChatGPT · Google AI Overviews</sub><br><sub>updated 2026-11-14 · English · 18 skills · MIT</sub><br><sub>💡 dataforseo-seo-tool needs a DataForSEO account (pay as you go); the rest need no keys.</sub>
+
+- **[claude-code-seo-starter](https://github.com/AntonioBlago/claude-code-seo-starter)** · ★ 3<br>Claude Code starter for SEO freelancers and agencies: the full client workflow from status quo and potential analysis to an offer and a PDF, with an intent-aware CTR model.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-12 · English · 4 skills · MIT</sub><br><sub>💡 Connects to the Visibly AI MCP server keyless by default (free knowledge tools); live Search Console, keyword and backlink data need a Visibly AI key.</sub>
 
 
 <details><summary>Install commands</summary>
@@ -101,6 +232,8 @@ npx skills add AgriciDaniel/claude-seo
 npx skills add nowork-studio/notfair-plugin
 # aaron-marketing-skills
 npx skills add aaron-he-zhu/aaron-marketing-skills
+# growth-lab
+npx skills add tsingyuai/growth-lab
 # seo-skills
 npx skills add Illyism/seo-skills
 # marketing-skills
@@ -115,18 +248,40 @@ npx skills add joeseesun/qiaomu-seo
 npx skills add mars-tw/open-seo-advisor-skill
 # 7deer_skills
 npx skills add kennyzir/7deer_skills
+# everyinfra/seo-skills
+npx skills add everyinfra/seo-skills
+# yan-skills
+npx skills add yan-labs/yan-skills
 # beyondseo
 npx skills add beyondtahir/beyondseo
+# codex-seo
+npx skills add zhtyyx/codex-seo
 # seo-god
 npx skills add AKCodez/seo-god
 # ultimate-seo-geo
 npx skills add mykpono/ultimate-seo-geo
 # akii-seo-ai-search-optimizer
 npx skills add akii-technologies-ltd/akii-seo-ai-search-optimizer
+# mxfschr/claude-code-seo
+npx skills add mxfschr/claude-code-seo
+# claude-seo-skill
+npx skills add mangollc/claude-seo-skill
+# seo-guide-skill
+npx skills add lesishu/seo-guide-skill
 # seojuice-skills
 npx skills add calm-north/seojuice-skills
+# seo-survival-kit
+npx skills add maxschottke-spec/seo-survival-kit
+# croftweaver
+npx skills add karero/croftweaver
 # seo-skills
 npx skills add RomeoSEO/seo-skills
+# search-os
+npx skills add vamsireddy4/search-os
+# WordRocket/claude-seo-skills
+npx skills add WordRocket/claude-seo-skills
+# claude-code-seo-starter
+npx skills add AntonioBlago/claude-code-seo-starter
 ```
 
 </details>
@@ -150,7 +305,13 @@ GEO (generative engine optimization) is about getting AI answers such as ChatGPT
 
 - **[recomby-geo](https://github.com/ViryaZheng/recomby-geo)** · ★ 456<br>An open-source GEO 'AI employee' kit: a GEO skills package (content writing, quality audits, a GEO pipeline) plus curated lists of agents and office CLIs that complete the stack. No API keys.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-07-04 · Chinese · 9 skills · MIT</sub>
 
+- **[limelit-co/open](https://github.com/limelit-co/open)** · ★ 445<br>Limelit's self-hosted AI visibility tracker: one Go binary and SQLite, tracking how ChatGPT, Claude, Perplexity, Gemini and AI Overviews mention and cite your brand. Ships skills that check AI crawler access and llms.txt.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-14 · English · 3 skills · Apache-2.0</sub><br><sub>💡 The AI crawler and llms.txt skills need no account; visibility tracking needs a self-hosted Limelit and your own model API keys.</sub>
+
+- **[GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool)** · ★ 429<br>GetCito, an open-source AI search optimization and visibility tracking platform, with 30 skills: answer-first rewrites, FAQs, competitor comparisons, citation gaps, content refreshes and wrong-claim fixes.<br><sub>Targets: Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-05 · English · 30 skills · MIT</sub><br><sub>💡 Tracking needs a self-hosted GetCito with your own model API keys; the standalone AEO coach skill does not.</sub>
+
 - **[voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent)** · ★ 385<br>Open-source GEO CLI: researches your brand and competitors, asks ChatGPT, Claude, Gemini, Perplexity, DeepSeek and others, and measures who gets mentioned and recommended, with reports and a leaderboard.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · DeepSeek</sub><br><sub>updated 2026-02-24 💤 · English · 3 skills · MIT</sub><br><sub>💡 Querying each model needs its API key.</sub>
+
+- **[geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker)** · ★ 329<br>Open-source AI visibility tracker and AEO checker: how ChatGPT, Perplexity, Gemini and Google AI Mode mention and cite your brand. MCP server and CLI; the skill drives the CLI.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-11 · English · MIT</sub><br><sub>💡 Collects AI answers through Bright Data's AI Scraper API (paid).</sub>
 
 - **[geo-first-principles](https://github.com/ALLENLION35/geo-first-principles)** · ★ 303<br>GEO first principles for business owners: starting from competition, customer needs and how deals close, decides whether GEO is worth doing, where the value is and how to invest, with a five-question field test.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-09-14 · Chinese · MIT</sub>
 
@@ -158,7 +319,13 @@ GEO (generative engine optimization) is about getting AI answers such as ChatGPT
 
 - **[geoptimize](https://github.com/cucuwang/geoptimize)** · ★ 263<br>Content-readiness lint for CI (formerly aeoptimize): deterministic GEO scans that catch regressions before publishing, plus skills to generate and transform content and keep an SEO experiment ledger.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-01 · Multilingual · 4 skills · MIT</sub>
 
+- **[ansvisor](https://github.com/ansvisor/ansvisor)** · ★ 242<br>Open-source AI search execution platform: tracks visibility across ChatGPT, Claude, Gemini, AI Overviews, Perplexity and more, and lets agents turn signals into prioritized actions and drafted fixes. Ships 41 skills.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-16 · English · 41 skills · MIT</sub><br><sub>💡 Tracking needs a self-hosted Ansvisor; the standalone AEO coach skill does not.</sub>
+
 - **[GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill)** · ★ 240<br>A GEO toolbox of three skills, from a quick pass on one article to a full-site workflow, to get ChatGPT, Doubao, Perplexity and other AI engines to mention you.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Google AI Overviews · Doubao · Kimi</sub><br><sub>updated 2026-08-05 · Chinese · 3 skills</sub>
+
+- **[eGEOagents](https://github.com/mverab/eGEOagents)** · ★ 218<br>Open-source GEO and AEO toolkit: content scoring, schema generation, competitive analysis, validation and a GEO loop, so content gets into ChatGPT, Perplexity, Gemini and Claude answers. CLI, Claude Code and MCP.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>updated 2026-11-11 · English · 5 skills · MIT</sub>
+
+- **[canonry](https://github.com/Canonry/canonry)** · ★ 209<br>Agent-first AEO and GEO platform: tracks mentions and citations across ChatGPT, Claude and Gemini, joins them with Search Console, GA4 and AI crawler traffic, then lets your agent create and publish content. REST API, CLI, MCP and web.<br><sub>Targets: ChatGPT · Gemini · Claude</sub><br><sub>updated 2026-11-16 · English · 3 skills · MIT</sub><br><sub>💡 Needs a self-hosted Canonry or its hosted version.</sub>
 
 - **[GEOHub](https://github.com/yaojingang/GEOHub)** · ★ 169<br>GEO SEO Hub: open, evidence-bounded GEO and SEO skills for AI search — discovery, diagnosis, content, measurement and one-line SEO planning. Experimental.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-08-31 · English · 9 skills · AGPL-3.0</sub>
 
@@ -176,7 +343,31 @@ GEO (generative engine optimization) is about getting AI answers such as ChatGPT
 
 - **[geoskills](https://github.com/Cognitic-Labs/geoskills)** · ★ 32<br>Six GEO skills to diagnose, fix and monitor your website's visibility in AI search, including Bing AI analytics and competitor comparisons.<br><sub>Targets: Google · Bing · ChatGPT · Perplexity · Gemini</sub><br><sub>updated 2026-10-01 · English · 8 skills · Apache-2.0</sub>
 
+- **[agentmarkup](https://github.com/agentmarkup/agentmarkup)** · ★ 27<br>Build-time llms.txt, JSON-LD, Markdown mirrors, AI crawler controls and validation for Vite, Astro, Next.js, Nuxt and any static site, with a skill that sets it up.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-11 · English · MIT</sub>
+
+- **[aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions)** · ★ 25<br>Open-source CLI and MCP server that tracks how ChatGPT, Claude, Gemini, Grok and Perplexity mention your brand and competitors, ranks mentions, extracts cited links and domains, and builds a local HTML report.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>updated 2026-11-13 · English · MIT</sub><br><sub>💡 Uses your own model API keys.</sub>
+
+- **[agent-lighthouse](https://github.com/ForkPoint/agent-lighthouse)** · ★ 17<br>Lighthouse for AI agents: 223 audits of whether ChatGPT, Claude, Perplexity, AI crawlers and agentic browsers can discover, parse, cite and act on your website, covering llms.txt, robots.txt, Schema.org and more.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-16 · English · Apache-2.0</sub>
+
+- **[topcited-skills](https://github.com/TopCited/topcited-skills)** · ★ 10<br>TopCited's skills: SEO and GEO knowledge, the TopCited API, and a guided AI visibility workflow.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>updated 2026-11-09 · English · 3 skills · MIT</sub><br><sub>💡 The API skill needs a TopCited API key.</sub>
+
+- **[agent-readiness](https://github.com/Canonry/agent-readiness)** · ★ 7<br>Open-source website agent-readiness audit: scores 16 factors from llms.txt and AI crawler access to structured data and extractable content, with ranked fixes your agent can act on. Runs offline, no API keys.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude</sub><br><sub>updated 2026-11-10 · English · 2 skills · MIT</sub>
+
+- **[aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit)** · ★ 5<br>Open-source AEO toolkit: 44 small checks that decide whether ChatGPT, Claude and Perplexity cite you, with a crawl-parse-score engine, MCP servers and 24 skills covering schema, freshness, AI crawlers, traffic drops and more.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-15 · English · 24 skills · Apache-2.0</sub>
+
+- **[CiteLadder](https://github.com/abhij1306/CiteLadder)** · ★ 5<br>Self-hostable open-source AI search visibility tracker: see which brands and pages ChatGPT, Gemini, Claude and AI Overviews name. An alternative to Peec and Profound, with 17 skills.<br><sub>Targets: ChatGPT · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-13 · English · 17 skills · AGPL-3.0</sub><br><sub>💡 Tracking needs a self-hosted CiteLadder or its hosted version.</sub>
+
 - **[geo-skills](https://github.com/aivisibilitycensus/geo-skills)** · ★ 5<br>GEO measurement without a score: lists what stops AI search from reading a page, counts how often AI answers name a brand with 95% ranges, verifies AI crawlers against published IP ranges, and grades every tactic by its evidence.<br><sub>Targets: ChatGPT · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-14 · English · 9 skills · MIT</sub><br><sub>💡 The checks need only Python 3 and no account; the answer collector needs your own DataForSEO or SerpApi key.</sub>
+
+- **[ai-search-audit-full](https://github.com/Olexan-art/ai-search-audit-full)** · ★ 3<br>Audits one page or up to 50 pages for search and AI search: every problem with its source and a fix direction, an answer map, a heat map of problems, before/after and local history, in one HTML report.<br><sub>Targets: Google · Bing</sub><br><sub>updated 2026-11-14 · English · MIT</sub>
+
+- **[ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder)** · ★ 3<br>Methodology skill for building an AI visibility tracking strategy: the prompt set, grouping, brand roster and reporting split that measure how a brand shows up in ChatGPT, Gemini, Perplexity and AI Overviews, on any monitoring platform.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-16 · English · CC-BY-4.0</sub>
+
+- **[aizaloapp/aeorank](https://github.com/aizaloapp/aeorank)** · ★ 3<br>AEORank's SEO, AEO and GEO diagnostic skill: 62 technical rules, 14 semantic dimensions and live Perplexity and Google AI Mode citation checks through the AEORank API or remote MCP.<br><sub>Targets: Google · Perplexity · Google AI Overviews</sub><br><sub>updated 2026-11-16 · English · 2 skills</sub><br><sub>💡 Calls AEORank's hosted API, billed in credits.</sub>
+
+- **[get-cited-by-ai](https://github.com/paultaki/get-cited-by-ai)** · ★ 3<br>GEO skill for getting cited by AI search: every rule is evidence-tagged from 26,767 measured citations across the author's seven sites, with a demand-gated workflow.<br><sub>Targets: Bing</sub><br><sub>updated 2026-11-13 · English · MIT</sub>
+
+- **[llms-txt-writer](https://github.com/shimo4228/llms-txt-writer)** · ★ 3<br>Writes and checks documents only AI reads (llms.txt, llms-full.txt, FAQ pages, glossaries) so AI search can cite them, scoring each draft with a local script against thresholds from studies of AI citation.<br><sub>Targets: ChatGPT · Perplexity · Gemini</sub><br><sub>updated 2026-11-15 · English · MIT</sub>
 
 
 <details><summary>Install commands</summary>
@@ -197,16 +388,28 @@ npx skills add aigclink/geolook
 npx skills add elmohq/elmo
 # recomby-geo
 npx skills add ViryaZheng/recomby-geo
+# limelit-co/open
+npx skills add limelit-co/open
+# GetCito
+npx skills add ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
 # voyage-geo-agent
 npx skills add onvoyage-ai/voyage-geo-agent
+# geo-aeo-tracker
+npx skills add danishashko/geo-aeo-tracker
 # geo-first-principles
 npx skills add ALLENLION35/geo-first-principles
 # SEO-GEO-AEO-Skill
 npx skills add SNLabat/SEO-GEO-AEO-Skill
 # geoptimize
 npx skills add cucuwang/geoptimize
+# ansvisor
+npx skills add ansvisor/ansvisor
 # GEO-Content-Optimizer-Skill
 npx skills add liangdabiao/GEO-Content-Optimizer-Skill
+# eGEOagents
+npx skills add mverab/eGEOagents
+# canonry
+npx skills add Canonry/canonry
 # GEOHub
 npx skills add yaojingang/GEOHub
 # claude-rank
@@ -223,8 +426,32 @@ npx skills add seo-skills/geo-audit-skill
 npx skills add jianruntech/geo-score
 # geoskills
 npx skills add Cognitic-Labs/geoskills
+# agentmarkup
+npx skills add agentmarkup/agentmarkup
+# aicw-ai-mentions
+npx skills add aichatwatch/aicw-ai-mentions
+# agent-lighthouse
+npx skills add ForkPoint/agent-lighthouse
+# topcited-skills
+npx skills add TopCited/topcited-skills
+# agent-readiness
+npx skills add Canonry/agent-readiness
+# aeo-toolkit
+npx skills add Advance-Labs/aeo-toolkit
+# CiteLadder
+npx skills add abhij1306/CiteLadder
 # geo-skills
 npx skills add aivisibilitycensus/geo-skills
+# ai-search-audit-full
+npx skills add Olexan-art/ai-search-audit-full
+# ai-visibility-tracking-strategy-builder
+npx skills add rebelytics/ai-visibility-tracking-strategy-builder
+# aizaloapp/aeorank
+npx skills add aizaloapp/aeorank
+# get-cited-by-ai
+npx skills add paultaki/get-cited-by-ai
+# llms-txt-writer
+npx skills add shimo4228/llms-txt-writer
 ```
 
 </details>
@@ -274,11 +501,29 @@ Research on real data: keyword volumes, SERPs, backlinks and competitors' rankin
 
 - **[seo](https://github.com/iannuttall/seo)** · ★ 628<br>The SEO command for AI agents: a free Search Console MCP server and CLI with 70+ audit tools that read your own crawl, Search Console, GA4 and Bing data, with Google update dates alongside and keyword research via your own DataForSEO or Ahrefs key.<br><sub>Targets: Google · Bing</sub><br><sub>updated 2026-11-15 · English · 2 skills · Apache-2.0</sub>
 
+- **[bisibility](https://github.com/CorgiCorner/bisibility)** · ★ 605<br>Open-source SEO platform: track Google rankings, research keywords and inspect backlinks, with 20 skills for keyword clustering, competitor analysis, local SEO and AI visibility audits.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-13 · English · 20 skills · AGPL-3.0</sub><br><sub>💡 Needs a self-hosted Bisibility or the hosted version, with your own data provider keys.</sub>
+
 - **[saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents)** · ★ 541<br>Growth bots for overseas SaaS sites: scan new search terms three times a day, find every site ranking for a term, pull their backlinks and DR, and submit to free directories.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-10 · Chinese · 5 skills · MIT</sub><br><sub>💡 All data goes through AIsa (pay per call; the README links are the author's referral links). Written for always-on agents like Grok Bot; Claude Code or Codex need your own scheduler.</sub>
 
 - **[seo-skills](https://github.com/seranking/seo-skills)** · ★ 210<br>SE Ranking's 32 Claude skills on its MCP server: content briefs, AI search share of voice, audits, backlink gaps, keyword clusters, schema and more.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-05 · English · 32 skills · MIT</sub><br><sub>💡 Requires a paid SE Ranking account.</sub>
 
 - **[dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude)** · ★ 178<br>13 skills and 5 subagents on the DataForSEO API: keyword research, rank tracking, backlink audits, technical crawls, competitor analysis and PDF reports.<br><sub>Targets: Google</sub><br><sub>updated 2026-05-20 · English · 16 skills · MIT</sub><br><sub>💡 Requires a DataForSEO account (pay as you go).</sub>
+
+- **[OpenGSC](https://github.com/fenjo26/OpenGSC)** · ★ 58<br>Self-hosted Google Search Console dashboard: rank tracking, keyword research, AI visibility audits and an AI SEO content suite, with a 105-tool MCP server and 8 skills.<br><sub>Targets: Google · Bing · Yandex</sub><br><sub>updated 2026-11-16 · English · 8 skills · MIT</sub><br><sub>💡 Self-hosted on your VPS with your own API keys. Also ships gray-hat link features such as a PBN builder and an indexer network.</sub>
+
+- **[seo-party-skills](https://github.com/every-app/seo-party-skills)** · ★ 50<br>Experimental skills for OpenSEO: claiming a ChatGPT business profile, competitor strategy, customer keywords, keyword gaps, money pages, ranking on AI and reverse-engineering a competitor's SEO.<br><sub>Targets: Google · ChatGPT</sub><br><sub>updated 2026-11-12 · English · 9 skills · MIT</sub><br><sub>💡 All need the OpenSEO MCP server; some need a paid plan.</sub>
+
+- **[autoseo](https://github.com/codextde/autoseo)** · ★ 25<br>Open-source AI SEO and GEO platform: brand tracking in ChatGPT, Perplexity, Gemini, Claude and AI Overviews, plus keyword research, rank tracking, site audits and backlinks, with 17 skills.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-07 · English · 17 skills</sub><br><sub>💡 Needs a self-hosted AutoSEO (free) or AutoSEO Cloud ($50 a month).</sub>
+
+- **[seo-signal-skills](https://github.com/daily-growth-signals/seo-signal-skills)** · ★ 14<br>SignalDig's research skill: keyword demand, related queries, SERPs, trends, competitors, GEO visibility and backlinks, plus public discussions on X, Reddit, Xiaohongshu, Zhihu and Threads.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · Multilingual · MIT</sub><br><sub>💡 Needs a SignalDig API key for its MCP server.</sub>
+
+- **[seo-utils-skills](https://github.com/seoutilsapp/seo-utils-skills)** · ★ 12<br>Guide skill for the SEO Utils MCP server: teaches the agent when to query local data, when to run a paid lookup and when to write, so rank reports, competitor keywords and cannibalization checks use the right tool.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-14 · English · 2 skills</sub><br><sub>💡 Needs the SEO Utils desktop app with its MCP server on; paid lookups spend DataForSEO credits.</sub>
+
+- **[gscdump](https://github.com/harlan-zw/gscdump)** · ★ 10<br>Dumps your entire Google Search Console dataset locally and runs reports through a CLI or MCP server as JSON, so your agents can find insights and improve your SEO.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · English · 2 skills · MIT</sub>
+
+- **[Manifold](https://github.com/manifoldmcp/marketing-skills)** · ★ 5<br>Manifold's free hosted marketing data MCP server with skills: Google search, AI answers, Search Console, Google Analytics, Google Maps, app stores and Amazon, plus Reddit, social and ad libraries.<br><sub>Targets: Google · ChatGPT · App stores · Marketplaces</sub><br><sub>updated 2026-11-11 · English · 26 skills · MIT</sub><br><sub>💡 The MCP server is hosted by Manifold and needs a Manifold sign-in; free usage every month.</sub>
+
+- **[seo-gsc-ga4-analyst](https://github.com/owensky-dev/seo-gsc-ga4-analyst)** · ★ 5<br>Codex skill that joins Search Console performance with GA4 organic traffic and key events locally, producing a weekly SEO report and an action list.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · Multilingual</sub>
 
 - **[zaDojo](https://github.com/zaDojo/seo-geo-mcp)** · ★ 2<br>zaDojo's 12 SEO and GEO skills on its hosted MCP server: keyword research, live SERPs, competitors and backlinks, site audits, rank tracking, local SEO, Search Console, GA4 and AI visibility in ChatGPT, Gemini, Perplexity and AI Overviews.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Google AI Overviews</sub><br><sub>updated 2026-10-29 · English · 12 skills · MIT</sub><br><sub>💡 Runs on zaDojo's hosted MCP server with a zaDojo sign-in. Search Console and GA4 are free; other data is pay-as-you-go, with a €10 monthly plan that includes €10 of usage.</sub>
 
@@ -295,12 +540,30 @@ npx skills add every-app/open-seo
 npx skills add Ryze-AI-Adgent/open-seo-mcp-skills
 # seo
 npx skills add iannuttall/seo
+# bisibility
+npx skills add CorgiCorner/bisibility
 # saas-growth-agents
 npx skills add Pluviobyte/saas-growth-agents
 # seo-skills
 npx skills add seranking/seo-skills
 # dataforseo-claude
 npx skills add zubair-trabzada/dataforseo-claude
+# OpenGSC
+npx skills add fenjo26/OpenGSC
+# seo-party-skills
+npx skills add every-app/seo-party-skills
+# autoseo
+npx skills add codextde/autoseo
+# seo-signal-skills
+npx skills add daily-growth-signals/seo-signal-skills
+# seo-utils-skills
+npx skills add seoutilsapp/seo-utils-skills
+# gscdump
+npx skills add harlan-zw/gscdump
+# Manifold
+npx skills add manifoldmcp/marketing-skills
+# seo-gsc-ga4-analyst
+npx skills add owensky-dev/seo-gsc-ga4-analyst
 # zaDojo
 npx skills add zaDojo/seo-geo-mcp
 # crakseo-mcp-plugins
@@ -330,6 +593,16 @@ Write and improve SEO articles, titles and meta descriptions, and content briefs
 
 - **[pseo-skills](https://github.com/lisbeth718/pseo-skills)** · ★ 57<br>Programmatic SEO at scale — data, discovery and audits for generated pages — plus general skills for multilingual sites, migrations, log analysis, regression checks and content pruning.<br><sub>Targets: Google</sub><br><sub>updated 2026-10-28 · English · 18 skills · MIT</sub>
 
+- **[contentforge](https://github.com/indranilbanerjee/contentforge)** · ★ 33<br>Editorial production system for long-form content: a 10-phase pipeline researches, fact-checks, drafts, humanizes and adds internal links to a publication-ready .docx, then checks AI citations and content decay after publishing.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-07 · English · 22 skills · MIT</sub>
+
+- **[altorank](https://github.com/AltoRank/altorank)** · ★ 6<br>Open-source alternative to Outrank and Jasper: keyword research, scored and fact-checked articles, Markdown or HTML export and CMS publishing, with every publish approved by a person. Ships a skill.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · English · 2 skills · AGPL-3.0</sub><br><sub>💡 Needs a self-hosted AltoRank (free) or its hosted app.</sub>
+
+- **[rankcontrol](https://github.com/rankcontrol/rankcontrol)** · ★ 5<br>RankControl's CLI skill: AI search visibility and citations, SEO content planning, article generation and publishing to your CMS, backlinks and outreach, and reports.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-13 · English · 2 skills · MIT</sub><br><sub>💡 Needs a RankControl account.</sub>
+
+- **[rankmath-seo-wp](https://github.com/Moksa1123/rankmath-seo-wp)** · ★ 5<br>WordPress article writer skill that produces Rank Math 80+ scoring posts as paste-ready Gutenberg blocks, including HowTo and FAQ blocks.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · Multilingual · MIT</sub>
+
+- **[seranking/marketing-automation-plugins](https://github.com/seranking/marketing-automation-plugins)** · ★ 4<br>Marketing and content skills from SE Ranking and Planable: briefs, editorial plans, content refreshes, AI visibility benchmarks and comparison pages, plus paid ads and social.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · English · 38 skills</sub><br><sub>💡 Needs the SE Ranking API; the social skills need Planable.</sub>
+
 
 <details><summary>Install commands</summary>
 
@@ -351,6 +624,16 @@ npx skills add NeoZi12/dispatchseo
 npx skills add flaqai/Awesome_SEO_Writing_Skill
 # pseo-skills
 npx skills add lisbeth718/pseo-skills
+# contentforge
+npx skills add indranilbanerjee/contentforge
+# altorank
+npx skills add AltoRank/altorank
+# rankcontrol
+npx skills add rankcontrol/rankcontrol
+# rankmath-seo-wp
+npx skills add Moksa1123/rankmath-seo-wp
+# seranking/marketing-automation-plugins
+npx skills add seranking/marketing-automation-plugins
 ```
 
 </details>
@@ -363,6 +646,8 @@ Crawl audits, structured data, sitemaps, page speed and indexing issues.
 - 🌟 **[web-quality-skills](https://github.com/addyosmani/web-quality-skills)** · ★ 3.1k<br>Measurement-first web quality skills from Addy Osmani: performance, accessibility, best practices and SEO based on Lighthouse, Core Web Vitals and Chrome DevTools for agents.<br><sub>Targets: Google</sub><br><sub>updated 2026-08-24 · English · 6 skills · MIT</sub>
 
 - **[seo-ops](https://github.com/tigerless-labs/seo-ops)** · ★ 989<br>SEO foundation checks as a skill: give it a URL and it fetches the site like a crawler, runs 26 deterministic structural checks and returns a pass/fail report with evidence. No LLM involved.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-06 · English · 2 skills</sub>
+
+- **[specification.website](https://github.com/jdevalk/specification.website)** · ★ 925<br>Joost de Valk's website specification: 185 pages on what a good website does, from HTML and accessibility to security, SEO and agent readiness, each item sourced. A skill and MCP server let agents audit against it.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · English</sub>
 
 - **[seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill)** · ★ 788<br>Single-page SEO audits for OpenClaw, Claude Code and other agents: give it a URL and get an HTML report, with scripts for deterministic checks and the LLM for intent and quality, at beginner and advanced levels.<br><sub>Targets: Google</sub><br><sub>updated 2026-06-17 · Multilingual · 2 skills · MIT</sub>
 
@@ -380,7 +665,43 @@ Crawl audits, structured data, sitemaps, page speed and indexing issues.
 
 - **[squirrelscan/skills](https://github.com/squirrelscan/skills)** · ★ 109<br>Skills for squirrelscan, a website audit tool for coding agents: crawls the site, checks every page against 300+ rules across SEO, performance, security, accessibility and content, and returns fixable issues.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-12 · English · 2 skills · MIT</sub><br><sub>💡 Requires the squirrelscan CLI and an account; usage runs on credits.</sub>
 
+- **[jev-seo](https://github.com/AkashPriyadarshii/jev-seo)** · ★ 102<br>Free Rust SEO and GEO command-line tool: 64-rule audits, live crawls, AI citation scores, rank drift, Search Console pulls, CI gates and an MCP server, driven by a skill.<br><sub>Targets: Google · ChatGPT · Perplexity</sub><br><sub>updated 2026-11-11 · English · 2 skills · MIT</sub><br><sub>💡 Needs the jev-seo binary (cargo or a release archive); the author's paid TypeSafe Jev service is optional.</sub>
+
 - **[claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai)** · ★ 87<br>Audits any site on two separate scores — classic search SEO and AI visibility (GEO/AEO) — and can apply the safe fixes for you if you opt in.<br><sub>Targets: Google · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-10-25 · English · 34 skills · MIT</sub>
+
+- **[vercel-seo-audit](https://github.com/JosephDoUrden/vercel-seo-audit)** · ★ 81<br>Explains why Google isn't indexing a Next.js site on Vercel, from what the deployed site actually sends: metadata streamed into the body, redirect chains, the trailing-slash 308, robots.txt, the sitemap and noindex. CLI plus skill.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-13 · English · MIT</sub>
+
+- **[southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit)** · ★ 54<br>Systematic SEO audits and competitive analyses for service businesses, ending in a client-ready PDF proposal: keyword research, technical and AI visibility audit, content strategy and quick wins.<br><sub>Targets: Google · ChatGPT · Perplexity · Google AI Overviews</sub><br><sub>updated 2026-11-16 · English</sub>
+
+- **[openspider](https://github.com/wojcikdominik/openspider)** · ★ 47<br>Open-source website crawler and technical SEO auditor for AI agents and humans on macOS and Windows, built with Rust and Tauri. Its MCP server is read-only by default; starting crawls needs your permission.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · English · Apache-2.0</sub><br><sub>💡 Needs OpenSpider installed (desktop app or CLI).</sub>
+
+- **[launch-seo-skill](https://github.com/iamjeeth/launch-seo-skill)** · ★ 21<br>The 10 SEO things to do right after a site goes live, from Search Console, Analytics and noindex to robots.txt, the sitemap, www vs non-www, titles and Bing Webmaster Tools. It checks the live site and fixes what it can.<br><sub>Targets: Google · Bing</sub><br><sub>updated 2026-11-16 · English</sub><br><sub>💡 Item 10 suggests the author's own scorebadge.com; it asks first and can be skipped.</sub>
+
+- **[99-website](https://github.com/NicoSKOOL/99-website)** · ★ 19<br>Claude Code skills that build SEO websites scoring 99 on Lighthouse with Astro and Cloudflare: business intake, keyword-based sitemap, images, audits, deployment and Google Business Profile sync.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · English · 12 skills</sub><br><sub>💡 Keyword data comes from DataForSEO (pay as you go).</sub>
+
+- **[SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic)** · ★ 16<br>Korean Claude Code plugin for SEO and GEO diagnosis: crawl, render, Core Web Vitals, structured data, AI crawler policy and regression checks, with Search Console, GA4 and PageSpeed. Applies approved fixes to Next.js projects.<br><sub>Targets: Google · Bing · ChatGPT · Perplexity</sub><br><sub>updated 2026-11-02 · Korean · Apache-2.0</sub>
+
+- **[CodoSEO](https://github.com/SafrowLabs/CodoSEO)** · ★ 14<br>Fast open-source SEO and GEO monitoring and site audits built in Rust, an alternative to Screaming Frog and Ahrefs Site Audit, with an MCP server and an audit skill.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-10 · English · AGPL-3.0</sub><br><sub>💡 Needs CodoSEO installed.</sub>
+
+- **[seo-night-skill](https://github.com/IncomeStreamSurfer/seo-night-skill)** · ★ 10<br>Fixes AI-slop SEO on AI-built websites: audits the codebase, rewrites poetic headings into what people search for, fills gaps, and commits each change separately on a branch for review.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-14 · English</sub><br><sub>💡 Keyword data comes from Semrush and needs an account.</sub>
+
+- **[legends-github](https://github.com/avalonreset/legends-github)** · ★ 9<br>GitHub SEO for repositories: audit repo health, research real Google and GitHub search demand, optimize the description, topics, README and social preview, and ship clean releases.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-14 · English · MIT</sub><br><sub>💡 Runs through the cto-legends router; search demand data comes from DataForSEO (pay as you go).</sub>
+
+- **[pseolint](https://github.com/ouranos-labs/pseolint)** · ★ 8<br>Pre-publish checks for programmatic SEO that audit page relationships, not just pages, to stay clear of SpamBrain. AI-triaged findings across 8 LLM providers, cost caps and an MCP server.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · English · 7 skills · MIT</sub>
+
+- **[one-step-seo](https://github.com/6t9xstar/one-step-seo)** · ★ 5<br>Privacy-first, zero-dependency Node.js SEO platform for technical audits, AI search visibility (GEO and AEO), automated fixes and continuous monitoring, with 24 agent skills.<br><sub>Targets: Google · ChatGPT · Perplexity · Google AI Overviews</sub><br><sub>updated 2026-11-13 · English · 25 skills · MIT</sub>
+
+- **[pagination-independence-architecture](https://github.com/rebelytics/pagination-independence-architecture)** · ★ 5<br>Advanced technical SEO skill that makes a listing site's indexable value independent of paginated pages: audit pagination-orphaned items, design demand-backed subcategories, verify coverage, then prune per category.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · English · CC-BY-4.0</sub>
+
+- **[searvex](https://github.com/cihantopac/searvex)** · ★ 5<br>Open-source SEO and AI search auditor for websites and code repositories: finds issues, groups them by root cause, and fixes the safe ones with rollback. Reports are one offline HTML file.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · English · 6 skills · Apache-2.0</sub>
+
+- **[sitebulb-plugin](https://github.com/sitebulb/sitebulb-plugin)** · ★ 5<br>Official Sitebulb skills grounded in your real Sitebulb audit data: what to fix first, what changed since the last crawl, client-ready audit documents, dev tickets and post-release checks.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · English · 5 skills · MIT</sub><br><sub>💡 Needs audit data from Sitebulb Desktop or Cloud (paid).</sub>
+
+- **[lighthouse-skill](https://github.com/nimajafari/lighthouse-skill)** · ★ 4<br>Agent skill for running Google Lighthouse: measure performance, accessibility, SEO and best practices, set budgets, gate CI, and re-measure to verify that fixes worked.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-13 · English · MIT</sub>
+
+- **[JakeLabate/Claude-SEO-Skills](https://github.com/JakeLabate/Claude-SEO-Skills)** · ★ 3<br>20 technical SEO audit skills: canonicals, headings, internal links, cannibalization, llms.txt, metadata, robots.txt, sitemaps, soft 404s and more. Each crawls a site or scans local HTML and exports CSV or .docx.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · English · 20 skills · MIT</sub>
+
+- **[seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit)** · ★ 3<br>Audits a website's visibility across Google, Bing and Yandex and across AI Overviews, ChatGPT, Perplexity, Claude and Gemini, with source evidence for every finding and a prioritized change plan.<br><sub>Targets: Google · Bing · ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews · Yandex</sub><br><sub>updated 2026-11-11 · English · MIT</sub>
 
 
 <details><summary>Install commands</summary>
@@ -391,6 +712,8 @@ Crawl audits, structured data, sitemaps, page speed and indexing issues.
 npx skills add addyosmani/web-quality-skills
 # seo-ops
 npx skills add tigerless-labs/seo-ops
+# specification.website
+npx skills add jdevalk/specification.website
 # seo-audit-skill
 npx skills add JeffLi1993/seo-audit-skill
 # seo-skills/seo-audit-skill
@@ -407,8 +730,44 @@ npx skills add huifer/claude-code-seo
 npx skills add jdevalk/skills
 # squirrelscan/skills
 npx skills add squirrelscan/skills
+# jev-seo
+npx skills add AkashPriyadarshii/jev-seo
 # claude-seo-ai
 npx skills add Hainrixz/claude-seo-ai
+# vercel-seo-audit
+npx skills add JosephDoUrden/vercel-seo-audit
+# southwellmedia/seo-audit
+npx skills add southwellmedia/seo-audit
+# openspider
+npx skills add wojcikdominik/openspider
+# launch-seo-skill
+npx skills add iamjeeth/launch-seo-skill
+# 99-website
+npx skills add NicoSKOOL/99-website
+# SoDam-SeoMedic
+npx skills add sodam-ai/SoDam-SeoMedic
+# CodoSEO
+npx skills add SafrowLabs/CodoSEO
+# seo-night-skill
+npx skills add IncomeStreamSurfer/seo-night-skill
+# legends-github
+npx skills add avalonreset/legends-github
+# pseolint
+npx skills add ouranos-labs/pseolint
+# one-step-seo
+npx skills add 6t9xstar/one-step-seo
+# pagination-independence-architecture
+npx skills add rebelytics/pagination-independence-architecture
+# searvex
+npx skills add cihantopac/searvex
+# sitebulb-plugin
+npx skills add sitebulb/sitebulb-plugin
+# lighthouse-skill
+npx skills add nimajafari/lighthouse-skill
+# JakeLabate/Claude-SEO-Skills
+npx skills add JakeLabate/Claude-SEO-Skills
+# seo-aeo-audit
+npx skills add ssheleg/seo-aeo-audit
 ```
 
 </details>
@@ -430,7 +789,17 @@ Maps and local businesses, product pages, and app store optimization (ASO).
 
 - **[localseoskills](https://github.com/garrettjsmith/localseoskills)** · ★ 151<br>38 open-source skills that turn Claude into a local SEO specialist: Google Business Profile, Bing Places, Apple Business Connect, reviews, local rankings and AI local search, wired to your data tools.<br><sub>Targets: Google · Bing · Google AI Overviews</sub><br><sub>updated 2026-10-30 · English · 39 skills · MIT</sub>
 
+- **[legends-geogrid](https://github.com/avalonreset/legends-geogrid)** · ★ 59<br>Agent-first Google Maps rank checker, local rank tracker and Google Business Profile audit studio, with circular geo-grid maps and 18-page local SEO PDF reports.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-12 · English · MIT</sub><br><sub>💡 Runs through the cto-legends router; rank data comes from DataForSEO at API cost.</sub>
+
+- **[shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill)** · ★ 45<br>Audits any Shopify theme for performance, SEO, AEO and GEO in 90 seconds: 80+ checks, a scored report and paste-in Liquid fixes.<br><sub>Targets: Google · ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-13 · English · MIT</sub>
+
+- **[etsy-listing-helper](https://github.com/silennsong/etsy-listing-helper)** · ★ 11<br>Turns print-on-demand product specs and photos into copy-paste-ready Etsy listings: title, 13 SEO tags, description, official category path and attributes.<br><sub>Targets: Marketplaces</sub><br><sub>updated 2026-11-11 · English · MIT</sub>
+
+- **[taobao-shop-growth](https://github.com/yuyang2230/taobao-shop-growth)** · ★ 10<br>Taobao and Qianniu shop growth skills: shop diagnosis, titles, filling required attributes to lift traffic limits, content traffic and batch automation, each method field-tested on a real shop.<br><sub>Targets: Marketplaces</sub><br><sub>updated 2026-11-12 · Chinese · MIT</sub>
+
 - **[app-store-aso](https://github.com/TimBroddin/skills)** · ★ 7<br>Apple App Store ASO: writes the app name, subtitle, description and keywords within Apple's guidelines and character limits, validates them with a script and suggests a screenshot storyboard.<br><sub>Targets: App stores</sub><br><sub>updated 2026-06-29 · English · 5 skills</sub><br><sub>💡 Lives in the author's personal skill collection; the command above installs only this one.</sub>
+
+- **[JittoJoseph/seo-skills](https://github.com/JittoJoseph/seo-skills)** · ★ 6<br>Free open-source SEO audits for Shopify stores and any website: from a URL, see what Google and AI crawlers can read and what to fix first, with Shopify fixes in admin and theme terms. No app, no API keys.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · English · 3 skills · MIT</sub>
 
 
 <details><summary>Install commands</summary>
@@ -449,8 +818,18 @@ npx skills add cablate/mcp-google-map
 npx skills add Kronop/vibe-aso
 # localseoskills
 npx skills add garrettjsmith/localseoskills
+# legends-geogrid
+npx skills add avalonreset/legends-geogrid
+# shopify-theme-audit-skill
+npx skills add tanujrajputdev/shopify-theme-audit-skill
+# etsy-listing-helper
+npx skills add silennsong/etsy-listing-helper
+# taobao-shop-growth
+npx skills add yuyang2230/taobao-shop-growth
 # app-store-aso
 npx skills add TimBroddin/skills --skill app-store-aso
+# JittoJoseph/seo-skills
+npx skills add JittoJoseph/seo-skills
 ```
 
 </details>
@@ -468,6 +847,10 @@ AI answers often cite third-party pages such as news coverage, directories, foru
 
 - **[qwoted-seo-backlinks-skill](https://github.com/Bomx/qwoted-seo-backlinks-skill)** · ★ 156<br>Finds PR and backlink opportunities on Qwoted, builds a sourced statistics page as a linkable asset and pitches journalists from your agent.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-05-02 💤 · English</sub><br><sub>💡 Requires a Qwoted account.</sub>
 
+- **[seo-ai-link](https://github.com/chenchaoge/seo-ai-link)** · ★ 38<br>Link building for independent sites end to end: mine competitor backlinks, manage a link database, let AI submit links, and recheck indexing, with visual reports and the author's tested link list built in.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-10 · Chinese</sub><br><sub>💡 Competitor backlinks come from DataForSEO by default (pay as you go); other backlink tools can be swapped in.</sub>
+
+- **[where-to-submit-your-startup](https://github.com/mmmmingos/where-to-submit-your-startup)** · ★ 13<br>Open library of 1,085 places to submit a startup, each marked free, free with a catch or paid, with reported problems. The skill lets your agent answer whether and how to submit to each.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-09 · English · MIT</sub><br><sub>💡 The skill reads the list through submitmystartup.com's read-only API, no account needed.</sub>
+
 
 <details><summary>Install commands</summary>
 
@@ -481,6 +864,10 @@ npx skills add flaqai/backlink_skills
 npx skills add Bomx/distribb-skill
 # qwoted-seo-backlinks-skill
 npx skills add Bomx/qwoted-seo-backlinks-skill
+# seo-ai-link
+npx skills add chenchaoge/seo-ai-link
+# where-to-submit-your-startup
+npx skills add mmmmingos/where-to-submit-your-startup
 ```
 
 </details>
@@ -492,13 +879,85 @@ Tools that give an agent SEO data; often paired with the skills above. Not count
 
 - **[mcp-gsc](https://github.com/AminForou/mcp-gsc)** · ★ 2.2k<br>Google Search Console MCP server for SEOs: analyze your search data in plain language, with skills for cannibalization checks, content opportunities, indexing audits and weekly reports.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-06 · 🔌 MCP · English · 4 skills · MIT</sub>
 
+- **[python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer)** · ★ 1.5k<br>Long-standing SEO analysis CLI and Python library: crawls a site, counts words in the body and warns of technical SEO issues, with an optional AI content pass through Claude.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-12 · 🔌 MCP · English</sub><br><sub>💡 The AI pass needs an Anthropic API key.</sub>
+
 - **[seo-monster](https://github.com/avansaber/seo-monster)** · ★ 496<br>SEOMonster: a local, read-first MCP server that answers SEO questions from your own Search Console, GA4, PageSpeed Insights and Cloudflare data.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-13 · 🔌 MCP · English · MIT</sub>
+
+- **[OpenGSO](https://github.com/sherwinvishesh/OpenGSO)** · ★ 433<br>CLI that makes a website readable by AI agents: score it 0 to 100, generate a Markdown twin of every page plus robots.txt, llms.txt and sitemap.xml, and serve the twin at the same URL.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-09 · 🔌 MCP · English · Apache-2.0</sub>
 
 - **[mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript)** · ★ 262<br>Official DataForSEO MCP server and CLI: lets agents browse the API documentation and make authenticated requests for keyword, SERP, backlink and other data.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-02 · 🔌 MCP · English · Apache-2.0</sub><br><sub>💡 DataForSEO is pay as you go.</sub>
 
 - **[seo-audit](https://github.com/houtini-ai/seo-audit)** · ★ 101<br>Technical SEO audit MCP server for Claude: merges Search Console, a first-party crawl, DataForSEO and Majestic data so you can hold a conversation with your audit.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · Apache-2.0</sub>
 
+- **[screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp)** · ★ 96<br>Headless MCP server for Screaming Frog SEO Spider: run crawls, export and analyze crawl data through its CLI, for scheduled audits, CI and unattended agents.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-14 · 🔌 MCP · English · MIT</sub><br><sub>💡 Needs Screaming Frog installed locally; most features need a paid license (the free version caps crawls at 500 URLs).</sub>
+
+- **[pagespeed-insights-mcp](https://github.com/ruslanlap/pagespeed-insights-mcp)** · ★ 81<br>MCP server for the Google PageSpeed Insights and Chrome UX Report APIs: analyze, compare and optimize web performance from your agent.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · 🔌 MCP · English · Apache-2.0</sub><br><sub>💡 Needs a free Google API key.</sub>
+
+- **[lighthouse-mcp-server](https://github.com/danielsogl/lighthouse-mcp-server)** · ★ 75<br>MCP server that runs Google Lighthouse audits with 13+ tools for performance, accessibility, SEO and security.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub>
+
+- **[sitewalk](https://github.com/adityaarsharma/sitewalk)** · ★ 48<br>Sitewalk's open-source technical SEO audit MCP server: crawls your site like a search bot and returns problems ranked by impact with fixes, a health score, and PDF and CSV reports.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-13 · 🔌 MCP · English · MIT</sub><br><sub>💡 Self-hosting needs Docker and runs 30+ checks; the hosted ChatGPT app runs 200+ checks with 5 free audits a month.</sub>
+
+- **[surendranb/google-search-console-mcp](https://github.com/surendranb/google-search-console-mcp)** · ★ 40<br>Google Search Console MCP server, with 5 skills for brand visibility, citation opportunities, intent analysis and search appearance audits.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-10 · 🔌 MCP · English · 5 skills · MIT</sub><br><sub>💡 Sends anonymous diagnostic telemetry by default; the README explains how to opt out.</sub>
+
 - **[mcp-geo](https://github.com/AKzar1el/mcp-geo)** · ★ 39<br>DigestSEO: tracks brand citations across seven AI search surfaces, running locally with your own engine API keys. Free and self-hostable.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub>
+
+- **[google-seo-mcp](https://github.com/Akxan/google-seo-mcp)** · ★ 30<br>SEO and GEO MCP server with 102 tools: Search Console, GA4, PageSpeed Insights, structured data, llms.txt and AI crawler checks, plus edits on WordPress (Yoast, WP-CLI) and GitHub.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub>
+
+- **[local-falcon/mcp](https://github.com/local-falcon/mcp)** · ★ 26<br>MCP server for Local Falcon: geo-grid rank tracking, campaign management and competitor analysis across Google Maps, Apple Maps, ChatGPT, Gemini and AI Overviews, with a local visibility skill.<br><sub>Targets: Google · ChatGPT · Gemini · Google AI Overviews</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · 2 skills · MIT</sub><br><sub>💡 Needs a Local Falcon account (OAuth or API key).</sub>
+
+- **[yandex-mcp](https://github.com/stufently/yandex-mcp)** · ★ 21<br>MCP servers for Yandex APIs with 94 tools: Search, Wordstat, Webmaster, Metrika and Direct, plus skills for keyword research and competitive analysis in Russian and CIS markets.<br><sub>Targets: Yandex</sub><br><sub>updated 2026-11-14 · 🔌 MCP · English · 3 skills · MIT</sub><br><sub>💡 Needs OAuth tokens for each Yandex service.</sub>
+
+- **[vinpatel/aeorank](https://github.com/vinpatel/aeorank)** · ★ 20<br>Scans any website for AI visibility, scores it 0 to 100 across 12 dimensions and generates 8 AI-readable files such as llms.txt and a robots.txt patch. CLI, GitHub Action and app.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-15 · 🔌 MCP · English · MIT</sub>
+
+- **[mcp-abilities-rankmath](https://github.com/bjornfix/mcp-abilities-rankmath)** · ★ 16<br>Rank Math SEO abilities for MCP: read and update meta descriptions, titles and focus keywords through the WordPress Abilities API.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-06 · 🔌 MCP · English</sub><br><sub>💡 Needs this plugin and an MCP adapter on WordPress.</sub>
+
+- **[GBP Autopilot](https://github.com/tanzeeldevAi/google-business-profile-ai-automation)** · ★ 13<br>GBP Autopilot, a CLI for Google Business Profiles: scores a profile against 57 local SEO rules with a client-ready report, then fixes it through the API, replies to reviews, posts weekly, sets holiday hours and alerts you to changes.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-10 · 🔌 MCP · English · MIT</sub><br><sub>💡 Needs Google Business Profile API access; writing runs through your Claude Code subscription.</sub>
+
+- **[acamolese/google-search-console-mcp](https://github.com/acamolese/google-search-console-mcp)** · ★ 10<br>Read-only Google Search Console MCP server with 17 tools: quick wins, CTR gaps, cannibalization, traffic-drop diagnosis and indexing, plus a white-label HTML SEO audit.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-14 · 🔌 MCP · English · 5 skills · MIT</sub>
+
+- **[mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator)** · ★ 9<br>W3C HTML and CSS validator and technical SEO audit MCP server, part of the DigestSEO suite.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · 🔌 MCP · English · MIT</sub>
+
+- **[AKzar1el/mcp-gsc](https://github.com/AKzar1el/mcp-gsc)** · ★ 8<br>Google Search Console MCP server: clicks, impressions, average position, URL inspection, sitemaps and indexing workflows. Run locally with npm or self-host on Cloudflare Workers.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · 3 skills · MIT</sub>
+
+- **[crawlgraph-mcp](https://github.com/pucilpet/crawlgraph-mcp)** · ★ 8<br>MCP server for the CrawlGraph backlink API built on the Common Crawl webgraph: backlink lookups, backlink changes and competitor gap analysis.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-12 · 🔌 MCP · English · MIT</sub><br><sub>💡 Needs a CrawlGraph API key.</sub>
+
+- **[gsc-mcp](https://github.com/geniushub-seo/gsc-mcp)** · ★ 7<br>Local Google Search Console MCP server: a single Go binary, one-line install, sign-in with your own Google account, and 6 skills for CTR gaps, index health, traffic-decline diagnosis and reports.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · 🔌 MCP · Multilingual · 6 skills · MIT</sub>
+
+- **[literallydotdev/aeo](https://github.com/literallydotdev/aeo)** · ★ 7<br>CLI that runs an AI visibility (AEO) audit on your machine: whether ChatGPT, Claude, Gemini, Perplexity and AI Overviews mention and cite you, written to a portable evidence bundle anyone can verify offline.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-12 · 🔌 MCP · English · 3 skills · MIT</sub><br><sub>💡 Uses your own provider keys and asks you to approve a budget before spending.</sub>
+
+- **[mcp-trendpulse](https://github.com/AKzar1el/mcp-trendpulse)** · ★ 7<br>Google News and Google Trends MCP server for keyword, market and content research: compare keyword momentum, explore related demand and add current news.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-15 · 🔌 MCP · English · MIT</sub>
+
+- **[ai-bot-access](https://github.com/codevibe-technology/ai-bot-access)** · ★ 6<br>One command checks whether 24 AI, search and link-preview bots can read your site, against robots.txt and the real server response, plus share previews, bot IP verification and access-log reports.<br><sub>Targets: Google · ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-15 · 🔌 MCP · English · MIT</sub>
+
+- **[blacksparrow](https://github.com/Shantodotdev/blacksparrow)** · ★ 6<br>Local-first website crawler and 120-rule technical SEO audit engine in Rust, a lightweight Screaming Frog alternative with a built-in MCP server. Also checks llms.txt and AI crawler access.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-14 · 🔌 MCP · English · Apache-2.0</sub>
+
+- **[bulk-ai-cli-connector](https://github.com/puneetindersingh/bulk-ai-cli-connector)** · ★ 5<br>WordPress plugin with a bundled MCP server: lets Claude, ChatGPT and other agents bulk edit Yoast and Rank Math SEO meta, JSON-LD schema, redirects and page copy over the REST API, with undo.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · GPL-2.0</sub>
+
+- **[google-discover-api-mcp-server](https://github.com/cotletdev/google-discover-api-mcp-server)** · ★ 5<br>Google Discover API and MCP server: read the live Discover feed of any country, see which publishers and stories trend, and track your own site in the feed.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-10 · 🔌 MCP · English</sub><br><sub>💡 The hosted version needs a paid API key; it can also be self-hosted.</sub>
+
+- **[geo-audit](https://github.com/g-shevchenko/geo-audit)** · ★ 4<br>Open-source GEO audit toolkit that scores any URL for AI search visibility in ChatGPT, Perplexity, Claude, Gemini and AI Overviews and writes a prioritized action plan.<br><sub>Targets: ChatGPT · Perplexity · Gemini · Claude · Google AI Overviews</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub><br><sub>💡 The brand-mention scan needs your own model API key.</sub>
+
+- **[geolint](https://github.com/iliasabk/geolint)** · ★ 4<br>ESLint for AI search: checks robots.txt rules for 51 AI crawlers, llms.txt, structured data and citability against 52 rules, as a CLI and an MCP server.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub>
+
+- **[semust-mcp](https://github.com/Semust-com/semust-mcp)** · ★ 4<br>Semust MCP server: Google Search Console, GA4, rank tracking, AI Overview visibility, Bing, Yandex and web analytics, plus Google Ads and social posting.<br><sub>Targets: Google · Bing · Google AI Overviews · Yandex</sub><br><sub>updated 2026-11-16 · 🔌 MCP · English · MIT</sub><br><sub>💡 Needs a Semust account.</sub>
+
+- **[yandex-webmaster-mcp](https://github.com/BoxLab-Ltd/yandex-webmaster-mcp)** · ★ 4<br>Read-only MCP server for Yandex Webmaster: query indexing, search queries, diagnostics and backlinks in plain language, with URL recrawl and secretless login.<br><sub>Targets: Yandex</sub><br><sub>updated 2026-11-09 · 🔌 MCP · English · MIT</sub>
+
+- **[a-bibikov/ai-search-audit](https://github.com/a-bibikov/ai-search-audit)** · ★ 3<br>Checks whether ChatGPT, Claude and Perplexity can read, understand and cite your site with 56 AI search checks, as a CLI and a GitHub Action, with JSON output for scripts and agents.<br><sub>Targets: ChatGPT · Perplexity · Claude</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · MIT</sub>
+
+- **[localseodata/mcp-server](https://github.com/localseodata/mcp-server)** · ★ 3<br>Local SEO Data MCP server with 53 local SEO tools: SERP and map rankings, reviews, audits, keyword research, competitor analysis, geogrid tracking and AI visibility scoring.<br><sub>Targets: Google</sub><br><sub>updated 2026-11-11 · 🔌 MCP · English · MIT</sub><br><sub>💡 Needs a Local SEO Data account, billed in credits.</sub>
+
+
+<a id="group-apps"></a>
+### Related open-source platforms (full apps, not skills)
+
+Self-hostable SEO and GEO platforms. Not counted as skills.
+
+- **[niubigeo](https://github.com/Albert-Weasker/niubigeo)** · ★ 10.3k<br>NiubiGEO, an open-source GEO research tool: enter a domain, compare how models describe your product, which competitors they recommend and which sources they cite, and repeat the same research later.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-16 · 🧩 app · Multilingual · Apache-2.0</sub><br><sub>💡 Self-hosted with your own model API keys; the author also sells human testing and GEO services.</sub>
+
+- **[GEOFlow](https://github.com/yaojingang/GEOFlow)** · ★ 4.1k<br>Open-source GEO content engineering and multi-site distribution platform with AI quality inspection, hosted sites, browser-assisted publishing and signed updates, plus a skill to operate it.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-13 · 🧩 app · Multilingual · 6 skills · AGPL-3.0</sub>
+
+- **[LibreCrawl](https://github.com/PhialsBasement/LibreCrawl)** · ★ 1.1k<br>Free SEO crawler and open-source alternative to Screaming Frog: crawl websites, analyze links, extract SEO data and export results without subscription fees.<br><sub>Targets: Any engine</sub><br><sub>updated 2026-11-10 · 🧩 app · English · MIT</sub>
 
 
 <a id="by-engines"></a>
@@ -506,21 +965,23 @@ Tools that give an agent SEO data; often paired with the skills above. Not count
 
 Engines and AI platforms each repo's README explicitly targets (sorted by stars). "Any engine" means not tied to one.
 
-**Google** (53): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [seomachine](https://github.com/TheCraigHewitt/seomachine) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [web-quality-skills](https://github.com/addyosmani/web-quality-skills) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [mcp-gsc](https://github.com/AminForou/mcp-gsc) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [marketing-skills](https://github.com/kostja94/marketing-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [backlink_skills](https://github.com/flaqai/backlink_skills) · [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) · [seo](https://github.com/iannuttall/seo) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents) · [mcp-google-map](https://github.com/cablate/mcp-google-map) · [seo-monster](https://github.com/avansaber/seo-monster) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [superseo-skills](https://github.com/inhouseseo/superseo-skills) · [open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) · [7deer_skills](https://github.com/kennyzir/7deer_skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript) · [seo-landing](https://github.com/aleksandr-alhoff/seo-landing) · [seo-skills](https://github.com/seranking/seo-skills) · [distribb-skill](https://github.com/Bomx/distribb-skill) · [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [seo-god](https://github.com/AKCodez/seo-god) · [claude-code-seo](https://github.com/huifer/claude-code-seo) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [seo-audit](https://github.com/houtini-ai/seo-audit) · [dispatchseo](https://github.com/NeoZi12/dispatchseo) · [Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [pseo-skills](https://github.com/lisbeth718/pseo-skills) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
+**Google** (111): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [seomachine](https://github.com/TheCraigHewitt/seomachine) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [web-quality-skills](https://github.com/addyosmani/web-quality-skills) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [mcp-gsc](https://github.com/AminForou/mcp-gsc) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [marketing-skills](https://github.com/kostja94/marketing-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [backlink_skills](https://github.com/flaqai/backlink_skills) · [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) · [seo](https://github.com/iannuttall/seo) · [bisibility](https://github.com/CorgiCorner/bisibility) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [saas-growth-agents](https://github.com/Pluviobyte/saas-growth-agents) · [mcp-google-map](https://github.com/cablate/mcp-google-map) · [seo-monster](https://github.com/avansaber/seo-monster) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [superseo-skills](https://github.com/inhouseseo/superseo-skills) · [open-seo-advisor-skill](https://github.com/mars-tw/open-seo-advisor-skill) · [7deer_skills](https://github.com/kennyzir/7deer_skills) · [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [yan-skills](https://github.com/yan-labs/yan-skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [mcp-server-typescript](https://github.com/dataforseo/mcp-server-typescript) · [seo-landing](https://github.com/aleksandr-alhoff/seo-landing) · [seo-skills](https://github.com/seranking/seo-skills) · [distribb-skill](https://github.com/Bomx/distribb-skill) · [dataforseo-claude](https://github.com/zubair-trabzada/dataforseo-claude) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [codex-seo](https://github.com/zhtyyx/codex-seo) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [seo-god](https://github.com/AKCodez/seo-god) · [claude-code-seo](https://github.com/huifer/claude-code-seo) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) · [seo-audit](https://github.com/houtini-ai/seo-audit) · [dispatchseo](https://github.com/NeoZi12/dispatchseo) · [Awesome_SEO_Writing_Skill](https://github.com/flaqai/Awesome_SEO_Writing_Skill) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [vercel-seo-audit](https://github.com/JosephDoUrden/vercel-seo-audit) · [pagespeed-insights-mcp](https://github.com/ruslanlap/pagespeed-insights-mcp) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [lighthouse-mcp-server](https://github.com/danielsogl/lighthouse-mcp-server) · [legends-geogrid](https://github.com/avalonreset/legends-geogrid) · [OpenGSC](https://github.com/fenjo26/OpenGSC) · [pseo-skills](https://github.com/lisbeth718/pseo-skills) · [southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit) · [seo-party-skills](https://github.com/every-app/seo-party-skills) · [sitewalk](https://github.com/adityaarsharma/sitewalk) · [mxfschr/claude-code-seo](https://github.com/mxfschr/claude-code-seo) · [shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill) · [surendranb/google-search-console-mcp](https://github.com/surendranb/google-search-console-mcp) · [claude-seo-skill](https://github.com/mangollc/claude-seo-skill) · [seo-ai-link](https://github.com/chenchaoge/seo-ai-link) · [seo-guide-skill](https://github.com/lesishu/seo-guide-skill) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [google-seo-mcp](https://github.com/Akxan/google-seo-mcp) · [local-falcon/mcp](https://github.com/local-falcon/mcp) · [autoseo](https://github.com/codextde/autoseo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [launch-seo-skill](https://github.com/iamjeeth/launch-seo-skill) · [99-website](https://github.com/NicoSKOOL/99-website) · [SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic) · [GBP Autopilot](https://github.com/tanzeeldevAi/google-business-profile-ai-automation) · [seo-utils-skills](https://github.com/seoutilsapp/seo-utils-skills) · [seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit) · [croftweaver](https://github.com/karero/croftweaver) · [gscdump](https://github.com/harlan-zw/gscdump) · [seo-night-skill](https://github.com/IncomeStreamSurfer/seo-night-skill) · [acamolese/google-search-console-mcp](https://github.com/acamolese/google-search-console-mcp) · [legends-github](https://github.com/avalonreset/legends-github) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [pseolint](https://github.com/ouranos-labs/pseolint) · [AKzar1el/mcp-gsc](https://github.com/AKzar1el/mcp-gsc) · [search-os](https://github.com/vamsireddy4/search-os) · [gsc-mcp](https://github.com/geniushub-seo/gsc-mcp) · [mcp-trendpulse](https://github.com/AKzar1el/mcp-trendpulse) · [altorank](https://github.com/AltoRank/altorank) · [JittoJoseph/seo-skills](https://github.com/JittoJoseph/seo-skills) · [ai-bot-access](https://github.com/codevibe-technology/ai-bot-access) · [World-Class-SEO-Agent-System](https://github.com/wfprieto/World-Class-SEO-Agent-System) · [seo-gsc-ga4-analyst](https://github.com/owensky-dev/seo-gsc-ga4-analyst) · [Manifold](https://github.com/manifoldmcp/marketing-skills) · [rankmath-seo-wp](https://github.com/Moksa1123/rankmath-seo-wp) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [pagination-independence-architecture](https://github.com/rebelytics/pagination-independence-architecture) · [one-step-seo](https://github.com/6t9xstar/one-step-seo) · [google-discover-api-mcp-server](https://github.com/cotletdev/google-discover-api-mcp-server) · [WordRocket/claude-seo-skills](https://github.com/WordRocket/claude-seo-skills) · [lighthouse-skill](https://github.com/nimajafari/lighthouse-skill) · [semust-mcp](https://github.com/Semust-com/semust-mcp) · [claude-code-seo-starter](https://github.com/AntonioBlago/claude-code-seo-starter) · [ai-search-audit-full](https://github.com/Olexan-art/ai-search-audit-full) · [aizaloapp/aeorank](https://github.com/aizaloapp/aeorank) · [JakeLabate/Claude-SEO-Skills](https://github.com/JakeLabate/Claude-SEO-Skills) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [localseodata/mcp-server](https://github.com/localseodata/mcp-server) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
 
-**Bing** (12): [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [seo](https://github.com/iannuttall/seo) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
+**Bing** (21): [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [seo](https://github.com/iannuttall/seo) · [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [OpenGSC](https://github.com/fenjo26/OpenGSC) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [launch-seo-skill](https://github.com/iamjeeth/launch-seo-skill) · [SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic) · [search-os](https://github.com/vamsireddy4/search-os) · [semust-mcp](https://github.com/Semust-com/semust-mcp) · [get-cited-by-ai](https://github.com/paultaki/get-cited-by-ai) · [ai-search-audit-full](https://github.com/Olexan-art/ai-search-audit-full) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
 
-**ChatGPT** (41): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [newsjack](https://github.com/elvisun/newsjack) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
+**ChatGPT** (78): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [newsjack](https://github.com/elvisun/newsjack) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [limelit-co/open](https://github.com/limelit-co/open) · [OpenGSO](https://github.com/sherwinvishesh/OpenGSO) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker) · [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [beyondseo](https://github.com/beyondtahir/beyondseo) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [ansvisor](https://github.com/ansvisor/ansvisor) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [eGEOagents](https://github.com/mverab/eGEOagents) · [seo-skills](https://github.com/seranking/seo-skills) · [canonry](https://github.com/Canonry/canonry) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [codex-seo](https://github.com/zhtyyx/codex-seo) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit) · [seo-party-skills](https://github.com/every-app/seo-party-skills) · [shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [claude-seo-skill](https://github.com/mangollc/claude-seo-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [local-falcon/mcp](https://github.com/local-falcon/mcp) · [aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions) · [autoseo](https://github.com/codextde/autoseo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [vinpatel/aeorank](https://github.com/vinpatel/aeorank) · [agent-lighthouse](https://github.com/ForkPoint/agent-lighthouse) · [SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic) · [seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit) · [topcited-skills](https://github.com/TopCited/topcited-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [search-os](https://github.com/vamsireddy4/search-os) · [agent-readiness](https://github.com/Canonry/agent-readiness) · [literallydotdev/aeo](https://github.com/literallydotdev/aeo) · [ai-bot-access](https://github.com/codevibe-technology/ai-bot-access) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit) · [CiteLadder](https://github.com/abhij1306/CiteLadder) · [Manifold](https://github.com/manifoldmcp/marketing-skills) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [one-step-seo](https://github.com/6t9xstar/one-step-seo) · [WordRocket/claude-seo-skills](https://github.com/WordRocket/claude-seo-skills) · [geolint](https://github.com/iliasabk/geolint) · [geo-audit](https://github.com/g-shevchenko/geo-audit) · [llms-txt-writer](https://github.com/shimo4228/llms-txt-writer) · [ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [a-bibikov/ai-search-audit](https://github.com/a-bibikov/ai-search-audit) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
 
-**Perplexity** (37): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
+**Perplexity** (68): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [limelit-co/open](https://github.com/limelit-co/open) · [OpenGSO](https://github.com/sherwinvishesh/OpenGSO) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [ansvisor](https://github.com/ansvisor/ansvisor) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [eGEOagents](https://github.com/mverab/eGEOagents) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [codex-seo](https://github.com/zhtyyx/codex-seo) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [jev-seo](https://github.com/AkashPriyadarshii/jev-seo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit) · [shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [claude-seo-skill](https://github.com/mangollc/claude-seo-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions) · [autoseo](https://github.com/codextde/autoseo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [vinpatel/aeorank](https://github.com/vinpatel/aeorank) · [agent-lighthouse](https://github.com/ForkPoint/agent-lighthouse) · [SoDam-SeoMedic](https://github.com/sodam-ai/SoDam-SeoMedic) · [seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit) · [topcited-skills](https://github.com/TopCited/topcited-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [search-os](https://github.com/vamsireddy4/search-os) · [agent-readiness](https://github.com/Canonry/agent-readiness) · [literallydotdev/aeo](https://github.com/literallydotdev/aeo) · [ai-bot-access](https://github.com/codevibe-technology/ai-bot-access) · [aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [one-step-seo](https://github.com/6t9xstar/one-step-seo) · [geolint](https://github.com/iliasabk/geolint) · [geo-audit](https://github.com/g-shevchenko/geo-audit) · [llms-txt-writer](https://github.com/shimo4228/llms-txt-writer) · [ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder) · [aizaloapp/aeorank](https://github.com/aizaloapp/aeorank) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [a-bibikov/ai-search-audit](https://github.com/a-bibikov/ai-search-audit) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
 
-**Gemini** (31): [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp)
+**Gemini** (51): [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [opc-skills](https://github.com/ReScienceLab/opc-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [limelit-co/open](https://github.com/limelit-co/open) · [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker) · [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [ansvisor](https://github.com/ansvisor/ansvisor) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [eGEOagents](https://github.com/mverab/eGEOagents) · [seo-skills](https://github.com/seranking/seo-skills) · [canonry](https://github.com/Canonry/canonry) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [codex-seo](https://github.com/zhtyyx/codex-seo) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [geoskills](https://github.com/Cognitic-Labs/geoskills) · [local-falcon/mcp](https://github.com/local-falcon/mcp) · [aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions) · [autoseo](https://github.com/codextde/autoseo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [topcited-skills](https://github.com/TopCited/topcited-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [agent-readiness](https://github.com/Canonry/agent-readiness) · [literallydotdev/aeo](https://github.com/literallydotdev/aeo) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [CiteLadder](https://github.com/abhij1306/CiteLadder) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [geo-audit](https://github.com/g-shevchenko/geo-audit) · [llms-txt-writer](https://github.com/shimo4228/llms-txt-writer) · [ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp)
 
-**Claude** (19): [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [newsjack](https://github.com/elvisun/newsjack) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [seo-skills](https://github.com/RomeoSEO/seo-skills)
+**Claude** (41): [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) · [newsjack](https://github.com/elvisun/newsjack) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [elmo](https://github.com/elmohq/elmo) · [limelit-co/open](https://github.com/limelit-co/open) · [OpenGSO](https://github.com/sherwinvishesh/OpenGSO) · [voyage-geo-agent](https://github.com/onvoyage-ai/voyage-geo-agent) · [ansvisor](https://github.com/ansvisor/ansvisor) · [eGEOagents](https://github.com/mverab/eGEOagents) · [canonry](https://github.com/Canonry/canonry) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [aeo.js](https://github.com/rubenmarcus/aeo.js) · [orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [shopify-theme-audit-skill](https://github.com/tanujrajputdev/shopify-theme-audit-skill) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [geo-score](https://github.com/jianruntech/geo-score) · [aicw-ai-mentions](https://github.com/aichatwatch/aicw-ai-mentions) · [autoseo](https://github.com/codextde/autoseo) · [vinpatel/aeorank](https://github.com/vinpatel/aeorank) · [agent-lighthouse](https://github.com/ForkPoint/agent-lighthouse) · [topcited-skills](https://github.com/TopCited/topcited-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [search-os](https://github.com/vamsireddy4/search-os) · [agent-readiness](https://github.com/Canonry/agent-readiness) · [literallydotdev/aeo](https://github.com/literallydotdev/aeo) · [ai-bot-access](https://github.com/codevibe-technology/ai-bot-access) · [aeo-toolkit](https://github.com/Advance-Labs/aeo-toolkit) · [CiteLadder](https://github.com/abhij1306/CiteLadder) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [geolint](https://github.com/iliasabk/geolint) · [geo-audit](https://github.com/g-shevchenko/geo-audit) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [a-bibikov/ai-search-audit](https://github.com/a-bibikov/ai-search-audit)
 
-**Google AI Overviews** (30): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
+**Google AI Overviews** (53): [marketingskills](https://github.com/coreyhaines31/marketingskills) · [claude-seo](https://github.com/AgriciDaniel/claude-seo) · [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) · [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) · [claude-blog](https://github.com/AgriciDaniel/claude-blog) · [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) · [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) · [seo-skills](https://github.com/Illyism/seo-skills) · [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) · [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) · [elmo](https://github.com/elmohq/elmo) · [qiaomu-seo](https://github.com/joeseesun/qiaomu-seo) · [limelit-co/open](https://github.com/limelit-co/open) · [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) · [geo-aeo-tracker](https://github.com/danishashko/geo-aeo-tracker) · [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [SEO-GEO-AEO-Skill](https://github.com/SNLabat/SEO-GEO-AEO-Skill) · [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) · [ansvisor](https://github.com/ansvisor/ansvisor) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [seo-skills](https://github.com/seranking/seo-skills) · [seo-geo-audit](https://github.com/dageno-agents/seo-geo-audit) · [codex-seo](https://github.com/zhtyyx/codex-seo) · [localseoskills](https://github.com/garrettjsmith/localseoskills) · [claude-rank](https://github.com/Houseofmvps/claude-rank) · [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) · [ultimate-seo-geo](https://github.com/mykpono/ultimate-seo-geo) · [claude-seo-ai](https://github.com/Hainrixz/claude-seo-ai) · [akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) · [southwellmedia/seo-audit](https://github.com/southwellmedia/seo-audit) · [seo-skills/geo-audit-skill](https://github.com/seo-skills/geo-audit-skill) · [claude-seo-skill](https://github.com/mangollc/claude-seo-skill) · [mcp-geo](https://github.com/AKzar1el/mcp-geo) · [local-falcon/mcp](https://github.com/local-falcon/mcp) · [autoseo](https://github.com/codextde/autoseo) · [seojuice-skills](https://github.com/calm-north/seojuice-skills) · [seo-survival-kit](https://github.com/maxschottke-spec/seo-survival-kit) · [seo-skills](https://github.com/RomeoSEO/seo-skills) · [search-os](https://github.com/vamsireddy4/search-os) · [literallydotdev/aeo](https://github.com/literallydotdev/aeo) · [World-Class-SEO-Agent-System](https://github.com/wfprieto/World-Class-SEO-Agent-System) · [geo-skills](https://github.com/aivisibilitycensus/geo-skills) · [CiteLadder](https://github.com/abhij1306/CiteLadder) · [rankcontrol](https://github.com/rankcontrol/rankcontrol) · [one-step-seo](https://github.com/6t9xstar/one-step-seo) · [WordRocket/claude-seo-skills](https://github.com/WordRocket/claude-seo-skills) · [geo-audit](https://github.com/g-shevchenko/geo-audit) · [semust-mcp](https://github.com/Semust-com/semust-mcp) · [ai-visibility-tracking-strategy-builder](https://github.com/rebelytics/ai-visibility-tracking-strategy-builder) · [aizaloapp/aeorank](https://github.com/aizaloapp/aeorank) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit) · [zaDojo](https://github.com/zaDojo/seo-geo-mcp) · [crakseo-mcp-plugins](https://github.com/CrakSEO/crakseo-mcp-plugins)
 
 **Baidu** (4): [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) · [geolook](https://github.com/aigclink/geolook) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [GEOVisibilityTool](https://github.com/MasashiToda1/GEOVisibilityTool)
+
+**Yandex** (6): [everyinfra/seo-skills](https://github.com/everyinfra/seo-skills) · [OpenGSC](https://github.com/fenjo26/OpenGSC) · [yandex-mcp](https://github.com/stufently/yandex-mcp) · [yandex-webmaster-mcp](https://github.com/BoxLab-Ltd/yandex-webmaster-mcp) · [semust-mcp](https://github.com/Semust-com/semust-mcp) · [seo-aeo-audit](https://github.com/ssheleg/seo-aeo-audit)
 
 **Doubao** (7): [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) · [geolook](https://github.com/aigclink/geolook) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [GEO-Content-Optimizer-Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [GEOVisibilityTool](https://github.com/MasashiToda1/GEOVisibilityTool) · [geo-automation-skill-pack](https://github.com/noahneancy-byte/geo-automation-skill-pack)
 
@@ -532,22 +993,22 @@ Engines and AI platforms each repo's README explicitly targets (sorted by stars)
 
 **Qwen** (4): [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) · [geo-doctor](https://github.com/Fangx-AI/geo-doctor) · [HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) · [GEOVisibilityTool](https://github.com/MasashiToda1/GEOVisibilityTool)
 
-**App stores** (3): [aso-skills](https://github.com/appeeky/aso-skills) · [vibe-aso](https://github.com/Kronop/vibe-aso) · [app-store-aso](https://github.com/TimBroddin/skills)
+**App stores** (4): [aso-skills](https://github.com/appeeky/aso-skills) · [vibe-aso](https://github.com/Kronop/vibe-aso) · [app-store-aso](https://github.com/TimBroddin/skills) · [Manifold](https://github.com/manifoldmcp/marketing-skills)
 
-**Marketplaces (Amazon etc.)** (2): [amazon-sorftime-research-MCP-skill](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill) · [Amazon-Skills](https://github.com/nexscope-ai/Amazon-Skills)
+**Marketplaces (Amazon etc.)** (5): [amazon-sorftime-research-MCP-skill](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill) · [Amazon-Skills](https://github.com/nexscope-ai/Amazon-Skills) · [etsy-listing-helper](https://github.com/silennsong/etsy-listing-helper) · [taobao-shop-growth](https://github.com/yuyang2230/taobao-shop-growth) · [Manifold](https://github.com/manifoldmcp/marketing-skills)
 
-**Any engine** (12): [open-seo](https://github.com/every-app/open-seo) · [aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) · [seo-ops](https://github.com/tigerless-labs/seo-ops) · [seo-skills/seo-audit-skill](https://github.com/seo-skills/seo-audit-skill) · [recomby-geo](https://github.com/ViryaZheng/recomby-geo) · [geo-first-principles](https://github.com/ALLENLION35/geo-first-principles) · [geoptimize](https://github.com/cucuwang/geoptimize) · [geo-content-writer](https://github.com/dageno-agents/geo-content-writer) · [GEOHub](https://github.com/yaojingang/GEOHub) · [qwoted-seo-backlinks-skill](https://github.com/Bomx/qwoted-seo-backlinks-skill) · [jdevalk/skills](https://github.com/jdevalk/skills) · [squirrelscan/skills](https://github.com/squirrelscan/skills)
+**Any engine** (33): [open-seo](https://github.com/every-app/open-seo) · [niubigeo](https://github.com/Albert-Weasker/niubigeo) · [GEOFlow](https://github.com/yaojingang/GEOFlow) · [aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) · [growth-lab](https://github.com/tsingyuai/growth-lab) · [python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer) · [LibreCrawl](https://github.com/PhialsBasement/LibreCrawl) · [seo-ops](https://github.com/tigerless-labs/seo-ops) · [specification.website](https://github.com/jdevalk/specification.website) · [seo-skills/seo-audit-skill](https://github.com/seo-skills/seo-audit-skill) · [recomby-geo](https://github.com/ViryaZheng/recomby-geo) · [geo-first-principles](https://github.com/ALLENLION35/geo-first-principles) · [geoptimize](https://github.com/cucuwang/geoptimize) · [geo-content-writer](https://github.com/dageno-agents/geo-content-writer) · [GEOHub](https://github.com/yaojingang/GEOHub) · [qwoted-seo-backlinks-skill](https://github.com/Bomx/qwoted-seo-backlinks-skill) · [jdevalk/skills](https://github.com/jdevalk/skills) · [squirrelscan/skills](https://github.com/squirrelscan/skills) · [screaming-frog-mcp](https://github.com/bzsasson/screaming-frog-mcp) · [openspider](https://github.com/wojcikdominik/openspider) · [contentforge](https://github.com/indranilbanerjee/contentforge) · [agentmarkup](https://github.com/agentmarkup/agentmarkup) · [mcp-abilities-rankmath](https://github.com/bjornfix/mcp-abilities-rankmath) · [seo-signal-skills](https://github.com/daily-growth-signals/seo-signal-skills) · [CodoSEO](https://github.com/SafrowLabs/CodoSEO) · [where-to-submit-your-startup](https://github.com/mmmmingos/where-to-submit-your-startup) · [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator) · [crawlgraph-mcp](https://github.com/pucilpet/crawlgraph-mcp) · [blacksparrow](https://github.com/Shantodotdev/blacksparrow) · [sitebulb-plugin](https://github.com/sitebulb/sitebulb-plugin) · [searvex](https://github.com/cihantopac/searvex) · [bulk-ai-cli-connector](https://github.com/puneetindersingh/bulk-ai-cli-connector) · [seranking/marketing-automation-plugins](https://github.com/seranking/marketing-automation-plugins)
 
 <a id="faq"></a>
 ## FAQ
 
 ### What is GEO, and how is it different from SEO?
 
-SEO (search engine optimization) gets your pages ranked by search engines such as Google and Bing. GEO (generative engine optimization, also called AEO) gets you mentioned and cited in AI answers from ChatGPT, Perplexity, Google AI Overviews and others. They overlap: AI search usually starts from search engine results, so good SEO is the base of GEO. But AI answers care more about passages they can quote directly, clear sources, and how often other sites mention you. GEO-focused projects are under [GEO: get cited in AI answers](#group-geo) (21).
+SEO (search engine optimization) gets your pages ranked by search engines such as Google and Bing. GEO (generative engine optimization, also called AEO) gets you mentioned and cited in AI answers from ChatGPT, Perplexity, Google AI Overviews and others. They overlap: AI search usually starts from search engine results, so good SEO is the base of GEO. But AI answers care more about passages they can quote directly, clear sources, and how often other sites mention you. GEO-focused projects are under [GEO: get cited in AI answers](#group-geo) (39).
 
 ### What are the best agent skills for SEO?
 
-This list has 81 hand-checked SEO and GEO skill projects (data updated 2026-11-16). For one system that covers most of the work, start with [All-in-one](#group-pipeline) (17); the most-starred are [marketingskills](https://github.com/coreyhaines31/marketingskills), [claude-seo](https://github.com/AgriciDaniel/claude-seo) and [notfair-plugin](https://github.com/nowork-studio/notfair-plugin). For a single step, go to the keywords and ranking data, content, technical audit or backlinks sections.
+This list has 152 hand-checked SEO and GEO skill projects (data updated 2026-11-16). For one system that covers most of the work, start with [All-in-one](#group-pipeline) (30); the most-starred are [marketingskills](https://github.com/coreyhaines31/marketingskills), [claude-seo](https://github.com/AgriciDaniel/claude-seo) and [notfair-plugin](https://github.com/nowork-studio/notfair-plugin). For a single step, go to the keywords and ranking data, content, technical audit or backlinks sections.
 
 ### Do these skills need paid SEO data?
 
@@ -559,7 +1020,7 @@ Projects built for them are under [Chinese AI search](#group-cn-ai) (5); some in
 
 ### Are these projects safe to install?
 
-Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 81 skill projects and 5 tools made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 37 so far). A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
+Every repo was checked by hand (README, folders and files) and scanned by a script for binaries and archives, install hooks, remote code execution and reads of sensitive files. 152 skill projects and 38 tools made the list. Repos that were reviewed and turned down are recorded with the reason in [data/ignore.toml](data/ignore.toml) (in Chinese; 417 so far). A clean scan does not prove a skill is safe, so read its `SKILL.md` and scripts before installing.
 
 ### How often is the list updated?
 

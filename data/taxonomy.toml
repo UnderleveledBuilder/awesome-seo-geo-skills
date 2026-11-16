@@ -108,7 +108,7 @@ prefix_en = "Targets: "
 required = true
 index = true
 include_all = true          # MCP 工具和应用也进索引
-order_en = ["google", "bing", "chatgpt", "perplexity", "gemini", "claude", "ai-overviews", "baidu", "doubao", "yuanbao",
+order_en = ["google", "bing", "chatgpt", "perplexity", "gemini", "claude", "ai-overviews", "baidu", "yandex", "doubao", "yuanbao",
             "kimi", "deepseek", "qwen", "app-stores", "marketplaces", "general"]
 
 [facets.engines.values]
@@ -116,6 +116,7 @@ google = { label = "Google" }
 ai-overviews = { label = "Google AI 概览", label_en = "Google AI Overviews" }
 bing = { label = "Bing" }
 baidu = { label = "百度", label_en = "Baidu" }
+yandex = { label = "Yandex" }
 chatgpt = { label = "ChatGPT" }
 perplexity = { label = "Perplexity" }
 gemini = { label = "Gemini" }
