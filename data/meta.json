@@ -3137,6 +3137,34 @@
       "stars": 157,
       "status": "ok"
     },
+    "zhuyansen/backlink-guard": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Check a link source before you submit to it, verify the listing, and audit your own backlinks for link-spam patterns. A CLI and an agent skill.",
+      "first_seen": "2026-11-18",
+      "forks": 11,
+      "full_name": "zhuyansen/backlink-guard",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 77,
+      "status": "ok"
+    },
+    "zhuyansen/new-term-radar": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+      "first_seen": "2026-11-18",
+      "forks": 651,
+      "full_name": "zhuyansen/new-term-radar",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 3,
+      "skill_count_truncated": false,
+      "stars": 2194,
+      "status": "ok"
+    },
     "zubair-trabzada/dataforseo-claude": {
       "archived": false,
       "default_branch": "main",

@@ -2641,3 +2641,25 @@ engines = ["general"]
 format = "app"
 lang = "en"
 checked = 2026-11-16
+
+[[skills]]
+repo = "zhuyansen/new-term-radar"
+desc = "每天抓 X、Hugging Face、GitHub 和目录站点地图里刚冒头的 AI 新名词，再出关键词优先级表；3 个 skill，带 MCP"
+desc_en = "Daily radar for new AI names (models, products, repos) caught on X, Hugging Face trending, GitHub breakouts and directory sitemaps before keyword tools list them, then a keyword priority table. Three skills, an MCP server and a CLI; X needs a paid AIsa key."
+group = "research"
+engines = ["google", "chatgpt"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+checked = 2026-11-18
+
+[[skills]]
+repo = "zhuyansen/backlink-guard"
+desc = "提交外链前先查对方是不是垃圾站，上线后核对链接，再按 Google 的链接垃圾规则审自己的外链；带 MCP"
+desc_en = "Checks a link source before you submit to it, verifies the link once live, and audits your own backlinks for what Google calls link spam; also finds competitors' referring domains. A skill, an MCP server and a CLI; spam scores need a paid key."
+group = "offsite"
+engines = ["google", "ai-overviews"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-18

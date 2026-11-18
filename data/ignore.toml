@@ -2019,3 +2019,7 @@ reason = "iOS 动效库目录，带 llms.txt 而已，和 SEO 无关"
 [[ignored]]
 repo = "YZDame/GeoGebra-Studio"
 reason = "数学作图 skill，和 SEO 无关"
+
+[[ignored]]
+repo = "zhuyansen/awesome-claude-seo-skills"
+reason = "SEO/GEO 资源合集，本身不是 skill"
