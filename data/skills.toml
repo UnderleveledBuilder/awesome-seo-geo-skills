@@ -2654,6 +2654,18 @@ agents = ["claude-code", "cursor"]
 checked = 2026-11-18
 
 [[skills]]
+repo = "mitdralla/mydentify-ai-crawler-access-checker"
+name = "Mydentify AI Crawler Access Checker"
+desc = "检查公开网页对 OpenAI 和 Anthropic 文档所列爬虫的 robots.txt、页面指令和响应"
+desc_en = "Dependency-free Node.js CLI checks public pages against documented OpenAI and Anthropic crawler rules, indexing directives, and user-agent responses."
+group = "mcp"
+engines = ["chatgpt", "claude"]
+format = "mcp"
+lang = "en"
+install = "git clone https://github.com/mitdralla/mydentify-ai-crawler-access-checker.git && cd mydentify-ai-crawler-access-checker && node src/cli.js https://example.com/product"
+checked = 2026-11-22
+
+[[skills]]
 repo = "zhuyansen/backlink-guard"
 desc = "提交外链前先查对方是不是垃圾站，上线后核对链接，再按 Google 的链接垃圾规则审自己的外链；带 MCP"
 desc_en = "Checks a link source before you submit to it, verifies the link once live, and audits your own backlinks for what Google calls link spam; also finds competitors' referring domains. A skill, an MCP server and a CLI; spam scores need a paid key."
