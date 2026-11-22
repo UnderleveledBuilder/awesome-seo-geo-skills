@@ -2663,3 +2663,13 @@ format = "skill"
 lang = "en"
 agents = ["claude-code"]
 checked = 2026-11-18
+
+[[skills]]
+repo = "zColdWater/citeready-cli"
+desc = "零依赖 AI 搜索（GEO）体检 CLI 与 GitHub Action：查 10 家中外 AI 爬虫、Schema.org 与 /llms.txt，只读免注册"
+desc_en = "Zero-dependency CLI and GitHub Action for AI Search (GEO) technical readiness: audits 10 global and China AI crawlers (ChatGPT, Perplexity, Claude, Doubao, Baidu), Schema.org Entity Graph depth, and /llms.txt, read-only with no account."
+group = "mcp"
+engines = ["chatgpt", "perplexity", "claude", "doubao", "baidu"]
+format = "mcp"
+lang = "en"
+checked = 2026-11-22
