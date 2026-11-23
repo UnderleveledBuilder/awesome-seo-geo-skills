@@ -2663,3 +2663,14 @@ format = "skill"
 lang = "en"
 agents = ["claude-code"]
 checked = 2026-11-18
+
+[[skills]]
+repo = "johnisanerd/claude-skill-google-ai-overview-monitoring"
+desc = "按关键词定期查 Google AI 概览有没有引用你的品牌或域名，返回回答原文和引用来源；需 Apify 账号，按次付费"
+desc_en = "Checks whether a brand or domain is cited in Google AI Overviews for a set of queries and returns the overview text with its cited sources as JSON. Needs an Apify account; billed per retrieval."
+group = "geo"
+engines = ["google", "ai-overviews"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+checked = 2026-11-23
