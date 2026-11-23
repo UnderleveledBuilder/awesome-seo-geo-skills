@@ -2724,3 +2724,164 @@ agents = ["claude-code", "codex"]
 note = "通过 cto-legends 调用；数据走 DataForSEO，按调用付费，每条命令先预览花费，可设花费上限"
 note_en = "Runs through the cto-legends router; data comes from DataForSEO at API cost. Every command previews its cost first, with an optional spending cap."
 checked = 2026-11-23
+
+[[skills]]
+repo = "boringmarketer/boring-marketing-skills"
+desc = "32 个营销 skill，SEO 占一大块：关键词研究、程序化 SEO、SEO 文章、站点审计、AI 搜索、本地 SEO 和 Google 商家资料"
+desc_en = "32 free marketing skills built from real campaigns, with a large SEO share: keyword research, programmatic SEO, SEO articles, site audits, AI search and a deep local-business pack (local SEO plans, Google Business Profile, service-area pages)."
+group = "pipeline"
+engines = ["google"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "Infrasity-Labs/dev-gtm-claude-skills"
+desc = "开发者产品的 GEO 和 AI 可发现性 skill：审计文档站和落地页能不能被 AI 读到、引用，另带大量 SEO、博客和营销 skill"
+desc_en = "GEO and AI-discoverability skills for developer companies: audit a docs site or landing page for whether AI systems can find, parse and cite it, plus a large bundle of SEO, blog, marketing and design skills (about 590 SKILL.md files)."
+group = "geo"
+engines = ["general"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "onism1767-creator/potato"
+desc = "测品牌在 Claude、ChatGPT、Gemini、Perplexity 和 Grok 联网回答里被提到、被引用的频率；本地跑、可复现，默认模拟模式不花钱"
+desc_en = "Measures how often a brand is mentioned and cited in the web-search answers of Claude, ChatGPT, Gemini, Perplexity and Grok (27 models). Runs locally and reproducibly; the default mock mode costs nothing, real runs call the AI APIs you pick."
+group = "geo"
+engines = ["claude", "chatgpt", "gemini", "perplexity"]
+format = "skill"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "rankmyseo/skills"
+desc = "24 个 SEO skill，从建站规划、选词、页面简报到上线检查、流量下滑排查和持续维护；可接 RankMySEO、Search Console 和 GA4"
+desc_en = "24 SEO skills that take a site from plan to launch and ongoing upkeep: keyword selection, page briefs, go-live checks, indexing, traffic-drop diagnosis and reporting. A /seo router picks the step; RankMySEO MCP, Search Console and GA4 data are optional."
+group = "pipeline"
+engines = ["google"]
+format = "skill"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "zeebees/seo-geo-audit"
+desc = "一个 skill 审计技术 SEO 和 AI 引擎可发现性：44 项带证据的检查，按各家 AI 爬虫的身份实际去抓，结果是一张表"
+desc_en = "One skill that audits technical SEO and AI answer-engine discoverability with 44 evidence-bearing checks, fetching the site as each AI crawler would so CDN and WAF blocks show up, and returns a single table."
+group = "technical"
+engines = ["google", "chatgpt", "perplexity", "gemini", "claude"]
+format = "skill"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "tmolavi/siteprobe"
+desc = "开源网站审计和修复工具：SEO、GEO、Core Web Vitals、无障碍；Python 命令行，带 MCP 和 skill，agent 修完会再复查"
+desc_en = "Open-source website auditor and fixer for SEO, GEO/AEO, Core Web Vitals, accessibility and AI search readiness: a Python CLI with an MCP server and an agent skill, so a coding agent can fix issues and re-verify them."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "prashishh/seo-geo-report-engine"
+desc = "给任一网站出 18 节的竞品报告 PDF：五家 AI 引擎的可见度、外链、流量份额、空白关键词、口碑和社媒，在 Claude Code 里跑"
+desc_en = "Point it at any website for an 18-section competitive report as a branded PDF: AI visibility across five engines, backlinks, traffic share, open keywords, reviews, ads and social reach. Runs in Claude Code with 20+ SEO and AEO skills."
+group = "research"
+engines = ["google"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "timscheuerai/geo-autopilot"
+desc = "自己网站的 SEO 和 GEO 循环：7 个 skill 管选词、写稿、质检、提交收录、更新旧文和外联准备，每天按奖励文件衡量改动"
+desc_en = "The SEO and GEO loop for your own site as 7 skills and 5 templates: keyword research, writing, QA, indexing requests, content refresh and outreach prep, with a daily run that measures each change against a reward file."
+group = "pipeline"
+engines = ["google", "chatgpt", "gemini", "claude"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "Mun1to/SiteIndex"
+desc = "先看网站已有什么，再补 robots.txt、站点地图、canonical、Open Graph 和 JSON-LD，并定下放不放 AI 爬虫"
+desc_en = "Claude Code skill that gets a site ready to be found: it checks what already exists, then fills in robots.txt, the sitemap, canonical tags, Open Graph and JSON-LD, and settles the AI-crawler decision."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "OptimizerTeam/agent-skills"
+desc = "给本地和上门服务商家做 AI 可见度审计：查 ChatGPT、Perplexity、Gemini、Google AI 概览会不会推荐它，按优先级列修复"
+desc_en = "AI Presence Auditor: an AI-visibility audit for a local or home-service business that checks whether ChatGPT, Perplexity, Gemini, Google AI Overviews or Copilot name it when customers ask who to hire, then lists fixes by priority."
+group = "local"
+engines = ["chatgpt", "perplexity", "gemini", "ai-overviews"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor", "codex"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "melonwer/hearsay"
+desc = "查 AI 为什么推荐对手不推荐你：拿买家的问题去问各家 AI，看哪些页被读、被丢、被引用；自己部署，自带 MCP"
+desc_en = "AI-search forensics for technical SEOs: run buyer questions across ChatGPT, Claude, Gemini and Perplexity and see which pages the AI read, dropped or cited instead of yours. Self-hosted Node tool with local SQLite, your own keys and a built-in MCP server."
+group = "geo"
+engines = ["chatgpt", "claude", "gemini", "perplexity"]
+format = "skill"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "GoAnyAPI/goanyapi-mcp"
+desc = "GoAnyAPI 官方托管 MCP：让 agent 查 Google 搜索、SEO、外链、流量、域名和 Google 广告透明度数据，按积分扣费"
+desc_en = "Official hosted GoAnyAPI MCP server: lets agents query Google Search, SEO, backlinks, traffic, domain intelligence and Google Ads Transparency data. Sign in with a GoAnyAPI account; queries spend its credits."
+group = "mcp"
+engines = ["google"]
+format = "mcp"
+lang = "multi"
+agents = ["codex", "claude-code", "cursor", "workbuddy", "opencode"]
+note = "仓库只放安装说明，服务托管在 GoAnyAPI，要账号"
+note_en = "The repo holds only setup docs; the server is hosted by GoAnyAPI and needs an account."
+checked = 2026-11-23
+
+[[skills]]
+repo = "SEOcrawl/seocrawl-mcp"
+desc = "SEOcrawl 的托管 MCP，91 个工具：读 Search Console、GA4、Discover、站点爬虫和 AI 可见度数据，要账号"
+desc_en = "Hosted MCP server for the SEOcrawl AI platform: 91 tools for Search Console, GA4, Google Discover, index coverage, its site crawler and AI-visibility prompt tracking. Sign in with a SEOcrawl AI account over OAuth."
+group = "mcp"
+engines = ["google"]
+format = "mcp"
+lang = "en"
+note = "仓库只是给 MCP 目录用的清单文件，服务托管在 SEOcrawl"
+note_en = "The repo is only a manifest for MCP directories; the server is hosted by SEOcrawl."
+checked = 2026-11-23
+
+[[skills]]
+repo = "findable-page/findable"
+desc = "离线的 SEO、AEO、GEO 审计工具：Go 命令行、MCP、GitHub Action 和边缘 API，分数只汇总它自己的检查项"
+desc_en = "Offline SEO, AEO and GEO auditor for the AI search era: a Go CLI, MCP server, GitHub Action and edge API. Its scores summarise its own checks and do not measure Google rankings or AI citations."
+group = "mcp"
+engines = ["google", "chatgpt", "perplexity"]
+format = "mcp"
+lang = "en"
+checked = 2026-11-23
+
+[[skills]]
+repo = "upGrowth-in/upgrowth-growth-toolkit"
+desc = "免费只读的托管 MCP，29 个增长营销工具：CAC、ROAS 等计算，加结构化数据、meta 标签、robots.txt 和 AI 爬虫检查"
+desc_en = "Free, read-only hosted MCP server with 29 growth-marketing tools: CAC, ROAS and PPC maths, plus schema, meta tag, robots.txt and AI crawler checks. No sign-up or API key; inputs are not stored."
+group = "mcp"
+engines = ["general"]
+format = "mcp"
+lang = "en"
+checked = 2026-11-23

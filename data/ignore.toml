@@ -2023,3 +2023,333 @@ reason = "数学作图 skill，和 SEO 无关"
 [[ignored]]
 repo = "zhuyansen/awesome-claude-seo-skills"
 reason = "SEO/GEO 资源合集，本身不是 skill"
+
+# ───────── 11-23 候选（#15） ─────────
+
+[[ignored]]
+repo = "naxiaoduo/1000UserGuide"
+reason = "产品推广渠道合集，资源清单不是 skill"
+
+[[ignored]]
+repo = "littlebizzy/slickstack"
+reason = "WordPress 服务器部署脚本，和 SEO skill 无关"
+
+[[ignored]]
+repo = "dotnetdreamer/open-screenshot-generator"
+reason = "应用商店截图制作软件（完整应用，不到 1k 星），附带的 skill 多是它自己开发用的"
+
+[[ignored]]
+repo = "beb7/gflare-tk"
+reason = "SEO 爬虫桌面软件（完整应用，不到 1k 星），不是 skill"
+
+[[ignored]]
+repo = "statamic/seo-pro"
+reason = "Statamic CMS 的 SEO 插件，不是 agent skill"
+
+[[ignored]]
+repo = "ostr-io/ostrio-docs"
+reason = "ostr.io 服务的文档，不是 skill"
+
+[[ignored]]
+repo = "nitishkgupta/seotoolsuite"
+reason = "SEO 工具网站（完整应用，不到 1k 星），不是 skill"
+
+[[ignored]]
+repo = "krokyze/flutter_seo"
+reason = "Flutter 的 SEO 库，不是 agent skill"
+
+[[ignored]]
+repo = "cited-cc/cited"
+reason = "AI 引用监测平台（完整应用，不到 1k 星）"
+
+[[ignored]]
+repo = "video-db/agent-toolkit"
+reason = "视频处理工具包，和 SEO 无关"
+
+[[ignored]]
+repo = "nemo-crypto/Next.js"
+reason = "加密货币前端模板，和 SEO skill 无关"
+
+[[ignored]]
+repo = "hahwul/hwaro"
+reason = "静态网站生成器，和 SEO skill 无关"
+
+[[ignored]]
+repo = "elixpo/blogs.elixpo"
+reason = "博客平台，和 SEO skill 无关"
+
+[[ignored]]
+repo = "knyghty/django-snakeoil"
+reason = "Django 的 meta 标签库，不是 agent skill"
+
+[[ignored]]
+repo = "veliovgroup/spiderable-middleware"
+reason = "预渲染中间件，不是 agent skill"
+
+[[ignored]]
+repo = "alvinindra/bahasa-skills"
+reason = "印尼语写作规范包，SEO 只是 6 个 skill 里的一个，主体不是 SEO"
+
+[[ignored]]
+repo = "oathdriven/rymac-skills"
+reason = "直销文案合集，SEO/AEO 只占 14 个 skill 里的 2 个"
+
+[[ignored]]
+repo = "Amiyadesi/geoscore"
+reason = "SEO/GEO 审计平台（完整应用，不到 1k 星）"
+
+[[ignored]]
+repo = "MoizIbnYousaf/marketing-cli"
+reason = "通用营销合集（76 个 skill），SEO 部分不突出"
+
+[[ignored]]
+repo = "galyarderlabs/galyarder-framework"
+reason = "通用 agent 框架，和 SEO 无关"
+
+[[ignored]]
+repo = "Kourva/cloudflare-workers"
+reason = "Cloudflare Workers 代码合集，和 SEO 无关"
+
+[[ignored]]
+repo = "AgriciDaniel/dataforseo-agent"
+reason = "DataForSEO 的终端聊天应用（完整应用，不到 1k 星），不是 skill"
+
+[[ignored]]
+repo = "fivetaku/docs-guide"
+reason = "给 Claude Code 查库文档的 skill，和 SEO 无关"
+
+[[ignored]]
+repo = "chongyangzhang92-hub/Sol-Next"
+reason = "安卓手机 agent，和 SEO 无关"
+
+[[ignored]]
+repo = "AEO-God-Mode/aeo-god-mode"
+reason = "WordPress 插件，不是 agent skill"
+
+[[ignored]]
+repo = "Directoryops/directory-ops"
+reason = "目录站运营助手（Hermes Agent），管收录条目、线索和收件箱，SEO 只占几项"
+
+[[ignored]]
+repo = "open-pioneer/trails-openlayers-base-packages"
+reason = "地图前端组件，和 SEO 无关"
+
+[[ignored]]
+repo = "Sliverkiss/egern"
+reason = "代理工具规则模块，和 SEO 无关"
+
+[[ignored]]
+repo = "jangtrinh/design-os-knowledge-builder"
+reason = "知识库流水线，和 SEO 无关"
+
+[[ignored]]
+repo = "angeo-dev/module-aeo-audit"
+reason = "Magento 2 扩展，不是 agent skill"
+
+[[ignored]]
+repo = "segentic-lab/periscope-mcp"
+reason = "网页测试 MCP，和 SEO 无关"
+
+[[ignored]]
+repo = "GoogleCloudPlatform/conversational-insights-devkit"
+reason = "Google Cloud 对话分析开发包，和 SEO 无关"
+
+[[ignored]]
+repo = "PedroMeloOfficial/Youtube-Agent-Matrix"
+reason = "YouTube 前期制作插件，属于自媒体，不是 SEO"
+
+[[ignored]]
+repo = "iamwaqargulzar/Marketing-Agent-OS"
+reason = "通用营销合集，重新打包四个上游 skill 库，SEO 部分不突出"
+
+[[ignored]]
+repo = "sevenaaaaaaaaa/openflow"
+reason = "建站和营销一体化平台（完整应用，不到 1k 星）"
+
+[[ignored]]
+repo = "yojahny55/claude-wp-builder"
+reason = "WordPress 建站插件，不是 SEO skill"
+
+[[ignored]]
+repo = "mhaibaraai/movk-nuxt-docs"
+reason = "Nuxt 文档主题，和 SEO skill 无关"
+
+[[ignored]]
+repo = "mgantlett/nomos"
+reason = "agent 和 Git 之间的运行时，和 SEO 无关"
+
+[[ignored]]
+repo = "yexiu700/geomix"
+reason = "GEO 内容平台（完整应用，不到 1k 星）"
+
+[[ignored]]
+repo = "angeo-dev/module-aeo-brand-visibility"
+reason = "Magento 2 扩展，不是 agent skill"
+
+[[ignored]]
+repo = "xxiaoxiong/general-agent-platform"
+reason = "通用企业 AI 平台，和 SEO 无关"
+
+[[ignored]]
+repo = "cboxdk/laravel-geo"
+reason = "Laravel 的国家和货币数据包，这里的 geo 是地理，和 GEO 无关"
+
+[[ignored]]
+repo = "amafjarkasi/PageScribe"
+reason = "网页剪藏浏览器扩展，和 SEO 无关"
+
+[[ignored]]
+repo = "r33hab/norapi"
+reason = "挪威公共 API 目录，和 SEO 无关"
+
+[[ignored]]
+repo = "angeo-dev/module-robots-txt-aeo"
+reason = "Magento 2 扩展，不是 agent skill"
+
+[[ignored]]
+repo = "aakash1552005/universal-agent-skills"
+reason = "什么都收的 skill 大合集（672 个），不专做 SEO"
+
+[[ignored]]
+repo = "alfredang/ai-cms"
+reason = "某培训机构自用的 CMS，和 SEO skill 无关"
+
+[[ignored]]
+repo = "Kosmoray/dayan-enterprise-ai-skills"
+reason = "企业 AI 技能合集，和 SEO 无关"
+
+[[ignored]]
+repo = "jlhernando/micelio-crawler"
+reason = "SEO 爬虫软件（完整应用，不到 1k 星），不是 skill"
+
+[[ignored]]
+repo = "microlinkhq/microlink"
+reason = "网页转数据的接口服务，不专做 SEO"
+
+[[ignored]]
+repo = "1056210674-sketch/guanghe-project-example"
+reason = "智能体框架示例，和 SEO 无关"
+
+[[ignored]]
+repo = "nexuslabs-ai/nxds"
+reason = "设计系统，和 SEO 无关"
+
+[[ignored]]
+repo = "devalok-design/shilp-sutra"
+reason = "React 组件库，和 SEO 无关"
+
+[[ignored]]
+repo = "linxule/vellum"
+reason = "agent 留言板，和 SEO 无关"
+
+[[ignored]]
+repo = "getmaat/maat"
+reason = "文档和代码同步工具，和 SEO 无关"
+
+[[ignored]]
+repo = "Joshbly/ai-citation-share-by-vertical"
+reason = "AI 引用份额的数据集，不是 skill 或工具"
+
+[[ignored]]
+repo = "huutrongdev93/skilldo-seo"
+reason = "Skilldo CMS 的 SEO 插件，不是 agent skill"
+
+[[ignored]]
+repo = "Timonwa/writing-skills"
+reason = "写作 skill 合集（文档、博客、通讯），SEO 只是其中一个"
+
+[[ignored]]
+repo = "DuongBaoNgocAI/youtube-machine"
+reason = "越南语 YouTube 频道运营 skill，属于自媒体，不是 SEO"
+
+[[ignored]]
+repo = "chriscasper/startica"
+reason = "创业营销桌面应用（完整应用，不到 1k 星）"
+
+[[ignored]]
+repo = "odrobnik/george-skill"
+reason = "网银自动化脚本，和 SEO 无关"
+
+[[ignored]]
+repo = "arraypress/llms-txt-astro"
+reason = "Astro 的 llms.txt 路由库，不是 agent skill"
+
+[[ignored]]
+repo = "saalse/context7-add"
+reason = "往 Context7 加文档的 skill，和 SEO 无关"
+
+[[ignored]]
+repo = "sveltier/sveltier"
+reason = "Svelte UI 框架，和 SEO 无关"
+
+[[ignored]]
+repo = "ventra-rocket/EchoSEO"
+reason = "可自部署的 SEO 平台（完整应用，不到 1k 星），附带的 skill 要接它自己的 MCP"
+
+[[ignored]]
+repo = "paulythemarketer/social-listening-monitor"
+reason = "Apify 加 Python 的监测脚本和静态页，不是 skill 也不是 agent 工具"
+
+[[ignored]]
+repo = "Git-FED/MuseAi-Windows-11-upgraded"
+reason = "桌面 AI 助手，和 SEO 无关"
+
+[[ignored]]
+repo = "yokedotlol/yoke"
+reason = "域名情报和 OSINT 工具，不专做 SEO"
+
+[[ignored]]
+repo = "databio/bedboss"
+reason = "生物信息学流水线，和 SEO 无关"
+
+[[ignored]]
+repo = "Hugo0/swarmmemo"
+reason = "agent 聊天室，和 SEO 无关"
+
+[[ignored]]
+repo = "cnedwin/Egret_rebuild"
+reason = "游戏引擎，和 SEO 无关"
+
+[[ignored]]
+repo = "sacridini/Awesome-Geospatial"
+reason = "地理空间资源清单，这里的 geo 是地理"
+
+[[ignored]]
+repo = "softwareunderground/awesome-open-geoscience"
+reason = "地球科学资源清单，这里的 geo 是地理"
+
+[[ignored]]
+repo = "joewdavies/awesome-frontend-gis"
+reason = "前端 GIS 资源清单，这里的 geo 是地理"
+
+[[ignored]]
+repo = "DavidHuji/Awesome-GEO"
+reason = "GEO 研究论文清单，资源清单不是 skill"
+
+[[ignored]]
+repo = "hfangcat/Awesome-Geospatial-Embeddings"
+reason = "地理空间论文清单，这里的 geo 是地理"
+
+[[ignored]]
+repo = "Stichoza/awesome-georgia"
+reason = "格鲁吉亚相关资源清单，和 SEO 无关"
+
+[[ignored]]
+repo = "iamtekson/awesome-geospatial-data-sources"
+reason = "地理数据下载站清单，这里的 geo 是地理"
+
+[[ignored]]
+repo = "0xBabatunde/awesome-seo-mcp"
+reason = "SEO MCP 资源清单，资源清单不是 skill"
+
+[[ignored]]
+repo = "RankSpotAI/awesome-geo-tools"
+reason = "GEO 工具对比清单，资源清单不是 skill"
+
+[[ignored]]
+repo = "Tadinu/awesome_differential_geometry_robotics"
+reason = "机器人微分几何资源清单，和 SEO 无关"
+
+[[ignored]]
+repo = "Think-Cube/ecommerce-awesome"
+reason = "电商工具资源清单，资源清单不是 skill"

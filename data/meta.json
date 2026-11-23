@@ -435,6 +435,20 @@
       "stars": 24,
       "status": "ok"
     },
+    "GoAnyAPI/goanyapi-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Official GoAnyAPI MCP server — connect AI agents to web data, Google Search, SEO, backlinks, Google Ads Transparency, traffic, domain intelligence, and more APIs.",
+      "first_seen": "2026-11-23",
+      "forks": 2,
+      "full_name": "GoAnyAPI/goanyapi-mcp",
+      "license": null,
+      "pushed_at": "2026-11-18",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "Hainrixz/claude-seo-ai": {
       "archived": false,
       "default_branch": "main",
@@ -517,6 +531,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 10,
+      "status": "ok"
+    },
+    "Infrasity-Labs/dev-gtm-claude-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Open-source Claude skills for GEO, AI discoverability, and developer GTM workflows. Built for developer-focused companies that want their documentation to be found, parsed, and cited by AI systems.",
+      "first_seen": "2026-11-23",
+      "forks": 21,
+      "full_name": "Infrasity-Labs/dev-gtm-claude-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 260,
+      "skill_count_truncated": false,
+      "stars": 178,
       "status": "ok"
     },
     "JakeLabate/Claude-SEO-Skills": {
@@ -617,6 +645,20 @@
       "stars": 5,
       "status": "ok"
     },
+    "Mun1to/SiteIndex": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Leaves a website ready to be found: robots.txt, sitemap, canonical, Open Graph, JSON-LD and the AI-crawler decision. A Claude Code skill.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "Mun1to/SiteIndex",
+      "license": "MIT",
+      "pushed_at": "2026-11-18",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "NeoZi12/dispatchseo": {
       "archived": false,
       "default_branch": "main",
@@ -654,6 +696,20 @@
       "full_name": "Olexan-art/ai-search-audit-full",
       "license": "MIT",
       "pushed_at": "2026-11-14",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
+    "OptimizerTeam/agent-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Open-source agent skills from Optimizer (optimizer.team) for getting local & home-service businesses found by AI. Includes the AI Presence Auditor (AEO/GEO).",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "OptimizerTeam/agent-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 3,
@@ -769,6 +825,20 @@
       "skill_count": 8,
       "skill_count_truncated": false,
       "stars": 10644,
+      "status": "ok"
+    },
+    "SEOcrawl/seocrawl-mcp": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "SEOcrawl AI MCP server — public manifest for MCP directories. Hosted server: https://mcp.seocrawl.ai",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "SEOcrawl/seocrawl-mcp",
+      "license": "MIT",
+      "pushed_at": "2026-11-19",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 3,
       "status": "ok"
     },
     "SNLabat/SEO-GEO-AEO-Skill": {
@@ -1247,6 +1317,20 @@
       "stars": 16,
       "status": "ok"
     },
+    "boringmarketer/boring-marketing-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+      "first_seen": "2026-11-23",
+      "forks": 282,
+      "full_name": "boringmarketer/boring-marketing-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-17",
+      "skill_count": 32,
+      "skill_count_truncated": false,
+      "stars": 808,
+      "status": "ok"
+    },
     "borisowlexa2010-star/IndexGap": {
       "archived": false,
       "default_branch": "main",
@@ -1623,6 +1707,20 @@
       "skill_count": 8,
       "skill_count_truncated": false,
       "stars": 62,
+      "status": "ok"
+    },
+    "findable-page/findable": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Offline SEO + AEO + GEO auditor for the AI search era: CLI, MCP server, and edge API",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "findable-page/findable",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 3,
       "status": "ok"
     },
     "flaqai/Awesome_SEO_Writing_Skill": {
@@ -2185,6 +2283,20 @@
       "stars": 12,
       "status": "ok"
     },
+    "melonwer/hearsay": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI visibility tracker for humans and agents. See how ChatGPT, Claude, Gemini & Perplexity talk about your brand — self-hosted, zero dependencies, your own API keys, MCP built in.",
+      "first_seen": "2026-11-23",
+      "forks": 1,
+      "full_name": "melonwer/hearsay",
+      "license": "MIT",
+      "pushed_at": "2026-11-20",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "micaelgomestavares/aeo-geo-bestpractices": {
       "archived": false,
       "default_branch": "main",
@@ -2339,6 +2451,20 @@
       "stars": 9,
       "status": "ok"
     },
+    "onism1767-creator/potato": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Free Easy AI visibility check - measure how often a brand is mentioned & cited in Claude's web-search answers. Deterministic, reproducible, runs 100% locally, $0 mock by default.",
+      "first_seen": "2026-11-23",
+      "forks": 7,
+      "full_name": "onism1767-creator/potato",
+      "license": "MIT",
+      "pushed_at": "2026-11-20",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 164,
+      "status": "ok"
+    },
     "onlymoein/google-search-console-mcp": {
       "archived": false,
       "default_branch": "main",
@@ -2423,6 +2549,20 @@
       "stars": 3,
       "status": "ok"
     },
+    "prashishh/seo-geo-report-engine": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Are you seen across search, AI, and social? An open-source SEO and AI-search (GEO) report engine. Point it at any website for an 18-section competitive report as a branded PDF covering AI visibility, backlinks, traffic share, greenfield keywords, reputation, social and more.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "prashishh/seo-geo-report-engine",
+      "license": "MIT",
+      "pushed_at": "2026-11-21",
+      "skill_count": 33,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "prikotov/yandex-wordstat": {
       "archived": false,
       "default_branch": "main",
@@ -2477,6 +2617,20 @@
       "skill_count": 2,
       "skill_count_truncated": false,
       "stars": 5,
+      "status": "ok"
+    },
+    "rankmyseo/skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent skills for SEO: plan, build, publish, and maintain a website with RankMySEO, Search Console, and GA4.",
+      "first_seen": "2026-11-23",
+      "forks": 1,
+      "full_name": "rankmyseo/skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-17",
+      "skill_count": 24,
+      "skill_count_truncated": false,
+      "stars": 30,
       "status": "ok"
     },
     "raulveneri/seo-kit": {
@@ -2899,6 +3053,20 @@
       "stars": 992,
       "status": "ok"
     },
+    "timscheuerai/geo-autopilot": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Seven reusable agent skills and five templates for running SEO and GEO on your own website.",
+      "first_seen": "2026-11-23",
+      "forks": 1,
+      "full_name": "timscheuerai/geo-autopilot",
+      "license": "MIT",
+      "pushed_at": "2026-11-18",
+      "skill_count": 7,
+      "skill_count_truncated": false,
+      "stars": 4,
+      "status": "ok"
+    },
     "tipsai/product-seo": {
       "archived": false,
       "default_branch": "main",
@@ -2923,6 +3091,20 @@
       "license": "MIT",
       "pushed_at": "2026-11-16",
       "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
+    "tmolavi/siteprobe": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Open-source autonomous website auditor & fixer for SEO, GEO/AEO, Core Web Vitals, accessibility and AI search readiness. Python CLI + MCP + Agent Skill.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "tmolavi/siteprobe",
+      "license": "MIT",
+      "pushed_at": "2026-11-19",
+      "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 7,
       "status": "ok"
@@ -2981,6 +3163,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 596,
+      "status": "ok"
+    },
+    "upGrowth-in/upgrowth-growth-toolkit": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Free read-only MCP server with 29 growth marketing tools: CAC, ROAS, PPC, schema, meta tags, robots.txt and AI crawler checks. No auth.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "upGrowth-in/upgrowth-growth-toolkit",
+      "license": "MIT",
+      "pushed_at": "2026-11-19",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 3,
       "status": "ok"
     },
     "vamsireddy4/search-os": {
@@ -3191,6 +3387,20 @@
       "skill_count": 12,
       "skill_count_truncated": false,
       "stars": 2,
+      "status": "ok"
+    },
+    "zeebees/seo-geo-audit": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Agent Skill: audit a site for technical SEO and AI-answer-engine discoverability (GEO). 44 evidence-bearing checks, one table.",
+      "first_seen": "2026-11-23",
+      "forks": 2,
+      "full_name": "zeebees/seo-geo-audit",
+      "license": "MIT",
+      "pushed_at": "2026-11-22",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 14,
       "status": "ok"
     },
     "zhtyyx/codex-seo": {
