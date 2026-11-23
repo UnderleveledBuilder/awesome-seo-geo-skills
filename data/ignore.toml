@@ -2353,3 +2353,27 @@ reason = "机器人微分几何资源清单，和 SEO 无关"
 [[ignored]]
 repo = "Think-Cube/ecommerce-awesome"
 reason = "电商工具资源清单，资源清单不是 skill"
+
+[[ignored]]
+repo = "profullstack/ai-dot-text"
+reason = "生成 ai.txt、llms.txt 的命令行工具，把 llms.txt 写成 .well-known 下的 JSON，和 llms.txt 的约定不符"
+
+[[ignored]]
+repo = "gaopengbin/geod-agent"
+reason = "地理信息（GIS）桌面 agent，名字里的 geo 指地理，和 SEO 无关"
+
+[[ignored]]
+repo = "yhay81/sqrail"
+reason = "给 agent 用 SQL 查文件的命令行工具，和 SEO 无关"
+
+[[ignored]]
+repo = "Sukun/geoscience-research-workflow-skills"
+reason = "地球科学研究流程 skill，和 SEO 无关"
+
+[[ignored]]
+repo = "voyager67/LinkedIn-Skills-360"
+reason = "LinkedIn 求职和个人资料工具包，和 SEO 无关"
+
+[[ignored]]
+repo = "tianqishi1/marketing-skills-cn"
+reason = "国内营销 skill 包，投放、电商、私域为主，SEO 只占一小部分"

@@ -2885,3 +2885,36 @@ engines = ["general"]
 format = "mcp"
 lang = "en"
 checked = 2026-11-23
+
+[[skills]]
+repo = "omerbatutandogan/seekwide"
+desc = "可重复跑的站点审计 Claude Code 插件：SEO、Core Web Vitals、链接、被黑迹象等 14 个 skill，每条发现附证据，出客户报告"
+desc_en = "Claude Code plugin for repeatable site audits: scripted SEO, Core Web Vitals, links, signs of a hacked site, media, social previews and AI access, with evidence for every finding, stable scores, a client-ready report and fixes verified by a second audit."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "Prabhsingh0401/larrey-seo-audit"
+desc = "SEO 审计 skill：把网站当病人查七个系统、44 项检查，按损失大小排修复顺序；不把 llms.txt 当解药"
+desc_en = "SEO audit skill that examines a site like a patient: seven systems and 44 checks across keyword research, on-page, technical SEO and content, fixing what costs most first; follows Google's line that optimizing for AI search is still SEO."
+group = "technical"
+engines = ["google"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor"]
+checked = 2026-11-23
+
+[[skills]]
+repo = "fed3c3sa/seo-geo-weekly"
+desc = "每周一轮 SEO 和 GEO：经 Claude in Chrome 读 Search Console 和 Bing 后台，从零配好，每周修问题、提交索引、出报告"
+desc_en = "A weekly SEO and GEO loop for any site as a Claude Code skill: reads Google Search Console and Bing Webmaster Tools through Claude in Chrome, walks you through setup from zero, then makes weekly fixes, submits for indexing and writes reports."
+group = "pipeline"
+engines = ["google", "bing", "ai-overviews", "chatgpt", "perplexity"]
+format = "skill"
+lang = "en"
+agents = ["claude-code"]
+checked = 2026-11-23

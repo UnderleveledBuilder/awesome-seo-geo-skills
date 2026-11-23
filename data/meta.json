@@ -757,6 +757,20 @@
       "stars": 552,
       "status": "ok"
     },
+    "Prabhsingh0401/larrey-seo-audit": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Larrey is an open-source SEO audit skill for AI agents.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "Prabhsingh0401/larrey-seo-audit",
+      "license": "MIT",
+      "pushed_at": "2026-11-18",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "Quincunx33/ai-seo-skill": {
       "archived": false,
       "default_branch": "main",
@@ -1695,6 +1709,20 @@
       "stars": 484,
       "status": "ok"
     },
+    "fed3c3sa/seo-geo-weekly": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "SEO + GEO (AI search visibility) loop for any website, as a Claude Code skill: Search Console + Bing Webmaster via Claude in Chrome, guided setup, weekly fixes, indexing, reports, weekly schedule.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "fed3c3sa/seo-geo-weekly",
+      "license": "MIT",
+      "pushed_at": "2026-11-20",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 3,
+      "status": "ok"
+    },
     "fenjo26/OpenGSC": {
       "archived": false,
       "default_branch": "main",
@@ -2449,6 +2477,20 @@
       "skill_count": 27,
       "skill_count_truncated": false,
       "stars": 9,
+      "status": "ok"
+    },
+    "omerbatutandogan/seekwide": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Claude Code plugin for site audits you can re-run and trust: scripted SEO, Core Web Vitals, links, signs of a hacked site, images and video, with evidence for every finding, repeatable scores, a client-ready report and fixes verified by a second audit.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "omerbatutandogan/seekwide",
+      "license": "MIT",
+      "pushed_at": "2026-11-15",
+      "skill_count": 14,
+      "skill_count_truncated": false,
+      "stars": 4,
       "status": "ok"
     },
     "onism1767-creator/potato": {
