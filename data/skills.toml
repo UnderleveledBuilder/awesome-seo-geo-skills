@@ -1817,6 +1817,19 @@ note_en = "Data comes from the Appeeky API, which needs a key."
 checked = 2026-10-19
 
 [[skills]]
+repo = "ASOScan/aso-skills"
+desc = "应用商店优化（ASO）的 9 个 skill：关键词热度和难度、App Store 与 Google Play 每日排名、关键词机会、竞品词、评论和商店页审计"
+desc_en = "9 skills for App Store Optimization on the App Store and Google Play: keyword volume and difficulty, daily ranks, keyword opportunities, competitor keywords, review insights and a listing audit, read from your own apps through the ASOScan API."
+group = "local"
+engines = ["app-stores"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+note = "数据类 skill 要连 ASOScan 账号：Claude Code 插件登录即可，其他 agent 用 API Key（付费套餐）；aso-fundamentals 和 asoscan-setup 都不需要"
+note_en = "The data skills need an ASOScan account: the Claude Code plugin signs in, other agents use an API key (paid plans). aso-fundamentals and asoscan-setup need neither."
+checked = 2026-11-17
+
+[[skills]]
 repo = "Kronop/vibe-aso"
 desc = "从 Claude Code 做完 iOS 应用的 ASO：关键词研究、最多 50 个语种的商店元数据、本地化截图、全球定价和应用内本地化"
 desc_en = "Takes an iOS app from ready-to-submit to a fully optimized, localized App Store presence: keyword research, metadata in up to 50 locales, localized screenshots, worldwide pricing and in-app localization."
