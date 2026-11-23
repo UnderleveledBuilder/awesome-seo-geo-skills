@@ -99,6 +99,20 @@
       "stars": 303,
       "status": "ok"
     },
+    "ASOScan/aso-skills": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "ASO Agent Skills for Claude, Cursor, and any Agent-Skills-compatible AI assistant - App Store Optimization powered by the ASOScan API. 9 skills incl. two that work with no API key. MIT.",
+      "first_seen": "2026-11-23",
+      "forks": 1,
+      "full_name": "ASOScan/aso-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-20",
+      "skill_count": 9,
+      "skill_count_truncated": false,
+      "stars": 9,
+      "status": "ok"
+    },
     "Advance-Labs/aeo-toolkit": {
       "archived": false,
       "default_branch": "main",
@@ -2157,6 +2171,20 @@
       "stars": 5,
       "status": "ok"
     },
+    "mitdralla/mydentify-ai-crawler-access-checker": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Dependency-free CLI for checking AI crawler robots.txt rules, page directives, and user-agent responses.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "mitdralla/mydentify-ai-crawler-access-checker",
+      "license": "MIT",
+      "pushed_at": "2026-08-12",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "mmmmingos/where-to-submit-your-startup": {
       "archived": false,
       "default_branch": "main",
@@ -3107,6 +3135,20 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 12,
+      "status": "ok"
+    },
+    "zColdWater/citeready-cli": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "AI Search (GEO) & /llms.txt readiness CLI, GitHub Action & web app — 10 global/China AI crawlers & Schema.org Entity Graph (CiteReady v6.0, MIT)",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "zColdWater/citeready-cli",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 0,
       "status": "ok"
     },
     "zaDojo/seo-geo-mcp": {

@@ -1827,7 +1827,7 @@ lang = "en"
 agents = ["claude-code", "cursor"]
 note = "数据类 skill 要连 ASOScan 账号：Claude Code 插件登录即可，其他 agent 用 API Key（付费套餐）；aso-fundamentals 和 asoscan-setup 都不需要"
 note_en = "The data skills need an ASOScan account: the Claude Code plugin signs in, other agents use an API key (paid plans). aso-fundamentals and asoscan-setup need neither."
-checked = 2026-11-17
+checked = 2026-11-23
 
 [[skills]]
 repo = "Kronop/vibe-aso"
@@ -2669,14 +2669,14 @@ checked = 2026-11-18
 [[skills]]
 repo = "mitdralla/mydentify-ai-crawler-access-checker"
 name = "Mydentify AI Crawler Access Checker"
-desc = "检查公开网页对 OpenAI 和 Anthropic 文档所列爬虫的 robots.txt、页面指令和响应"
-desc_en = "Dependency-free Node.js CLI checks public pages against documented OpenAI and Anthropic crawler rules, indexing directives, and user-agent responses."
+desc = "零依赖的 Node.js 命令行：查网页对 OpenAI 和 Anthropic 六个爬虫的 robots.txt 规则、页面指令和实际响应"
+desc_en = "Dependency-free Node.js CLI that checks a public page against the robots.txt rules, indexing directives and user-agent responses for six documented OpenAI and Anthropic crawlers. Needs Node 20+, no API key."
 group = "mcp"
 engines = ["chatgpt", "claude"]
 format = "mcp"
 lang = "en"
 install = "git clone https://github.com/mitdralla/mydentify-ai-crawler-access-checker.git && cd mydentify-ai-crawler-access-checker && node src/cli.js https://example.com/product"
-checked = 2026-11-22
+checked = 2026-11-23
 
 [[skills]]
 repo = "zhuyansen/backlink-guard"
@@ -2691,10 +2691,12 @@ checked = 2026-11-18
 
 [[skills]]
 repo = "zColdWater/citeready-cli"
-desc = "零依赖 AI 搜索（GEO）体检 CLI 与 GitHub Action：查 10 家中外 AI 爬虫、Schema.org 与 /llms.txt，只读免注册"
+desc = "零依赖的 AI 搜索体检命令行和 GitHub Action：查 10 家中外 AI 爬虫、Schema.org 实体和 /llms.txt，只读免注册"
 desc_en = "Zero-dependency CLI and GitHub Action for AI Search (GEO) technical readiness: audits 10 global and China AI crawlers (ChatGPT, Perplexity, Claude, Doubao, Baidu), Schema.org Entity Graph depth, and /llms.txt, read-only with no account."
 group = "mcp"
 engines = ["chatgpt", "perplexity", "claude", "doubao", "baidu"]
 format = "mcp"
 lang = "en"
-checked = 2026-11-22
+note = "命令行和 Action 免费开源；作者另有收费的网页版 Pro"
+note_en = "The CLI and Action are free and open source; the author also sells a paid Pro tier of the hosted web app."
+checked = 2026-11-23
