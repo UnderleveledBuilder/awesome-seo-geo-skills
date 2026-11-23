@@ -2418,8 +2418,8 @@ lang = "en"
 checked = 2026-11-16
 
 [[skills]]
-repo = "a-bibikov/ai-search-audit"
-name = "a-bibikov/ai-search-audit"
+repo = "a-bibikov/ai-search-auditor"
+name = "a-bibikov/ai-search-auditor"
 desc = "查 ChatGPT、Claude、Perplexity 能否读懂并引用你的网站：56 项检查，命令行和 GitHub Action，可出 JSON"
 desc_en = "Checks whether ChatGPT, Claude and Perplexity can read, understand and cite your site with 56 AI search checks, as a CLI and a GitHub Action, with JSON output for scripts and agents."
 group = "mcp"
