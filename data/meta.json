@@ -1163,6 +1163,20 @@
       "stars": 9,
       "status": "ok"
     },
+    "avalonreset/legends-dataforseo": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "legends-dataforseo: Zero-dependency DataForSEO v3 Python CLI & client for coding agents with fail-closed decoy SERP defense, LLM mentions & SHA-256 evidence",
+      "first_seen": "2026-11-23",
+      "forks": 1,
+      "full_name": "avalonreset/legends-dataforseo",
+      "license": "MIT",
+      "pushed_at": "2026-11-23",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 8,
+      "status": "ok"
+    },
     "avalonreset/legends-geogrid": {
       "archived": false,
       "default_branch": "main",

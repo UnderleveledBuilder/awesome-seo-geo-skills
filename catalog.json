@@ -2804,6 +2804,37 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "avalonreset/legends-dataforseo",
+   "url": "https://github.com/avalonreset/legends-dataforseo",
+   "name": "legends-dataforseo",
+   "group": "research",
+   "engines": [
+    "google",
+    "bing",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "perplexity"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "featured": false,
+   "desc": "DataForSEO v3 的零依赖 Python 命令行：Google 和 Bing 搜索结果、地图、关键词、外链、AI 提及共 53 条接口",
+   "desc_en": "Zero-dependency Python CLI and client for the DataForSEO v3 API across 53 routes: Google and Bing SERPs with decoy-SERP checks, Maps, keyword demand, competitors, backlinks, On-Page and LLM mentions in ChatGPT, Claude, Gemini and Perplexity.",
+   "note": "通过 cto-legends 调用；数据走 DataForSEO，按调用付费，每条命令先预览花费，可设花费上限",
+   "note_en": "Runs through the cto-legends router; data comes from DataForSEO at API cost. Every command previews its cost first, with an optional spending cap.",
+   "stars": 8,
+   "pushed_at": "2026-11-23",
+   "license": "MIT",
+   "skills": 1,
+   "install": "npx skills add avalonreset/legends-dataforseo",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "ubersuggest/seo-skills",
    "url": "https://github.com/ubersuggest/seo-skills",
    "name": "ubersuggest/seo-skills",

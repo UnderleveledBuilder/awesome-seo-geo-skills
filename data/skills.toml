@@ -2711,3 +2711,16 @@ format = "skill"
 lang = "en"
 agents = ["claude-code", "cursor"]
 checked = 2026-11-23
+
+[[skills]]
+repo = "avalonreset/legends-dataforseo"
+desc = "DataForSEO v3 的零依赖 Python 命令行：Google 和 Bing 搜索结果、地图、关键词、外链、AI 提及共 53 条接口"
+desc_en = "Zero-dependency Python CLI and client for the DataForSEO v3 API across 53 routes: Google and Bing SERPs with decoy-SERP checks, Maps, keyword demand, competitors, backlinks, On-Page and LLM mentions in ChatGPT, Claude, Gemini and Perplexity."
+group = "research"
+engines = ["google", "bing", "chatgpt", "claude", "gemini", "perplexity"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex"]
+note = "通过 cto-legends 调用；数据走 DataForSEO，按调用付费，每条命令先预览花费，可设花费上限"
+note_en = "Runs through the cto-legends router; data comes from DataForSEO at API cost. Every command previews its cost first, with an optional spending cap."
+checked = 2026-11-23
