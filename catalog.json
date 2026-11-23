@@ -2216,6 +2216,33 @@
    "checked": "2026-11-16"
   },
   {
+   "repo": "johnisanerd/claude-skill-google-ai-overview-monitoring",
+   "url": "https://github.com/johnisanerd/claude-skill-google-ai-overview-monitoring",
+   "name": "claude-skill-google-ai-overview-monitoring",
+   "group": "geo",
+   "engines": [
+    "google",
+    "ai-overviews"
+   ],
+   "format": "skill",
+   "lang": "en",
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "featured": false,
+   "desc": "按一组查询定期看 Google AI 概览有没有引用你的品牌或域名，记下引用占比和新增、丢失的引用；要 Apify 账号，按次付费",
+   "desc_en": "Checks on a schedule whether a brand or domain is cited in Google AI Overviews for a watchlist of queries, and tracks citation share and new or lost citations over time. Needs an Apify account; billed per retrieval.",
+   "note": "",
+   "note_en": "",
+   "stars": 0,
+   "pushed_at": "2026-07-18",
+   "license": null,
+   "skills": 1,
+   "install": "npx skills add johnisanerd/claude-skill-google-ai-overview-monitoring",
+   "checked": "2026-11-23"
+  },
+  {
    "repo": "yaojingang/yao-geo-skills",
    "url": "https://github.com/yaojingang/yao-geo-skills",
    "name": "yao-geo-skills",

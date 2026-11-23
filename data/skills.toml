@@ -2700,3 +2700,14 @@ lang = "en"
 note = "命令行和 Action 免费开源；作者另有收费的网页版 Pro"
 note_en = "The CLI and Action are free and open source; the author also sells a paid Pro tier of the hosted web app."
 checked = 2026-11-23
+
+[[skills]]
+repo = "johnisanerd/claude-skill-google-ai-overview-monitoring"
+desc = "按一组查询定期看 Google AI 概览有没有引用你的品牌或域名，记下引用占比和新增、丢失的引用；要 Apify 账号，按次付费"
+desc_en = "Checks on a schedule whether a brand or domain is cited in Google AI Overviews for a watchlist of queries, and tracks citation share and new or lost citations over time. Needs an Apify account; billed per retrieval."
+group = "geo"
+engines = ["google", "ai-overviews"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "cursor"]
+checked = 2026-11-23

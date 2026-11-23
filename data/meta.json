@@ -1891,6 +1891,20 @@
       "stars": 478,
       "status": "ok"
     },
+    "johnisanerd/claude-skill-google-ai-overview-monitoring": {
+      "archived": false,
+      "default_branch": "main",
+      "description": "Claude/agent skill: track brand visibility inside Google AI Overviews. Installs via npx skills add.",
+      "first_seen": "2026-11-23",
+      "forks": 0,
+      "full_name": "johnisanerd/claude-skill-google-ai-overview-monitoring",
+      "license": null,
+      "pushed_at": "2026-07-18",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 0,
+      "status": "ok"
+    },
     "jorgejaramillo/seoskills": {
       "archived": false,
       "default_branch": "master",
