@@ -2918,3 +2918,17 @@ format = "skill"
 lang = "en"
 agents = ["claude-code"]
 checked = 2026-11-23
+
+[[skills]]
+repo = "mirackacmazcom/seo-skills"
+name = "mirackacmazcom/seo-skills"
+desc = "七个 skill，依据 Google 泄露文档、搜索与 AI 专利、官方文档和员工发言回答 SEO 问题并附出处；另有远程 MCP"
+desc_en = "Seven skills that answer SEO questions from primary sources and cite them: the leaked Google API docs, Google search and AI patents, LLM patents, official Search docs, Google staff statements and Maps ranking sources. Also a remote MCP server."
+group = "research"
+engines = ["google", "ai-overviews"]
+format = "skill"
+lang = "en"
+agents = ["claude-code", "codex", "cursor", "gemini-cli", "opencode"]
+note = "搜索在 seoskills.io 的服务器上运行，skill 只带一个小脚本，需要联网；每天 2000 次搜索的免费额度"
+note_en = "Searches run on seoskills.io; each skill ships only a small script and needs internet access. Free use is limited to 2,000 searches a day."
+checked = 2026-11-24
